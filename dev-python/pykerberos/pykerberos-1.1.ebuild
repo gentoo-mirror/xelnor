@@ -12,7 +12,7 @@ SRC_URI="http://honk.sigxcpu.org/projects/${PN}/${MY_P}.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="-* ~amd-64-overlay ~x86-overlay"
+KEYWORDS="~amd-64-overlay ~x86-overlay"
 IUSE=""
 
 DEPEND="app-crypt/mit-krb5"
