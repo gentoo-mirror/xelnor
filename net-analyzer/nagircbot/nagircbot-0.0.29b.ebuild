@@ -10,7 +10,7 @@ SRC_URI="http://www.vanheusden.com/nagircbot/${P}.tgz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64-overlay ~ppc ~x86-overlay"
+KEYWORDS="~amd64 ~ppc ~x86"
 IUSE=""
 
 RDEPEND="net-analyzer/nagios-core"

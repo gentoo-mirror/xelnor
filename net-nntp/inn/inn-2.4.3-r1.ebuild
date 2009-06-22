@@ -12,7 +12,7 @@ SRC_URI="ftp://ftp.isc.org/isc/inn/${P}.tar.gz"
 
 SLOT="0"
 LICENSE="as-is BSD GPL-2"
-KEYWORDS="~amd64-overlay ppc ~x86-overlay"
+KEYWORDS="~amd64 ppc ~x86"
 IUSE="ipv6 kerberos sasl ssl perl python berkdb inntaggedhash innkeywords"
 
 RDEPEND="virtual/mta
