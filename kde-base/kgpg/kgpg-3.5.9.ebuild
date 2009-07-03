@@ -7,7 +7,7 @@ EAPI="1"
 inherit kde-meta eutils
 
 DESCRIPTION="KDE gpg keyring manager"
-KEYWORDS="alpha amd64 hppa ia64 ppc ppc64 sparc x86 ~x86-fbsd"
+KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd"
 IUSE="kdehiddenvisibility"
 
 RDEPEND="${RDEPEND}
