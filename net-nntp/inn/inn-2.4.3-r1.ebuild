@@ -50,6 +50,8 @@ src_unpack() {
 	# Fixes problems in configure.in with com_err and kerberos
 	epatch "${FILESDIR}/${P}-configure.patch"
 
+	epatch "${FILESDIR}/${P}-nnrpd-python.patch"
+
 	elibtoolize
 }
 

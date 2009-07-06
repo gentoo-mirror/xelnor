@@ -1,0 +1,66 @@
+--- nnrpd/python.c.orig	2009-07-06 15:41:23.000000000 +0200
++++ nnrpd/python.c	2009-07-06 17:52:50.000000000 +0200
+@@ -225,9 +225,9 @@
+ */
+ void PY_access(char* file, struct vector *access_vec, char *Username) {
+     PyObject	*result, *key, *value, *proc;
+-    char	*skey, *svalue, *temp;
++    char	*skey, *svalue, *temp, *buf;
+     int		authnum;
+-    int		i;
++    Py_ssize_t i = 0;
+ 
+     PY_load_python();
+     proc = PY_setup(PYTHONaccess, PYTHONmain, file);
+@@ -290,7 +290,6 @@
+     vector_resize(access_vec, PyDict_Size(result) - 1);
+ 
+     /* store dict values in proper format in access vector */
+-    i = 0;
+     while(PyDict_Next(result, &i, &key, &value)) {
+         if (!PyString_Check(key)) {
+             syslog(L_ERROR, "python access method return dictionary key %i not a string", i);
+@@ -302,28 +301,32 @@
+             Reply("%d Internal Error (7).  Goodbye\r\n", NNTP_ACCESS_VAL);
+             ExitWithStats(1, false);
+         }
+-        
++
+         temp = PyString_AsString(key);
+         skey = xstrdup(temp);
+         
+         temp = PyString_AsString(value);
+         svalue = xstrdup(temp);
+-        
+-        skey = strcat(skey, ": \"");
+-        skey = strcat(skey, svalue);
+-        skey = strcat(skey, "\"\n");
+-        vector_add(access_vec, skey);
+-        
++
++        // Allocate enough space in buf for skey: "svalue"\n
++        buf = xmalloc(sizeof(char) * (strlen(skey) + strlen(svalue) + 6));
++
++        sprintf(buf, "%s: \"%s\"\n", skey, svalue);
++        vector_add(access_vec, buf);
++
+         free(skey);
+         free(svalue);
++        free(buf);
+     }
+- 
++
+     /* Clean up the dictionary object */
+     PyDict_Clear(PYauthinfo);
++
++	int j;
+     /* Clean up dictionary items */
+-    for (i = 0; i < authnum; i++) {
+-        if (PYauthitem[i] != Py_None) {
+-            Py_DECREF(PYauthitem[i]);
++    for (j = 0; j < authnum; j++) {
++        if (PYauthitem[j] != Py_None) {
++            Py_DECREF(PYauthitem[j]);
+ 	}
+     }
+ 
