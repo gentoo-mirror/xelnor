@@ -1,8 +1,8 @@
-=dev-python/pykerberos-1.1
-=kde-base/kgpg-3.5.9
-=net-analyzer/nagircbot-0.0.29b
-=net-dns/dns2tcp-0.4.3
-=net-misc/stunnel-4.27
-=net-nntp/inn-2.4.3-r1
-=sys-power/nut-2.4.1
-=x11-misc/synergy-1.3.1
+=dev-python/pykerberos-1.1-r99
+=kde-base/kgpg-3.5.9-r99
+=net-analyzer/nagircbot-0.0.29b-r99
+=net-dns/dns2tcp-0.4.3-r99
+=net-misc/stunnel-4.27-r99
+=net-nntp/inn-2.4.3-r99
+=sys-power/nut-2.4.1-r99
+=x11-misc/synergy-1.3.1-r99
