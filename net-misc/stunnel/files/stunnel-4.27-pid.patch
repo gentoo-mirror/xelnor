@@ -1,11 +1,11 @@
 --- src/stunnel.c.orig	2009-07-18 01:19:14.000000000 +0200
-+++ src/stunnel.c	2009-07-18 01:19:18.000000000 +0200
++++ src/stunnel.c	2009-07-18 16:34:38.000000000 +0200
 @@ -61,7 +61,7 @@
  #ifndef USE_WIN32
  int main(int argc, char* argv[]) { /* execution begins here 8-) */
  
 -    main_initialize(argc>1 ? argv[1] : NULL, argc>2 ? argv[2] : NULL);
-+    main_initialize(argc>1 ? argv[1] : NULL, argc>2 ? argv[2] : NULL, argc>3 ? argv[3] : NULL);
++    main_initialize(argc>1 ? argv[1] : NULL, argc>2 ? argv[2] : NULL, argc>3 ? argv[3] : NULL, argc>4 ? argv[4] : NULL);
  
      signal(SIGPIPE, SIG_IGN); /* avoid 'broken pipe' signal */
      if(signal(SIGTERM, SIG_IGN)!=SIG_IGN)
@@ -14,21 +14,21 @@
  #endif
  
 -void main_initialize(char *arg1, char *arg2) {
-+void main_initialize(char *arg1, char *arg2, char *arg3) {
++void main_initialize(char *arg1, char *arg2, char *arg3, char *arg4) {
      ssl_init(); /* initialize SSL library */
      sthreads_init(); /* initialize critical sections & SSL callbacks */
 -    parse_config(arg1, arg2);
-+    parse_config(arg1, arg2, arg3);
++    parse_config(arg1, arg2, arg3, arg4);
  
  #ifdef USE_FIPS
      if(options.option.fips) {
 --- src/options.c.orig	2009-07-18 00:55:30.000000000 +0200
-+++ src/options.c	2009-07-18 01:20:04.000000000 +0200
++++ src/options.c	2009-07-19 18:00:02.000000000 +0200
 @@ -1352,26 +1352,28 @@
          "[<filename>] ] "
  #ifndef USE_WIN32
          "-fd <n> "
-+		"-pid <pidfile> "
++		"[-pid <pidfile>] "
  #endif
          "| -help | -version | -sockets");
 -    s_log(LOG_RAW, "    <filename>  - use specified config file instead of %s",
@@ -58,15 +58,22 @@
  }
  
 -void parse_config(char *name, char *parameter) {
-+void parse_config(char *name, char *parameter, char *parameter2) {
++void parse_config(char *name, char *parameter, char *parameter2, char *parameter3) {
  #ifdef CONFDIR
      char *default_config_file=CONFDIR CONFSEPARATOR "stunnel.conf";
  #else
-@@ -1412,6 +1414,13 @@
+@@ -1412,6 +1414,20 @@
          die(1);
      }
  #ifndef USE_WIN32
-+    if(!strcasecmp(parameter, "-pid")) {
++    if(!strcasecmp(name, "-fd") && !strcasecmp(parameter2, "-pid")) {
++        if(!parameter3) {
++            s_log(LOG_RAW, "No pid file specified");
++            syntax(default_config_file);
++        }
++        global_options(CMD_EXEC, "pid", parameter3);
++    }
++    if(strcasecmp(name, "-fd") && !strcasecmp(parameter, "-pid")) {
 +        if(!parameter2) {
 +            s_log(LOG_RAW, "No pid file specified");
 +            syntax(default_config_file);
@@ -77,13 +84,13 @@
          if(!parameter) {
              s_log(LOG_RAW, "No file descriptor specified");
 --- src/prototypes.h.orig	2009-07-18 01:23:37.000000000 +0200
-+++ src/prototypes.h	2009-07-18 01:26:51.000000000 +0200
++++ src/prototypes.h	2009-07-19 18:00:49.000000000 +0200
 @@ -71,7 +71,7 @@
  
  extern volatile int num_clients;
  
 -void main_initialize(char *, char *);
-+void main_initialize(char *, char *, char *);
++void main_initialize(char *, char *, char *, char *);
  void main_execute(void);
  #if !defined (USE_WIN32) && !defined (__vms) && !defined(USE_OS2)
  void drop_privileges(void);
@@ -92,7 +99,7 @@
  } SOCK_OPT;
  
 -void parse_config(char *, char *);
-+void parse_config(char *, char *, char *);
++void parse_config(char *, char *, char *, char *);
  
  /**************************************** Prototypes for ctx.c */
  
