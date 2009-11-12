@@ -1,0 +1,33 @@
+#!/sbin/runscript
+# Developer : Xelnor
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+SOCATDIR="/etc/socat"
+SOCATSRV="${SVCNAME#*.}"
+
+if [ -n "${SOCATSRV}" ] && [ "${SVCNAME}" != "socat" ]; then
+	SOCATPID="/var/run/socat/socat.${SOCATSRV}.pid"
+	SOCATCONF="${SOCATDIR}/socat.${SOCATSRV}.conf"
+else
+	SOCATPID="/var/run/socat/socat.pid"
+	SOCATCONF="${SOCATDIR}/socat.conf"
+fi
+
+depend() {
+	need net
+}
+
+start() {
+	ebegin "Starting ${SVCNAME}"
+	start-stop-daemon --start --quiet --pidfile "${SOCATPID}" \
+		--background --make-pidfile \
+		--exec /usr/bin/socat -- $(cat "${SOCATCONF}")
+	eend $?
+}
+
+stop() {
+	ebegin "Stopping ${SVCNAME}"
+	start-stop-daemon --stop --quiet --pidfile "${SOCATPID}"
+	eend $?
+}
