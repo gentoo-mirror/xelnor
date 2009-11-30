@@ -7,7 +7,7 @@ inherit distutils
 NEED_PYTHON="2.6"
 
 DESCRIPTION="a simple tool for managing config files"
-HOMEPAGE="confmgr.xelnor.net"
+HOMEPAGE="http://confmgr.xelnor.net/"
 SRC_URI="http://confmgr.xelnor.net/${P}.tar.gz"
 
 LICENSE="PYTHON"
