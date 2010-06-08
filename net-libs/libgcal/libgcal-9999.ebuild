@@ -12,7 +12,7 @@ EGIT_REPO_URI="git://repo.or.cz/libgcal.git"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~x86 ~amd64"
 IUSE="curldebug debug"
 
 DEPEND=">=dev-libs/libxml-1.8.17-r2

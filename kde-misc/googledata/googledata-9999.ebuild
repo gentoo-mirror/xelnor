@@ -12,7 +12,7 @@ HOMEPAGE="http://pim.kde.org/akonadi/"
 LICENSE="GPL-2"
 
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~x86 ~amd64"
 IUSE=""
 
 DEPEND=">=kde-base/akonadi-${KDE_MINIMAL}
