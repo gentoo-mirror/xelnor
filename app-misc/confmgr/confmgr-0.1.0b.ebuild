@@ -8,7 +8,7 @@ NEED_PYTHON="2.6"
 
 DESCRIPTION="a simple tool for managing config files"
 HOMEPAGE="http://confmgr.xelnor.net/"
-SRC_URI="http://confmgr.xelnor.net/${P}.tar.gz"
+SRC_URI="http://confmgr.xelnor.net/downloads/${P}.tar.gz"
 
 LICENSE="PYTHON"
 SLOT="0"
