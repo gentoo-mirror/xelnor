@@ -11,7 +11,7 @@ IUSE=""
 DEPEND="mail-filter/libsrs2
         dev-libs/libev
 		net-dns/unbound
-		sys-libs/tokyocabinet
+		dev-db/tokyocabinet
 		dev-util/gperf"
 # deps for documentation (future)
 #		app-text/xmlto
