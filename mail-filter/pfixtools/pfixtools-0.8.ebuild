@@ -37,4 +37,6 @@ src_install() {
 	then
 		emake DESTDIR="${D}" prefix=/usr install-doc || die
 	fi
+	newinitd "${FILESDIR}"/postlicyd-initd postlicyd
+	dodir /var/run/postlicyd
 }

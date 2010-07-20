@@ -1,0 +1,40 @@
+#!/sbin/runscript
+
+depend() {
+    need net
+}
+
+die() {
+  echo "$1"
+  exit 1
+}
+
+POSTLICYD=/usr/sbin/postlicyd
+PIDFILE=/var/run/postlicyd/pid
+CONF=/etc/pfixtools/postlicyd.conf
+
+do_checkconf() {
+  $POSTLICYD -c "$CONF"
+  return "$?"
+}
+
+start() {
+    ebegin "Starting postlicyd..."
+    start-stop-daemon --start --quiet --pidfile $PIDFILE --exec $POSTLICYD --text > /dev/null || die "Already running"
+    do_checkconf || die "Invalid configuration"
+    start-stop-daemon --start --quiet --pidfile $PIDFILE --exec $POSTLICYD -- -p "$PIDFILE" "$CONF" || die "Failed"
+    eend ${?}
+}
+
+stop() {
+    ebegin "Stopping postlicyd..."
+    start-stop-daemon --stop --quiet --retry=TERM/30/KILL/5 --pidfile $PIDFILE --name "postlicyd"
+    eend ${?}
+}
+
+reload() {
+    ebegin "Reloading postlicyd"
+    do_checkconf || die "Invalid configuration"
+    start-stop-daemon --stop --signal 1 --quiet --pidfile $PIDFILE --name postlicyd
+    eend ${?}
+}
