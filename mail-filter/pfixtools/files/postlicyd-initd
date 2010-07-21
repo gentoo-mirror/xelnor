@@ -2,27 +2,22 @@
 
 depend() {
     need net
-}
-
-die() {
-  echo "$1"
-  exit 1
+    use dns
 }
 
 POSTLICYD=/usr/sbin/postlicyd
 PIDFILE=/var/run/postlicyd/pid
 CONF=/etc/pfixtools/postlicyd.conf
 
-do_checkconf() {
+function do_checkconf() {
   $POSTLICYD -c "$CONF"
   return "$?"
 }
 
 start() {
     ebegin "Starting postlicyd..."
-    start-stop-daemon --start --quiet --pidfile $PIDFILE --exec $POSTLICYD --text > /dev/null || die "Already running"
-    do_checkconf || die "Invalid configuration"
-    start-stop-daemon --start --quiet --pidfile $PIDFILE --exec $POSTLICYD -- -p "$PIDFILE" "$CONF" || die "Failed"
+    do_checkconf || { eend 1 "Invalid configuration"; return 1; }
+    start-stop-daemon --start --quiet --pidfile $PIDFILE --exec $POSTLICYD -- -p "$PIDFILE" "$CONF" || eerror "Failed"
     eend ${?}
 }
 
@@ -34,7 +29,7 @@ stop() {
 
 reload() {
     ebegin "Reloading postlicyd"
-    do_checkconf || die "Invalid configuration"
+    do_checkconf || { eend 1 "Invalid configuration"; return 1; }
     start-stop-daemon --stop --signal 1 --quiet --pidfile $PIDFILE --name postlicyd
     eend ${?}
 }

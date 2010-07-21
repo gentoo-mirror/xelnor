@@ -39,4 +39,5 @@ src_install() {
 	fi
 	newinitd "${FILESDIR}"/postlicyd-initd postlicyd
 	dodir /var/run/postlicyd
+	dodir /var/spool/postlicyd
 }
