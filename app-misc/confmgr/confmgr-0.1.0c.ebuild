@@ -12,7 +12,7 @@ SRC_URI="http://confmgr.xelnor.net/downloads/${P}.tar.gz"
 
 LICENSE="PYTHON"
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="x86 amd64"
 IUSE=""
 
 DEPEND=">=dev-lang/python-2.6"

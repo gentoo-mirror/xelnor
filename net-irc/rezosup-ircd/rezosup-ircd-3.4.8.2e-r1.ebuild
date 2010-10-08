@@ -10,7 +10,7 @@ SRC_URI="http://rezosup.org/download/ircd/rzv2/rz2e-cho7.tar.gz"
 
 LICENSE="GPL"
 SLOT="0"
-KEYWORDS="~x86"
+KEYWORDS="x86 amd64"
 IUSE="ssl"
 
 DEPEND="ssl? ( dev-libs/openssl )"
