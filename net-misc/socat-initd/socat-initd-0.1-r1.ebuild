@@ -17,7 +17,7 @@ src_install() {
 	doinitd "${FILESDIR}"/socat
 	dodir /etc/socat
 	insinto /etc/socat
-	doins "${FILESDIR}"/socat.conf.sample
+	doins "${FILESDIR}"/socat.conf.example
 
 	keepdir /var/run/socat
 }
