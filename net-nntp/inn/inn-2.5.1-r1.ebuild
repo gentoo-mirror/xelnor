@@ -13,7 +13,7 @@ SRC_URI="ftp://ftp.isc.org/isc/inn/${P}.tar.gz"
 SLOT="0"
 LICENSE="as-is BSD GPL-2"
 KEYWORDS="~amd64 ~ppc ~x86"
-IUSE="berkdb innkeywords inntaggedhash ipv6 kerberos python sasl ssl"
+IUSE="berkdb innkeywords inntaggedhash ipv6 kerberos perl python sasl ssl"
 
 RDEPEND="
 	virtual/mta
