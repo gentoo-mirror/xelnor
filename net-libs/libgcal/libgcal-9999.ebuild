@@ -1,34 +1,54 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=4
 
-inherit eutils git autotools
+inherit cmake-utils git-2
 
 DESCRIPTION="C/C++ interface to the Google Data API"
 HOMEPAGE="http://code.google.com/p/libgcal/"
-EGIT_REPO_URI="git://repo.or.cz/libgcal.git"
+EGIT_REPO_URI="git://gitorious.org/libgcal/libgcal.git"
 
 LICENSE="BSD"
+KEYWORDS=""
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
-IUSE="curldebug debug"
+IUSE="debug doc test"
 
-DEPEND=">=dev-libs/libxml-1.8.17-r2
-	    >=net-misc/curl-7.18.2"
-RDEPEND="${DEPEND}"
+# Some tests fail
+RESTRICT="test"
 
-src_prepare() {
-	eautoreconf -i -f
-}
+RDEPEND="
+	dev-libs/libxml2:2
+	>=net-misc/curl-7.18.2
+"
+DEPEND="${RDEPEND}
+	doc? ( app-doc/doxygen )
+	test? ( dev-libs/check )
+"
+
+DOCS=(README)
 
 src_configure() {
-	econf \
-		$(use_enable debug) \
-		$(use_enable curldebug)
+	mycmakeargs=(
+		-DENABLE_TESTS=OFF
+		$(cmake-utils_use debug CURL_DEBUG)
+	)
+	cmake-utils_src_configure
+}
+
+src_compile() {
+	cmake-utils_src_compile
+	use doc && cmake-utils_src_compile docs
 }
 
 src_install() {
-	einstall || die "einstall failed"
+	use doc && HTML_DOCS=("${CMAKE_BUILD_DIR}/docs/doxygen/html/")
+	cmake-utils_src_install
+}
+
+src_test() {
+	mycmakeargs+=(-DENABLE_TESTS=ON)
+	cmake-utils_src_configure
+	cmake-utils_src_make test
 }
