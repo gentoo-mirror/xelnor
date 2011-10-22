@@ -2,9 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-inherit distutils
+EAPI="3"
 
-NEED_PYTHON="2.6"
+# Compatible with python 2.6+, not 3.X.
+PYTHON_DEPEND="2:2.6"
+
+inherit distutils
 
 DESCRIPTION="a simple tool for managing config files"
 HOMEPAGE="http://confmgr.xelnor.net/"
