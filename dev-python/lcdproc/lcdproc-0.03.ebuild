@@ -15,10 +15,7 @@ SRC_URI="mirror://pypi/l/lcdproc/${P}.tar.gz"
 
 LICENSE="LGPL-3"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
-
-DEPEND=""
-RDEPEND="${DEPEND}"
 
 PYTHON_MODNAME="lcdproc"
