@@ -11,7 +11,7 @@ inherit distutils
 
 DESCRIPTION="Python LCDd client library"
 HOMEPAGE="https://github.com/jingleman/lcdproc"
-SRC_URI="http://pypi.python.org/packages/source/l/lcdproc/${P}.tar.gz"
+SRC_URI="mirror://pypi/l/lcdproc/${P}.tar.gz"
 
 LICENSE="LGPL-3"
 SLOT="0"
@@ -22,4 +22,3 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 
 PYTHON_MODNAME="lcdproc"
-
