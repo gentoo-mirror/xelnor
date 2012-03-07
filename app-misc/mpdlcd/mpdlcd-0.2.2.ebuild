@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=4
-PYTHON_DEPEND="2"
+PYTHON_DEPEND="2:2.5"
 SUPPORT_PYTHON_ABIS="1"
 RESTRICT_PYTHON_ABIS="3.*"
 
@@ -18,7 +18,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="dev-python/python-mpd dev-python/lcdproc"
+DEPEND="dev-python/lcdproc
+dev-python/python-mpd"
 RDEPEND="${DEPEND}"
 
 PYTHON_MODNAME="mpdlcd"
