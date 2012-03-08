@@ -23,13 +23,14 @@ RDEPEND="dev-python/lcdproc
 DEPEND="${RDEPEND}
 	dev-python/setuptools"
 
-PYTHON_MODNAME="${PN}"
 DOCS="README"
 
 src_install() {
 	distutils_src_install
 
 	doinitd initd/${PN}
+
+	doman man/*
 
 	insinto /etc
 	doins ${PN}.conf
