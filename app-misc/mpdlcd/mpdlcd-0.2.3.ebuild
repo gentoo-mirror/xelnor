@@ -10,7 +10,7 @@ RESTRICT_PYTHON_ABIS="2.5 3.*"
 inherit distutils
 
 DESCRIPTION="Display MPD status on a lcdproc server"
-HOMEPAGE="https://github.com/rbarrois/mpdlcd"
+HOMEPAGE="http://pypi.python.org/pypi/mpdlcd"
 SRC_URI="mirror://pypi/m/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
