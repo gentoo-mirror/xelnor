@@ -29,8 +29,8 @@ DOCS="README"
 src_install() {
 	distutils_src_install
 
-	doinitd initd/mpdlcdd
+	doinitd initd/${PN}
 
 	insinto /etc
-	doins mpdlcd.conf
+	doins ${PN}.conf
 }
