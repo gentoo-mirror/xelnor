@@ -5,13 +5,13 @@
 EAPI=4
 PYTHON_DEPEND="2:2.6"
 SUPPORT_PYTHON_ABIS="1"
-RESTRICT_PYTHON_ABIS="3.*"
+RESTRICT_PYTHON_ABIS="2.5 3.*"
 
 inherit distutils
 
 DESCRIPTION="Display MPD status on a lcdproc server"
 HOMEPAGE="https://github.com/rbarrois/mpdlcd"
-SRC_URI="mirror://pypi/m/mpdlcd/${P}.tar.gz"
+SRC_URI="mirror://pypi/m/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -23,7 +23,7 @@ RDEPEND="dev-python/lcdproc
 DEPEND="${RDEPEND}
 	dev-python/setuptools"
 
-PYTHON_MODNAME="mpdlcd"
+PYTHON_MODNAME="${PN}"
 DOCS="README"
 
 src_install() {
