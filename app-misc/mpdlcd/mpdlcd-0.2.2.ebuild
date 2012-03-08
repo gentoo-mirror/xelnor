@@ -19,9 +19,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="dev-python/lcdproc
-dev-python/python-mpd"
+	dev-python/python-mpd"
 DEPEND="${RDEPEND}
-dev-python/setuptools"
+	dev-python/setuptools"
 
 PYTHON_MODNAME="mpdlcd"
 DOCS="README"
