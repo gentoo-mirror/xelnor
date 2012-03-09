@@ -10,7 +10,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 
 inherit distutils
 
-DESCRIPTION="A verstile test fixtures replacement."
+DESCRIPTION="A versatile test fixtures replacement."
 HOMEPAGE="http://pypi.python.org/pypi/factory_boy/"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
@@ -19,9 +19,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 
-RDEPEND=""
 DEPEND="${RDEPEND}
-doc? ( dev-python/sphinx )"
+	doc? ( dev-python/sphinx )"
 
 src_compile() {
 	distutils_src_compile
@@ -46,4 +45,3 @@ src_install() {
 		dohtml -r -A txt docs/_build/html/* || die "Installation of documentation failed"
 	fi
 }
-
