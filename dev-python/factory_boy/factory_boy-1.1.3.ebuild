@@ -19,6 +19,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 
+RDEPEND=""
 DEPEND="doc? ( dev-python/sphinx )"
 
 src_compile() {
