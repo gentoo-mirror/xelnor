@@ -19,8 +19,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 
-DEPEND="${RDEPEND}
-	doc? ( dev-python/sphinx )"
+DEPEND="doc? ( dev-python/sphinx )"
 
 src_compile() {
 	distutils_src_compile
