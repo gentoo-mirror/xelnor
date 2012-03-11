@@ -10,7 +10,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 
 inherit distutils
 
-DESCRIPTION="A versatile test fixtures replacement."
+DESCRIPTION="A versatile test fixtures replacement"
 HOMEPAGE="http://pypi.python.org/pypi/factory_boy/"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
