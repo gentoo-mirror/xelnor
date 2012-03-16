@@ -8,6 +8,8 @@ PYTHON_DEPEND="2:2.5"
 SUPPORT_PYTHON_ABIS="1"
 RESTRICT_PYTHON_ABIS="3.*"
 
+DISTUTILS_SRC_TEST="setup.py"
+
 inherit distutils
 
 DESCRIPTION="A versatile test fixtures replacement"
@@ -29,13 +31,6 @@ src_compile() {
 		einfo "Generation of documentation"
 		emake -C docs html || die "Generation of documentation failed"
 	fi
-}
-
-src_test() {
-	testing() {
-		"$(PYTHON)" setup.py test || return 1
-	}
-	python_execute_function testing
 }
 
 src_install() {
