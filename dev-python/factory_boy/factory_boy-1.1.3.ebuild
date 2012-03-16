@@ -29,7 +29,7 @@ src_compile() {
 
 	if use doc; then
 		einfo "Generation of documentation"
-		emake -C docs html || die "Generation of documentation failed"
+		emake -C docs html
 	fi
 }
 
@@ -37,6 +37,6 @@ src_install() {
 	distutils_src_install
 
 	if use doc; then
-		dohtml -r -A txt docs/_build/html/* || die "Installation of documentation failed"
+		dohtml -r -A txt docs/_build/html/*
 	fi
 }
