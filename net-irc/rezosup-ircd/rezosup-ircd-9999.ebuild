@@ -5,7 +5,7 @@
 EAPI=4
 
 EGIT_REPO_URI="git://github.com/rezosup/solidircd.git"
-EGIT_BRANCH="fhs-layout"
+EGIT_BRANCH="debian-packaging"
 inherit git-2 autotools eutils
 SRC_URI=""
 
@@ -24,7 +24,7 @@ src_unpack() {
 	git-2_src_unpack
 }
 
-src_compile() {
+src_configure() {
 	local myconf
 	if use ssl ; then
 		myconf="${myconf} --enable-openssl"
@@ -32,8 +32,6 @@ src_compile() {
 		myconf="${myconf} --disable-openssl"
 	fi
 	econf ${myconf} || die "configure failed"
-
-	emake || die "make failed"
 }
 
 pkg_setup() {
@@ -44,24 +42,8 @@ pkg_setup() {
 src_install() {
 	dodoc doc/*.txt
 
-	emake INSTALL_DIR="${WORKDIR}/built/" install || die "emake failed"
+	emake DESTDIR="${D}" PACKAGE=${P} sysconfdir=/etc prefix=/usr exec_prefix=/usr install || die
 
 	dodir /var/run/ircd
 	fowners ircd:ircd /var/run/ircd
-
-	cd "${WORKDIR}/built"
-
-	doinitd ${FILESDIR}/ircd
-
-	# Binaries
-	dobin ircd
-	newbin mkpasswd mkpasswd-ircd
-
-	# Config
-	keepdir etc/ircd
-	insinto etc/ircd
-	doins ircd.motd
-	doins opers.txt
-	newins reference.conf ircd.conf.default
-	newins template.conf ircd.conf
 }
