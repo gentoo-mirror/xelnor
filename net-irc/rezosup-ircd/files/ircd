@@ -7,7 +7,7 @@ depend() {
 start() {
 	ebegin "Starting ircd"
     cd /var/run/ircd
-	start-stop-daemon --start --quiet --exec /usr/bin/ircd --chuid ircd:ircd -- -f /etc/ircd/ircd.conf -r /var/run/ircd
+	start-stop-daemon --start --quiet --exec /usr/sbin/ircd --chuid ircd:ircd -- -f /etc/ircd/ircd.conf -r /var/run/ircd
 	eend $?
 }
 

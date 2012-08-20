@@ -64,7 +64,7 @@ src_install() {
 	doinitd ${FILESDIR}/ircd
 
 	# Binaries
-	dobin ircd
+	dosbin ircd
 	newbin mkpasswd mkpasswd-ircd
 
 	# Config

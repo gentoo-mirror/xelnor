@@ -38,6 +38,7 @@ src_install() {
 
 	emake DESTDIR="${D}" PACKAGE=${P} sysconfdir=/etc prefix=/usr exec_prefix=/usr install || die
 
+	doinitd ${FILESDIR}/ircd
 	dodir /var/run/ircd
 	fowners ircd:ircd /var/run/ircd
 }
