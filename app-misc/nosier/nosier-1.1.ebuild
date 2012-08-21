@@ -18,4 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
+RDEPEND="dev-python/inotifyx"
+DEPEND=""
+
 PYTHON_MODNAME="nosier"
