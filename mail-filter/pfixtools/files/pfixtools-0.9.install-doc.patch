@@ -1,0 +1,11 @@
+--- Makefile.orig	2010-07-21 00:16:14.000000000 +0200
++++ Makefile	2010-07-21 00:16:26.000000000 +0200
+@@ -40,7 +40,7 @@
+ 
+ # RULES ###################################################################{{{
+ 
+-all clean distclean doc install: %: %-recurse
++all clean distclean doc install install-doc: %: %-recurse
+ 
+ %-recurse:
+ 	@set -e $(foreach dir,$(SUBDIRS),; $(MAKE) -C $(dir) $*)
