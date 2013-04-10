@@ -2,12 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="3"
+EAPI="5"
 
-# Compatible with python 2.6+, not 3.X.
-PYTHON_DEPEND="2:2.6"
+PYTHON_COMPAT=(python2_6 python2_7)
 
-inherit distutils
+inherit distutils-r1
 
 MY_P="PyKerberos-${PV}"
 
