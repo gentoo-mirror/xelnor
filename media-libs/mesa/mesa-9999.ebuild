@@ -7,7 +7,7 @@ EAPI=3
 EGIT_REPO_URI="git://anongit.freedesktop.org/mesa/mesa"
 
 if [[ ${PV} = 9999* ]]; then
-	GIT_ECLASS="git"
+	GIT_ECLASS="git-2"
 	EXPERIMENTAL="true"
 fi
 
