@@ -19,7 +19,7 @@ KEYWORDS="~amd64"
 IUSE="test"
 
 DEPEND="dev-python/setuptools"
-RDEPEND=""
+RDEPEND="${DEPEND}"
 
 python_test() {
 	"${PYTHON}" setup.py test || die
