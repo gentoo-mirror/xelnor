@@ -5,7 +5,7 @@ inherit eutils vcs-snapshot
 DESCRIPTION="Tools for postfix"
 HOMEPAGE="http://pfixtools.mymind.fr"
 SRC_URI="https://github.com/Fruneau/${PN}/archive/${P}.tar.gz
-https://github.com/Fruneau/libcommon/archive/b07e6bdea3d24748e0d39783d7d817096d10cc67.tar.gz -> ${P}-libcommon.tar.gz"
+https://github.com/Fruneau/libcommon/archive/bad528f60f6371f692d845c0590fc50a9a74006b.tar.gz -> ${P}-libcommon.tar.gz"
 
 LICENSE="|| ( BSD )"
 SLOT="0"
