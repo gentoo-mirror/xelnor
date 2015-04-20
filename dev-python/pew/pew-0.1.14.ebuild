@@ -18,7 +18,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="dev-python/virtualenv[${PYTHON_USEDEP}]
-	dev-python/virtualenv-clone[${PYTHON_USEDEP}]
+	>=dev-python/virtualenv-clone-0.2.5[${PYTHON_USEDEP}]
 	virtual/python-pathlib[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep 'dev-python/backports-shutil-get-terminal-size[${PYTHON_USEDEP}]' 'python2*')"
 DEPEND="${RDEPEND}
