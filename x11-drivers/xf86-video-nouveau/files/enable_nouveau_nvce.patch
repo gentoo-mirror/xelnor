@@ -1,0 +1,10 @@
+--- src/nvc0_accel.c.orig
++++ src/nvc0_accel.c
+@@ -95,6 +95,7 @@ NVAccelInit3D_NVC0(ScrnInfoPtr pScrn)
+ 	case 0xc1:
+ 	case 0xc3:
+ 	case 0xc4:
++        case 0xce:
+ 		tclClass = 0x9097;
+ 		break;
+ 	default:

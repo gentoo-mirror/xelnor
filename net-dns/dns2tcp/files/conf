@@ -1,0 +1,5 @@
+# /etc/init.d/dns2tcpd
+
+# the config file is located at /etc/dns2tcpd.conf
+# Put here additionnal options
+DNS2TCP_OPTS=""

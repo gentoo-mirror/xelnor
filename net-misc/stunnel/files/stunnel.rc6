@@ -1,0 +1,43 @@
+#!/sbin/runscript
+# Copyright 1999-2007 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+STUNNELDIR="/etc/stunnel"
+STUNNEL="${SVCNAME#*.}"
+if [ -n "${STUNNEL}" ] && [ "${SVCNAME}" != "stunnel" ]; then
+	STUNNELPID="/var/run/stunnel/stunnel.${STUNNEL}.pid"
+	STUNNELCONF="${STUNNELDIR}/stunnel.${STUNNEL}.conf"
+else
+	STUNNELPID="/var/run/stunnel/stunnel.pid"
+	STUNNELCONF="${STUNNELDIR}/stunnel.conf"
+fi
+
+checkconfig() {
+	# To ensure backwards compatibility
+	if grep -q /etc/stunnel/stunnel.pid ${STUNNELCONF}; then
+		ewarn "Please update your stunnel.conf!"
+		ewarn "pid should point to /var/run/stunnel/stunnel.pid"
+		PIDFILE="/etc/stunnel/stunnel.pid"
+	fi
+}
+
+depend() {
+	need net
+}
+
+start() {
+	checkconfig
+	ebegin "Starting ${SVCNAME}"
+	start-stop-daemon --start --quiet --pidfile "${STUNNELPID}" \
+		--exec /usr/bin/stunnel -- "${STUNNELCONF}" -pid "${STUNNELPID}"
+	eend $?
+}
+
+stop() {
+	checkconfig
+	ebegin "Stopping ${SVCNAME}"
+	start-stop-daemon --stop --quiet --pidfile "${STUNNELPID}"
+	eend $?
+}
+
+# vim: ts=4
