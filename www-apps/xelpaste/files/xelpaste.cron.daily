@@ -1,0 +1,3 @@
+#!/bin/sh
+
+xelpastectl cleanup_snippets > /dev/null
