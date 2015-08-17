@@ -35,5 +35,4 @@ net-misc/socat-initd 0.1-r1: Init.d script for socat
 net-misc/stunnel 4.27-r100 4.29-r100: TLS/SSL - Port Wrapper
 net-nntp/inn 2.4.3-r100 2.5.0-r1 2.5.1-r1 2.5.2-r1: The Internet News daemon, fully featured NNTP server
 www-apps/xelpaste 1.0.0 3.0.1: Django-based pastebin with image support.
-x11-drivers/xf86-video-nouveau 9999: Accelerated Open Source driver for nVidia cards
 x11-misc/synergy 1.3.1-r100: Lets you easily share a single mouse and keyboard between multiple computers.
