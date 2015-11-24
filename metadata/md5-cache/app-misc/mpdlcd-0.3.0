@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm prepare setup
+DEPEND=dev-python/lcdproc dev-python/python-mpd dev-python/setuptools || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
+DESCRIPTION=Display MPD status on a lcdproc server
+EAPI=4
+HOMEPAGE=http://pypi.python.org/pypi/mpdlcd
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-python/lcdproc dev-python/python-mpd || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
+SLOT=0
+SRC_URI=mirror://pypi/m/mpdlcd/mpdlcd-0.3.0.tar.gz
+_eclass_exported_funcs=pkg_postrm:distutils pkg_postinst:distutils pkg_setup:python src_prepare:distutils src_compile:distutils src_install:-
+_eclasses_=distutils	ad9e4720eb3e69090dd968b152fc611b	multilib	3972ca401cf7dbb430df9995f5d8d580	python	0c2c16ea4f9074d3248bd4365d03890c	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=1a0667a9eeca9b9a7d8779c6f3b1f941
