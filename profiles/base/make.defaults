@@ -7,7 +7,7 @@ USE="${USE} acl nptl threads unicode"
 USE="${USE} -doc -handbook"
 
 # Shell
-USE="${USE} bash-completion vim-syntax zsh-completion"
+USE="${USE} vim-syntax zsh-completion"
 
 # System daemons
 USE="${USE} syslog"
