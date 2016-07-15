@@ -2,3 +2,5 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-crypt/mit-krb5-repl:master - Enable master side of the kerberos replication
+app-crypt/mit-krb5-repl:slave - Enable receiving side of the kerberos replication
