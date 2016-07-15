@@ -1,0 +1,4 @@
+# Add GUI to common packages
+media-gfx/graphviz qt4
+
+# vim:set ft=gentoo-package-use:

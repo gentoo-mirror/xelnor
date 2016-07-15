@@ -1,0 +1,20 @@
+#arch       profile_directory                status
+amd64       base                             dev
+
+amd64       amd64/desktop                    dev
+amd64       amd64/laptop                     dev
+amd64       amd64/laptop-light               dev
+amd64       amd64/mediacenter                dev
+amd64       amd64/router                     dev
+amd64       amd64/dcserver                   dev
+amd64       amd64/storage                    dev
+
+amd64       hosts/anoth                      dev
+
+#amd64       lib/devel                        dev
+#amd64       lib/laptop                       dev
+#amd64       lib/physical                     dev
+#amd64       lib/xbase                        dev
+#amd64       lib/xuser                        dev
+#amd64       lib/xuser-full                   dev
+#amd64       lib/server                       dev

@@ -1,0 +1,16 @@
+# Add GUIs
+media-sound/pulseaudio qt4
+
+# Add on-screen-display
+media-video/vlc libnotify
+
+# Enable dbus for select packages
+lxde-base/lxappearance dbus
+media-sound/pulseaudio dbus
+net-print/cups dbus
+www-client/firefox dbus
+
+# Required by kde->phonon[vlc]->phonon-vlc
+media-video/vlc dbus
+
+# vim:set ft=gentoo-package-use:

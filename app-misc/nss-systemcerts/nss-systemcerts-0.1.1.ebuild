@@ -1,8 +1,8 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
-EAPI=4
+EAPI=5
 
 inherit vcs-snapshot
 
@@ -17,7 +17,6 @@ IUSE=""
 
 RDEPEND="dev-libs/nss[utils] app-misc/ca-certificates"
 DEPEND=""
-
 
 src_install()
 {

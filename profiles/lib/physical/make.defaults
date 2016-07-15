@@ -1,0 +1,8 @@
+# Device management
+USE="${USE} acpi lm_sensors"
+
+# Inputs
+USE="${USE} gpm usb"
+
+# Disks
+USE="${USE} cdda cdr dvd dvdr vcd"

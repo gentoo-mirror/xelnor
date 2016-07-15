@@ -1,0 +1,13 @@
+# Disable notifications for claws-mail
+mail-client/claws-mail -notification -libcanberra -libindicate -libnotify
+
+# Additional use flags for claws-mail
+mail-client/claws-mail smime spell webkit xface
+
+# Add GUI to common packages
+sci-visualization/gnuplot qt4
+
+# Compositing
+x11-libs/libaosd xcomposite
+
+# vim:set ft=gentoo-package-use:

@@ -1,0 +1,8 @@
+# Set default targets for qemu
+QEMU_SOFTMMU_TARGETS="${QEMU_SOFTMMU_TARGETS} arm i386 x86_64"
+
+# LCD: add ncurses for development
+LCD_DEVICES="${LCD_DEVICES} ncurses"
+
+# No docs, but at least some items
+USE="${USE} examples"

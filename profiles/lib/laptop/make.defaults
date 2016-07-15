@@ -1,0 +1,4 @@
+# Add touchpad
+INPUT_DEVICES="${INPUT_DEVICES} synaptics"
+
+USE="${USE} bluetooth"
