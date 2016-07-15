@@ -1,6 +1,6 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 
@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="dev-python/setuptools"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}
-	dev-python/tdparser
-	>=dev-python/fslib-0.2.0
-	>=dev-python/confutils-0.3.2"
+	dev-python/tdparser[${PYTHON_USEDEP}]
+	>=dev-python/fslib-0.2.0[${PYTHON_USEDEP}]
+	>=dev-python/confutils-0.3.2[${PYTHON_USEDEP}]"

@@ -1,6 +1,8 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
+
+EAPI=5
 
 DESCRIPTION="A tool to tunnel tcp data over DNS queries"
 HOMEPAGE="http://www.hsc.fr/ressources/outils/dns2tcp/index.html.en"
