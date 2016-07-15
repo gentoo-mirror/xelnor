@@ -8,7 +8,7 @@ DESCRIPTION="Replication tools for mit-krb5"
 HOMEPAGE="http://overlay.xelnor.net"
 SRC_URI="http://dist.xelnor.net/${P}.tar.gz"
 
-LICENSE="LGPL"
+LICENSE="LGPL-2"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="master slave"

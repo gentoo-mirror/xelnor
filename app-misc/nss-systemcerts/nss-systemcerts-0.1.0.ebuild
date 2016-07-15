@@ -18,7 +18,6 @@ IUSE=""
 RDEPEND="dev-libs/nss[utils] app-misc/ca-certificates"
 DEPEND=""
 
-
 src_install()
 {
 	dodoc README

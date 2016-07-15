@@ -2,12 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
-PYTHON_DEPEND="2"
-SUPPORT_PYTHON_ABIS="1"
-RESTRICT_PYTHON_ABIS="3.*"
+EAPI=5
 
-inherit distutils
+PYTHON_COMPAT=( python2_7 )
+
+inherit distutils-r1
 
 DESCRIPTION="Monitor paths and call a user-defined command when changes occur"
 HOMEPAGE="http://pypi.python.org/pypi/nosier"
@@ -18,7 +17,5 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND="dev-python/inotifyx"
+RDEPEND="dev-python/inotifyx[${PYTHON_USEDEP}]"
 DEPEND=""
-
-PYTHON_MODNAME="nosier"

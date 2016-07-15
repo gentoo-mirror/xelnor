@@ -14,8 +14,8 @@ SRC_URI="https://github.com/multani/${PN}/archive/v${MY_PV}.tar.gz -> ${P}.tar.g
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS=""
-IUSE="dbus mpd taglib"
+KEYWORDS="~amd64 ~x86"
+IUSE="dbus taglib"
 
 S="${WORKDIR}/${PN}-${MY_PV}"
 
@@ -26,7 +26,6 @@ done
 RDEPEND=">=dev-python/python-mpd-0.4.6
 	>=dev-python/pygobject-3.4.2
 	>=x11-libs/gtk+-3.4
-	mpd? ( >=media-sound/mpd-0.15 )
 	dbus? ( dev-python/dbus-python )
 	taglib? ( >=dev-python/tagpy-2013.1 )"
 DEPEND="${RDEPEND}

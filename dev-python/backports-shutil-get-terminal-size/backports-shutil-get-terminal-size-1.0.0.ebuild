@@ -15,7 +15,7 @@ DESCRIPTION="Backport of the shutil.get_terminal_size function from Python3.3"
 HOMEPAGE="https://pypi.python.org/pypi/backports.shutil_get_terminal_size/"
 SRC_URI="mirror://pypi/${PN:0:1}/${MY_PN}/${MY_P}.tar.gz"
 
-LICENSE="Python"
+LICENSE="PYTHON"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""

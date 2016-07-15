@@ -15,12 +15,9 @@ IUSE=""
 
 RDEPEND="net-analyzer/nagios-core"
 
-src_unpack() {
-	unpack ${A}
-#	cd "${S}"
+src_prepare() {
 	epatch "${FILESDIR}/${P}-timeout.patch"
 }
-	
 
 src_install() {
 	dodir /usr/bin

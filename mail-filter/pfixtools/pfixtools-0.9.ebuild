@@ -12,22 +12,21 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="doc"
 DEPEND="mail-filter/libsrs2
-        dev-libs/libev
+		dev-libs/libev
 		net-dns/unbound
 		dev-db/tokyocabinet
 		dev-util/gperf
 		doc? ( app-text/xmlto app-text/asciidoc )"
 
-src_unpack() {
-	vcs-snapshot_src_unpack
-	rmdir "${P}/common"
-	ln -s "../${P}-libcommon" "${P}/common"
-	cd "${P}"
+src_prepare() {
+	rmdir "${WORKDIR}/${P}/common"
+	ln -s "../${P}-libcommon" "${WORKDIR}/${P}/common"
+	cd "${WORKDIR}/${P}"
 	epatch "${FILESDIR}/${PF}.install-doc.patch"
 }
 
 src_compile() {
-	cd "${P}"
+	cd "${WORKDIR}/${P}"
 	emake DESTDIR="${D}" prefix=/usr all || die
 	if use doc
 	then
@@ -36,7 +35,7 @@ src_compile() {
 }
 
 src_install() {
-	cd "${P}"
+	cd "${WORKDIR}/${P}"
 	emake -j1 DESTDIR="${D}" prefix=/usr install || die
 	if use doc
 	then
