@@ -1,0 +1,7 @@
+# Some python bindings
+app-editors/vim python
+
+# Enable libmagic for python
+sys-apps/file python
+
+# vim:set ft=gentoo-package-use:

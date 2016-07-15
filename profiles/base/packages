@@ -1,0 +1,81 @@
+# System - daemons
+app-admin/logrotate
+app-admin/syslog-ng
+net-misc/ntp
+net-misc/oidentd
+sys-apps/mlocate
+sys-process/at
+sys-process/vixie-cron
+
+# System - core
+app-admin/sudo
+net-firewall/iptables
+net-misc/bridge-utils
+net-misc/vconfig
+sys-apps/iproute2
+sys-fs/lvm2
+sys-fs/mdadm
+
+# Shell - core
+app-editors/vim
+app-misc/colordiff
+app-misc/screen
+app-misc/tmux
+app-shells/bash-completion
+app-shells/gentoo-zsh-completions
+app-shells/zsh
+app-text/tree
+dev-lang/python
+dev-vcs/git
+mail-client/mailx
+
+# Shell - extra
+app-admin/pwgen
+app-arch/unrar
+app-arch/unzip
+app-misc/uconf
+app-text/convmv
+app-crypt/mit-krb5-appl
+media-gfx/imagemagick
+media-gfx/exif
+sys-apps/pv
+
+# Shell - network
+net-ftp/lftp
+net-dns/bind-tools
+net-dns/host
+net-misc/netkit-telnetd
+net-misc/socat
+net-misc/stunnel
+net-misc/whois
+www-client/links
+www-client/lynx
+
+# Packaging
+app-portage/eix
+app-portage/euses
+app-portage/genlop
+app-portage/gentoolkit
+app-portage/layman
+app-portage/portage-utils
+dev-util/ccache
+sys-devel/distcc
+
+# Diagnostic - system
+dev-util/strace
+sys-apps/gradm
+sys-apps/pciutils
+sys-apps/smartmontools
+sys-process/htop
+sys-process/iotop
+sys-process/lsof
+
+# Diagnostic - net
+net-analyzer/macchanger
+net-analyzer/mtr
+net-analyzer/netcat6
+net-analyzer/nettop
+net-analyzer/nmap
+net-analyzer/tcpdump
+net-analyzer/traceroute
+sys-apps/ethtool

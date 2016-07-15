@@ -1,0 +1,3 @@
+# SSO / directory
+USE="${USE} kerberos ldap"
+

@@ -1,0 +1,2 @@
+# nvidia graphics
+VIDEO_CARDS="${VIDEO_CARDS} nouveau nvidia"

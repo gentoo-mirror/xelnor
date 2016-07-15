@@ -1,0 +1,10 @@
+app-laptop/laptop-mode-tools
+net-dns/dns2tcp
+net-dns/dnsmasq
+net-dns/openresolv
+net-misc/openvpn
+net-wireless/aircrack-ng
+net-wireless/wireless-tools
+net-wireless/wpa_supplicant
+sys-fs/obexfs
+sys-power/powertop

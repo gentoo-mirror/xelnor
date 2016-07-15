@@ -1,0 +1,4 @@
+# Base utilities might need udev
+sys-apps/util-linux udev
+
+# vim:set ft=gentoo-package-use:

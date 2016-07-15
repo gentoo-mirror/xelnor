@@ -1,0 +1,12 @@
+app-emulation/virtualbox-bin
+app-text/texlive
+dev-python/runsnakerun
+dev-tex/latex-beamer
+dev-tex/texmfind
+dev-util/gource
+dev-vcs/qgit
+media-gfx/gimp
+media-gfx/graphviz
+media-gfx/inkscape
+media-sound/normalize
+media-sound/vorbis-tools

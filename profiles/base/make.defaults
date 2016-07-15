@@ -1,0 +1,24 @@
+# Default uses for all packages
+
+# Basics
+USE="${USE} acl nptl threads unicode"
+
+# No bloat
+USE="${USE} -doc -handbook"
+
+# Shell
+USE="${USE} bash-completion vim-syntax zsh-completion"
+
+# System daemons
+USE="${USE} syslog"
+
+# Languages
+LINGUAS="-* fr en en_GB en_US"
+
+# Python
+PYTHON_TARGETS="python2_7 python3_4 python3_5"
+PYTHON_SINGLE_TARGET="-python2_7 python3_4"
+
+# Portage
+PORTAGE_ELOG_CLASSES="warn error log"
+PORTAGE_ELOG_SYSTEM="save echo"
