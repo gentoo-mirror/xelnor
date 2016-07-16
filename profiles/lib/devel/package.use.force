@@ -1,7 +1,52 @@
+# Languages
+# =========
+
 # Enable pl/python
 dev-db/postgresql python
 
 # uwsgi needs some frontend
 www-servers/uwsgi python
+
+# Add docs to Python
+dev-lang/python doc
+
+# Various basic options for erlang
+dev-lang/erlang hipe kpoll sctp smp
+
+# Add required flags for common old-style websites
+dev-lang/php hash mysqli gd
+
+
+# GIS
+# ===
+
+# that's gdal/geos, for DBs & code
+
+# Enable python bindings
+sci-libs/geos python
+# Add gdal/geos support for databases
+sci-libs/gdal geos postgres sqlite
+dev-db/postgis geos proj
+
+
+
+# VCS
+# ===
+
+# Add git-svn/git-cvs
+dev-vcs/git cvs subversion
+
+
+# Deps
+# ====
+
+# Required by android-ndk->android-sdk-update-manager
+sys-libs/zlib abi_x86_32
+
+# Required by app-emulation/qemu
+media-libs/mesa gles2
+
+# Required by app-emulation/docker
+sys-libs/libseccomp static-libs
 
 # vim:set ft=gentoo-package-use:

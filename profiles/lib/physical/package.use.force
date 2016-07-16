@@ -1,4 +1,14 @@
 # Base utilities might need udev
 sys-apps/util-linux udev
+virtual/libusb udev
+
+# Enable LVM support
+sys-block/parted device-mapper
+
+# Deps
+# ====
+
+# Required by media-sound/ncmpcpp
+dev-libs/boost icu
 
 # vim:set ft=gentoo-package-use:

@@ -1,6 +1,3 @@
-# Disable notifications for claws-mail
-mail-client/claws-mail -notification -libcanberra -libindicate -libnotify
-
 # Additional use flags for claws-mail
 mail-client/claws-mail smime spell webkit xface
 

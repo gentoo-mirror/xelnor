@@ -1,0 +1,17 @@
+# Required by x11-drivers/nvidia-drivers
+x11-libs/libXext abi_x86_32
+
+# Required by x11-drivers/nvidia-drivers -> x11-libs/libXext
+x11-libs/libX11 abi_x86_32
+x11-libs/xextproto abi_x86_32
+
+# Required by x11-drivers/nvidia-drivers -> x11-libs/libXext -> 11-libs/libX11
+x11-libs/libxcb abi_x86_32
+x11-proto/inputproto abi_x86_32
+x11-proto/kbproto abi_x86_32
+x11-proto/xextproto abi_x86_32
+x11-proto/xf86bigfontproto abi_x86_32
+x11-proto/xproto abi_x86_32
+
+
+# vim:set ft=gentoo-package-use:

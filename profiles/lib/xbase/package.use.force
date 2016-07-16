@@ -4,13 +4,82 @@ media-sound/pulseaudio qt4
 # Add on-screen-display
 media-video/vlc libnotify
 
+# Configure rendering
+media-libs/mesa xa xvmc
+
+# Can't remember why :(
+x11-libs/libdrm libkms
+
+# Add nice fonts to urxvt
+x11-terms/rxvt-unicode xft
+
+# Configure media players
+media-video/mpv bluray cdio
+media-video/vlc cddb vlm
+
+# Enable spell helpers
+net-libs/webkit-gtk spell
+kde-base/kdelibs spell
+
 # Enable dbus for select packages
 lxde-base/lxappearance dbus
 media-sound/pulseaudio dbus
 net-print/cups dbus
 www-client/firefox dbus
 
+
+# Deps
+# ====
+
+# Required by nss-systemcerts
+dev-libs/nss utils
+
+# Required by kde-apps/gwenview
+# Required by kde->media-libs/phonon[vlc]->media-libs/phonon-vlc
+# Required by kde-frameworks/knotificatons
+media-libs/phonon qt5
+
 # Required by kde->phonon[vlc]->phonon-vlc
 media-video/vlc dbus
+
+# Required by kde->kde-frameworks/kcoreaddons
+# Required by dev-qt/qtwebkit
+dev-qt/qtcore:5 icu
+
+# Required by dev-qt/qtcore
+dev-libs/libpcre pcre16
+
+# Required by qtgui:5
+x11-libs/libxcb xkb
+
+# Required by kde-apps/okular
+app-text/poppler qt4
+
+# Required by kde-apps/okular->kde-apps/libkexiv2
+media-gfx/exiv2 xmp
+
+# Required by www-client/chromium
+# Required by media-video/vlc
+sys-libs/zlib minizip
+
+# Required by www-client/chromium
+dev-libs/libxml2 icu
+
+# Required by www-client/firefox
+media-libs/libpng apng
+
+# Required by app-office/libreoffice-bin
+# Required by net-libs/webkit-gtk
+# Required by www-client/chromium
+media-libs/harfbuzz icu
+
+# Required by kde-apps/okular->kde-base/kdelibs
+dev-qt/qtcore qt3support
+dev-qt/qtgui qt3support
+dev-qt/qtopengl qt3support
+dev-qt/qtdeclarative qt3support
+
+# Required by net-news/quiterss
+dev-qt/qtwebkit icu
 
 # vim:set ft=gentoo-package-use:

@@ -1,4 +1,10 @@
 # Add GUI to common packages
 media-gfx/graphviz qt4
 
+# Use SASL with LDAP
+net-nds/openldap sasl
+
+# Enable extra features in texlive
+app-text/texlive extra graphics luatex pstricks publishers science
+
 # vim:set ft=gentoo-package-use:

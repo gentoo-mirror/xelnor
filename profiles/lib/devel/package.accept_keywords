@@ -1,0 +1,30 @@
+# Python versions
+dev-python/pypy ~amd64
+
+# Python packaging
+dev-python/pip ~amd64
+dev-python/wheel ~amd64
+dev-python/pew ~amd64
+dev-python/virtualenv ~amd64
+
+# Python development
+<dev-python/runsnakerun-3.0 ~amd64
+
+# Development tools
+<app-misc/nosier-2.0 ~amd64
+
+# Java development (from local overlay)
+<dev-java/gradle-bin-3.0 ~amd64
+<app-eselect/eselect-gradle-1.0 ~amd64
+
+# Android development
+dev-util/android-sdk-update-manager ~amd64
+dev-util/android-ndk ~amd64
+
+# Work around uwsgi bug https://bugs.gentoo.org/show_bug.cgi?id=586606
+=www-servers/uwsgi-2.0.13.1-r1 ~amd64
+
+# Work around json-c conflict with media-sound/pulseaudio
+=dev-db/postgis-2.2.2 ~amd64
+
+# vim:set ft=gentoo-package-keywords:

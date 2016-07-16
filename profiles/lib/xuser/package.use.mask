@@ -1,0 +1,7 @@
+# Disable notifications for claws-mail
+mail-client/claws-mail libcanberra libindicate libnotify notification
+
+# We're using the Qt4 GUI for wireshark
+net-analyzer/wireshark gtk3
+
+# vim:set ft=gentoo-package-use:

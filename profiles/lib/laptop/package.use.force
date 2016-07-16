@@ -1,0 +1,4 @@
+# Display wifi status in conky, if installed
+app-admin/conky wifi
+
+# vim:set ft=gentoo-package-use:

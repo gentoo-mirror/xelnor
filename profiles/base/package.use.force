@@ -4,4 +4,15 @@ app-editors/vim python
 # Enable libmagic for python
 sys-apps/file python
 
+dev-libs/libxml2 python
+
+
+# Full python with sqlite
+dev-lang/python sqlite
+dev-python/pypy sqlite
+
+
+# Configure vim
+app-editors/vim vim-pager
+
 # vim:set ft=gentoo-package-use:

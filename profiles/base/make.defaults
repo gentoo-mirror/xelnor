@@ -1,7 +1,7 @@
 # Default uses for all packages
 
 # Basics
-USE="${USE} acl nptl threads unicode"
+USE="${USE} acl nptl threads unicode urandom"
 
 # No bloat
 USE="${USE} -doc -handbook"
@@ -14,6 +14,8 @@ USE="${USE} syslog"
 
 # Languages
 LINGUAS="-* fr en en_GB en_US"
+
+VIDEO_CARDS="-*"
 
 # Python
 PYTHON_TARGETS="python2_7 python3_4 python3_5"

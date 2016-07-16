@@ -1,0 +1,6 @@
+<dev-util/android-tools-6 ~amd64
+
+# Use latest trojita
+=mail-client/trojita-9999 **
+
+# vim:set ft=gentoo-package-keywords:
