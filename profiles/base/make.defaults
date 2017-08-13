@@ -1,7 +1,7 @@
 # Default uses for all packages
 
 # Basics
-USE="${USE} acl nptl threads unicode"
+USE="${USE} acl nptl threads unicode urandom"
 
 # No bloat
 USE="${USE} -doc -handbook"
@@ -14,11 +14,17 @@ USE="${USE} syslog"
 
 # Languages
 LINGUAS="-* fr en en_GB en_US"
+L10N="-* fr en en_GB en_US"
+
+VIDEO_CARDS="-*"
 
 # Python
-PYTHON_TARGETS="python2_7 python3_4 python3_5"
+PYTHON_TARGETS="python2_7 python3_4"
 PYTHON_SINGLE_TARGET="-python2_7 python3_4"
 
 # Portage
 PORTAGE_ELOG_CLASSES="warn error log"
 PORTAGE_ELOG_SYSTEM="save echo"
+
+# Licences
+ACCEPT_LICENSE="@FREE dlj-1.1 skype-4.0.0.7-copyright skype-eula PUEL AdobeFlash-10.1 AdobeFlash-11.x Google-TOS Oracle-BCLA-JavaSE"

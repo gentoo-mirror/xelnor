@@ -2,8 +2,8 @@ app-misc/inputexec
 app-misc/lcdproc
 app-misc/lirc
 app-misc/mpdlcd
+app-text/qpdfview
 kde-base/gwenview
-kde-base/okular
 media-gfx/feh
 media-sound/ario
 media-sound/beets

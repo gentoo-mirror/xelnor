@@ -1,0 +1,10 @@
+# Disable notifications for claws-mail
+mail-client/claws-mail libcanberra libindicate libnotify notification
+
+# We're using the Qt4 GUI for wireshark
+net-analyzer/wireshark gtk3
+
+# cantata is not used to read physical disks
+media-sound/cantata cdda
+
+# vim:set ft=gentoo-package-use:

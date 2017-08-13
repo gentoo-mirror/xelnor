@@ -28,6 +28,7 @@ app-text/tree
 dev-lang/python
 dev-vcs/git
 mail-client/mailx
+virtual/ssh
 
 # Shell - extra
 app-admin/pwgen
@@ -43,7 +44,6 @@ sys-apps/pv
 # Shell - network
 net-ftp/lftp
 net-dns/bind-tools
-net-dns/host
 net-misc/netkit-telnetd
 net-misc/socat
 net-misc/stunnel

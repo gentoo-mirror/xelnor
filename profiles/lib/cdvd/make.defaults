@@ -1,0 +1,2 @@
+# Disks
+USE="${USE} cdda cdr dvd dvdr vcd"

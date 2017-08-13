@@ -1,7 +1,0 @@
-# Enable pl/python
-dev-db/postgresql python
-
-# uwsgi needs some frontend
-www-servers/uwsgi python
-
-# vim:set ft=gentoo-package-use:

@@ -1,0 +1,3 @@
+sys-libs/ncurses -gpm
+
+# vim:set ft=gentoo-package-use:

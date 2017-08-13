@@ -1,1 +1,9 @@
 app-misc/uconf ~amd64 ~x86
+
+sys-kernel/xelnet-kbuild ~amd64
+virtual/linux-kbuild ~amd64
+
+# Required by app-misc/uconf
+dev-python/tdparser ~amd64 ~x86
+dev-python/confutils ~amd64 ~x86
+dev-python/fslib ~amd64 ~x86

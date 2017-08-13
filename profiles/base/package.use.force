@@ -4,4 +4,24 @@ app-editors/vim python
 # Enable libmagic for python
 sys-apps/file python
 
+# Build python' lxml
+dev-libs/libxml2 python
+
+# Full python with sqlite
+dev-lang/python sqlite
+dev-python/pypy sqlite
+
+# Configure vim
+app-editors/vim vim-pager
+
+
+# Deps
+# ====
+
+# Required for aclocal. Kinda important.
+dev-lang/perl ithreads
+
+# Required by app-shells/zsh[examples] -> app-doc/zshlovers
+app-text/asciidoc python_single_target_python2_7
+
 # vim:set ft=gentoo-package-use:

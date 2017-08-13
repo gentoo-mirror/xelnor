@@ -1,6 +1,3 @@
-# Disable notifications for claws-mail
-mail-client/claws-mail -notification -libcanberra -libindicate -libnotify
-
 # Additional use flags for claws-mail
 mail-client/claws-mail smime spell webkit xface
 
@@ -9,5 +6,25 @@ sci-visualization/gnuplot qt4
 
 # Compositing
 x11-libs/libaosd xcomposite
+
+
+# Use modern quiterss GUI
+net-news/quiterss qt5
+
+# Required by net-news/quiterss[qt5]
+dev-qt/qtsingleapplication qt5
+dev-qt/qtlockedfile qt5
+
+# Required by mail-client/trojita-9999[password]
+dev-libs/qtkeychain qt5
+
+# required by mail-client/trojita-9999::gentoo[crypt]
+app-crypt/gpgme qt5
+
+# Required by app-text/qpdfview
+app-text/poppler qt4
+
+# required by www-client/chromium-54.0.2840.59::gentoo
+media-libs/libvpx svc
 
 # vim:set ft=gentoo-package-use:

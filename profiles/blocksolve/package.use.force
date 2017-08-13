@@ -1,0 +1,4 @@
+dev-libs/openssl -bindist
+net-misc/openssh -bindist
+
+# vim:set ft=gentoo-package-use:

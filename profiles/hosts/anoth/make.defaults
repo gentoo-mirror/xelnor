@@ -1,2 +1,4 @@
-# nvidia graphics
-VIDEO_CARDS="${VIDEO_CARDS} nouveau nvidia"
+# Kernel
+USE="${USE} kernel-autobuild"
+
+INPUT_DEVICES="evdev keyboard mouse"

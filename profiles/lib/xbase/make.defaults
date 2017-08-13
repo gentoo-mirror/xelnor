@@ -14,12 +14,12 @@ USE="${USE} startup-notification"
 USE="${USE} cups ppds"
 
 # Fonts / rendering
-USE="${USE} cairo lcms pango truetype"
+USE="${USE} cairo fontconfig lcms pango truetype"
 
 # Sound
 USE="${USE} alsa -arts -esd -oss pulseaudio"
 
 # Multimedia
-USE="${USE} ffmpeg libav libcaca"
+USE="${USE} ffmpeg libcaca"
 USE="${USE} a52 aac dts dvb encode flac mad matroska mp3 mp4 mpeg ogg sdl vorbis x264 xvid v4l"
 USE="${USE} exif gif jpeg mng pdf png svg tiff"

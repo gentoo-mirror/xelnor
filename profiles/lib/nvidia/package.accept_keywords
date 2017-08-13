@@ -1,0 +1,4 @@
+# Use bleeding-edge nouveau driver.
+x11-drivers/xf86-video-nouveau ~amd64
+
+# vim:set ft=gentoo-package-keywords:

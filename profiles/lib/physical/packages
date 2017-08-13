@@ -1,16 +1,13 @@
 app-admin/hddtemp
 app-admin/testdisk
-app-cdr/cdrtools
 media-sound/alsa-utils
 media-sound/mpc
 media-sound/ncmpcpp
-media-video/lsdvd
 net-misc/dhcpcd
 sys-apps/hdparm
 sys-apps/ifplugd
 sys-apps/sdparm
 sys-apps/usbutils
-sys-block/scsiadd
 sys-firmware/seabios
 sys-fs/ddrescue
 sys-fs/dosfstools
