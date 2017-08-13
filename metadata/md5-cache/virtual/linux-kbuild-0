@@ -4,4 +4,5 @@ DESCRIPTION=Virtual for Linux prebuilt kernel
 EAPI=6
 KEYWORDS=~amd64 ~x86
 SLOT=0
+_eclass_exported_funcs=-
 _md5_=45baa30fad3e6c80496470703ff34979
