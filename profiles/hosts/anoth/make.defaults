@@ -1,0 +1,2 @@
+# Kernel
+USE="${USE} kernel-autobuild"
