@@ -18,9 +18,17 @@ dev-python/pypy
 dev-util/android-ndk
 dev-util/debootstrap
 dev-util/valgrind
+media-gfx/zbar
 net-libs/nodejs
+net-misc/rabbitmq-server
 sci-libs/gdal
 sci-visualization/gnuplot
 sys-devel/gdb
 virtual/jdk
 www-servers/uwsgi
+
+# Needed for polydev integration box
+sys-auth/nss-mdns
+
+# Used by polydev release process
+dev-vcs/git-repo

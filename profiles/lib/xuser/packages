@@ -12,6 +12,7 @@ net-irc/hexchat
 net-misc/rdesktop
 net-news/quiterss
 net-print/cups
+sci-calculators/units
 www-client/chromium
 www-client/firefox
 x11-libs/libaosd
