@@ -1,0 +1,5 @@
+# nss-systemcerts is custom-made, thus unstable
+app-misc/nss-systemcerts ~amd64
+
+# phototonic isn't stable yet
+=media-gfx/phototonic-1.6.17 ~amd64

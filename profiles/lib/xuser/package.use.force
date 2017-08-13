@@ -7,4 +7,8 @@ sci-visualization/gnuplot qt4
 # Compositing
 x11-libs/libaosd xcomposite
 
+
+# Required by app-text/qpdfview
+app-text/poppler qt4
+
 # vim:set ft=gentoo-package-use:

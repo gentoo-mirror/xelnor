@@ -1,8 +1,7 @@
 app-admin/conky
 app-office/libreoffice-bin
+app-text/qpdfview
 dev-util/android-tools
-kde-apps/gwenview
-kde-apps/okular
 mail-client/claws-mail
 mail-client/clawsker
 mail-client/trojita

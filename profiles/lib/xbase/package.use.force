@@ -34,7 +34,6 @@ www-client/firefox dbus
 # Required by nss-systemcerts
 dev-libs/nss utils
 
-# Required by kde-apps/gwenview
 # Required by kde->media-libs/phonon[vlc]->media-libs/phonon-vlc
 # Required by kde-frameworks/knotificatons
 media-libs/phonon qt5
@@ -52,12 +51,6 @@ dev-libs/libpcre pcre16
 # Required by qtgui:5
 x11-libs/libxcb xkb
 
-# Required by kde-apps/okular
-app-text/poppler qt4
-
-# Required by kde-apps/okular->kde-apps/libkexiv2
-media-gfx/exiv2 xmp
-
 # Required by www-client/chromium
 # Required by media-video/vlc
 sys-libs/zlib minizip
@@ -72,12 +65,6 @@ media-libs/libpng apng
 # Required by net-libs/webkit-gtk
 # Required by www-client/chromium
 media-libs/harfbuzz icu
-
-# Required by kde-apps/okular->kde-base/kdelibs
-dev-qt/qtcore qt3support
-dev-qt/qtgui qt3support
-dev-qt/qtopengl qt3support
-dev-qt/qtdeclarative qt3support
 
 # Required by net-news/quiterss
 dev-qt/qtwebkit icu
