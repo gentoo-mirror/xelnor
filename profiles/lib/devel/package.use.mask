@@ -4,4 +4,7 @@ sci-libs/gdal pdf
 # Don't use rsyslog
 www-servers/uwsgi uwsgi_plugins_rsyslog
 
+# Required by dev-vcs/git[subversion]
+dev-vcs/subversion dso
+
 # vim:set ft=gentoo-package-use:

@@ -1,25 +1,69 @@
 # Python versions
+# ===============
 dev-python/pypy ~amd64
+dev-lang/python ~amd64
+
+# Required for dev-lang/python-3.4.3-r7
+=dev-lang/python-exec-2.4.3 ~amd64
+
+# Required for dev-lang/python-exec-2.4.3
+=app-eselect/eselect-python-20160222 ~amd64
+
 
 # Python packaging
+# ================
 dev-python/pip ~amd64
 dev-python/wheel ~amd64
 dev-python/pew ~amd64
 dev-python/virtualenv ~amd64
+dev-python/setuptools ~amd64
 
-# Python development
-<dev-python/runsnakerun-3.0 ~amd64
+# Required by dev-python/pew-0.1.14::xelnor
+=dev-python/virtualenv-clone-0.2.6 ~amd64
+
+# Required by dev-python/pew-0.1.14::xelnor[python_targets_python2_7]
+=dev-python/backports-shutil-get-terminal-size-1.0.0 ~amd64
+
+# Required by dev-python/setuptools-24.0.2::gentoo
+=dev-python/certifi-2016.2.28 ~amd64
+
 
 # Development tools
+# =================
+
 <app-misc/nosier-2.0 ~amd64
 
+# Required by app-misc/nosier-1.1::xelnor
+=dev-python/inotifyx-0.2.2 ~amd64
+
+~dev-vcs/git-repo-1.22 ~amd64
+
+# Blue Development
+# ================
+~net-misc/rabbitmq-server-3.6.2 ~amd64
+
+
+# Javascript
+# ==========
+net-libs/nodejs ~amd64
+# required by net-libs/nodejs::gentoo
+dev-libs/libuv ~amd64
+
+
 # Java development (from local overlay)
+# =====================================
 <dev-java/gradle-bin-3.0 ~amd64
 <app-eselect/eselect-gradle-1.0 ~amd64
 
+
 # Android development
+# ===================
 dev-util/android-sdk-update-manager ~amd64
 dev-util/android-ndk ~amd64
+
+
+# Deps/conflicts
+# ==============
 
 # Work around uwsgi bug https://bugs.gentoo.org/show_bug.cgi?id=586606
 =www-servers/uwsgi-2.0.13.1-r1 ~amd64

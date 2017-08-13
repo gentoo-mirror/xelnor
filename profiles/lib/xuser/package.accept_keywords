@@ -1,6 +1,13 @@
+# Use modern adb
 <dev-util/android-tools-6 ~amd64
+
+# cantata is unstable
+~media-sound/cantata-2.0.1 ~amd64
 
 # Use latest trojita
 =mail-client/trojita-9999 **
+
+# Required by mail-client/trojita-20160723
+=dev-libs/mimetic-0.9.8 ~amd64
 
 # vim:set ft=gentoo-package-keywords:

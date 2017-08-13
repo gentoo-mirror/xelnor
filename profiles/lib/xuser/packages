@@ -18,7 +18,6 @@ x11-libs/libaosd
 x11-misc/dunst
 x11-misc/fbpager
 x11-misc/gmrun
-x11-misc/notify-osd
 x11-themes/claws-mail-themes
 x11-themes/fluxbox-styles-fluxmod
 x11-wm/fluxbox

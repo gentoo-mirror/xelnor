@@ -11,4 +11,7 @@ sys-block/parted device-mapper
 # Required by media-sound/ncmpcpp
 dev-libs/boost icu
 
+# Required by virtual/libusb[udev]
+dev-libs/libusb udev
+
 # vim:set ft=gentoo-package-use:

@@ -8,7 +8,6 @@ sys-apps/hdparm
 sys-apps/ifplugd
 sys-apps/sdparm
 sys-apps/usbutils
-sys-block/scsiadd
 sys-firmware/seabios
 sys-fs/ddrescue
 sys-fs/dosfstools

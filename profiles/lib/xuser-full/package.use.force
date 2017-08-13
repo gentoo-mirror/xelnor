@@ -7,4 +7,7 @@ net-nds/openldap sasl
 # Enable extra features in texlive
 app-text/texlive extra graphics luatex pstricks publishers science
 
+# Required by dev-texlive/luatex -> dev-texlive/xetex
+app-text/texlive-core xetex
+
 # vim:set ft=gentoo-package-use:

@@ -1,0 +1,5 @@
+net-misc/openssh
+dev-libs/openssl
+
+# 20161215 image is built against an older perl
+#=dev-lang/perl-5.22.2

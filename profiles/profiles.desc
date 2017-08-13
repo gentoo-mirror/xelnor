@@ -1,5 +1,6 @@
 #arch       profile_directory                status
-amd64       base                             dev
+#amd64       base                             dev
+amd64       amd64                           dev
 
 amd64       amd64/desktop                    dev
 amd64       amd64/laptop                     dev
@@ -10,6 +11,8 @@ amd64       amd64/dcserver                   dev
 amd64       amd64/storage                    dev
 
 amd64       hosts/anoth                      dev
+amd64       blocksolve/physical              dev
+amd64       blocksolve                       dev
 
 #amd64       lib/devel                        dev
 #amd64       lib/laptop                       dev

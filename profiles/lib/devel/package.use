@@ -29,12 +29,24 @@ sci-libs/gdal geos postgres sqlite
 dev-db/postgis geos proj
 
 
-
 # VCS
 # ===
 
 # Add git-svn/git-cvs
 dev-vcs/git cvs subversion
+
+# Required by git[subversion]
+dev-vcs/subversion perl
+
+
+# Virtualization
+# ==============
+
+# Needed for polydev intebox graphics
+app-emulation/qemu spice
+
+# Needed for polydev intebox network
+app-emulation/libvirt virt-network
 
 
 # Deps
@@ -43,10 +55,25 @@ dev-vcs/git cvs subversion
 # Required by android-ndk->android-sdk-update-manager
 sys-libs/zlib abi_x86_32
 
+# Required by dev-util/android-ndk
+sys-libs/ncurses abi_x86_32 tinfo
+
+# Required by dev-util/android-ndk->sys-libs/ncurses
+sys-libs/gpm abi_x86_32
+
 # Required by app-emulation/qemu
 media-libs/mesa gles2
 
 # Required by app-emulation/docker
 sys-libs/libseccomp static-libs
+
+# Required by dev-lang/pypy
+dev-libs/openssl -bindist
+
+# Required by dev-libs/openssl[-bindist] because uses [bindist=]
+net-misc/openssh -bindist
+
+# Required by app-emulation/libvirt[virt-network]
+net-dns/dnsmasq script
 
 # vim:set ft=gentoo-package-use:
