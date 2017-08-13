@@ -7,5 +7,5 @@ LICENSE=MIT
 RDEPEND=dev-libs/nss[utils] app-misc/ca-certificates
 SLOT=0
 SRC_URI=https://github.com/rbarrois/nss-systemcerts/tarball/nss-systemcerts-0.1.0 -> nss-systemcerts-0.1.0.tar.gz
-_eclasses_=vcs-snapshot	b45be87e7012be0af8424e8a5644da1d
+_eclasses_=vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
 _md5_=a02a90d367834e8138ebc9b24035d6c1
