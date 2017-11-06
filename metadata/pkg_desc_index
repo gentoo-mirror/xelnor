@@ -22,4 +22,5 @@ net-misc/socat-initd 0.1-r1: Init.d script for socat
 sys-kernel/xelnet-image 4.9.16: Compiled linux kernel
 sys-kernel/xelnet-kbuild 4.9.16: Compiled kernel object tree
 virtual/linux-kbuild 0: Virtual for Linux prebuilt kernel
+www-apps/crossix 2017.1.0: Django-based registration for crosstriangulaire.com.
 www-apps/xelpaste 3.0.1: Django-based pastebin with image support.
