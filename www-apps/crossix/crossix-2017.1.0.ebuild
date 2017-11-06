@@ -18,7 +18,8 @@ IUSE=""
 
 RDEPEND=">=dev-python/django-1.8.3[${PYTHON_USEDEP}]
 	>=dev-python/getconf-1.3.0[${PYTHON_USEDEP}]
-	>=dev-python/django-sendfile-0.3.9[${PYTHON_USEDEP}]"
+	>=dev-python/django-sendfile-0.3.9[${PYTHON_USEDEP}]
+	dev-python/markdown[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 
