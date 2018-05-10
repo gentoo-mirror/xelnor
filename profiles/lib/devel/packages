@@ -1,9 +1,8 @@
 app-emulation/docker
+app-emulation/docker-compose
 app-emulation/qemu
 app-misc/nosier
 app-text/sloccount
-dev-db/postgis
-dev-db/postgresql
 dev-lang/erlang
 dev-lang/ghc
 dev-lang/ocaml
@@ -20,12 +19,17 @@ dev-util/debootstrap
 dev-util/valgrind
 media-gfx/zbar
 net-libs/nodejs
-net-misc/rabbitmq-server
 sci-libs/gdal
 sci-visualization/gnuplot
 sys-devel/gdb
 virtual/jdk
 www-servers/uwsgi
+
+# Polydev
+dev-db/postgis
+dev-db/postgresql:9.6
+dev-db/redis
+net-misc/rabbitmq-server
 
 # Needed for polydev integration box
 sys-auth/nss-mdns

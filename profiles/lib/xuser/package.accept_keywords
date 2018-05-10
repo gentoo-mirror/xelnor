@@ -2,7 +2,10 @@
 <dev-util/android-tools-6 ~amd64
 
 # cantata is unstable
-~media-sound/cantata-2.0.1 ~amd64
+~media-sound/cantata-2.1.0 ~amd64
+
+# Use latest claws-mail
+~mail-client/claws-mail-3.16.0 ~amd64
 
 # Use latest trojita
 =mail-client/trojita-9999 **

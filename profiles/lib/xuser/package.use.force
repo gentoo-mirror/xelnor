@@ -7,6 +7,8 @@ sci-visualization/gnuplot qt4
 # Compositing
 x11-libs/libaosd xcomposite
 
+# Display MPD status in conky.
+app-admin/conky mpd
 
 # Use modern quiterss GUI
 net-news/quiterss qt5
@@ -22,7 +24,7 @@ dev-libs/qtkeychain qt5
 app-crypt/gpgme qt5
 
 # Required by app-text/qpdfview
-app-text/poppler qt4
+app-text/poppler qt5
 
 # required by www-client/chromium-54.0.2840.59::gentoo
 media-libs/libvpx svc

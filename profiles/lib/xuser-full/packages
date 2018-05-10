@@ -2,7 +2,6 @@ app-emulation/virtualbox-bin
 app-text/texlive
 dev-python/runsnakerun
 dev-tex/latex-beamer
-dev-tex/texmfind
 dev-util/gource
 dev-vcs/qgit
 media-gfx/gimp

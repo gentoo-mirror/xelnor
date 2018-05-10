@@ -118,7 +118,7 @@ EXPORT_FUNCTIONS pkg_setup
 
 # Overwritable environment Var's
 # ---------------------------------------
-KERNEL_DIR="${KERNEL_DIR:-${ROOT}usr/src/linux}"
+KERNEL_DIR="${KERNEL_DIR:-/usr/src/linux}"
 
 
 # Bug fixes
@@ -502,8 +502,12 @@ get_version() {
 
 	XELNET_KV_PVR=$(basename $(readlink --canonicalize "${KV_DIR}"))
 	XELNET_KBUILD_OUTPUT="${ROOT}usr/src/kbuild/${XELNET_KV_PVR}"
+	XELNET_ALT_KBUILD_OUTPUT="/usr/src/kbuild/${XELNET_KV_PVR}"
 	if [ -z "${OUTPUT_DIR}" -a -d "${XELNET_KBUILD_OUTPUT}" ]; then
 		OUTPUT_DIR="${XELNET_KBUILD_OUTPUT}"
+	fi
+	if [ -z "${OUTPUT_DIR}" -a -d "${XELNET_ALT_KBUILD_OUTPUT}" ]; then
+		OUTPUT_DIR="${ALT_XELNET_KBUILD_OUTPUT}"
 	fi
 
 	if [[ -z ${OUTPUT_DIR} ]]; then
