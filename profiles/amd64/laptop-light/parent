@@ -1,4 +1,4 @@
-../
+../multilib-no-hardened
 ../../lib/laptop
 ../../lib/physical
 ../../lib/xbase
