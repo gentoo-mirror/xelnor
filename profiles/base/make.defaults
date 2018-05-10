@@ -19,8 +19,8 @@ L10N="-* fr en en_GB en_US"
 VIDEO_CARDS="-*"
 
 # Python
-PYTHON_TARGETS="python2_7 python3_4"
-PYTHON_SINGLE_TARGET="-python2_7 python3_4"
+PYTHON_TARGETS="python2_7 python3_4 python3_6"
+PYTHON_SINGLE_TARGET="-python2_7"
 
 # Portage
 PORTAGE_ELOG_CLASSES="warn error log"
