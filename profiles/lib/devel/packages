@@ -1,4 +1,5 @@
 app-emulation/docker
+app-emulation/docker-compose
 app-emulation/qemu
 app-misc/nosier
 app-text/sloccount
