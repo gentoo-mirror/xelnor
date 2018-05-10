@@ -34,6 +34,9 @@ www-client/firefox dbus
 # Required by nss-systemcerts
 dev-libs/nss utils
 
+# Required by ffmpeg[x264]
+media-libs/x264 pic
+
 # Required by kde->media-libs/phonon[vlc]->media-libs/phonon-vlc
 # Required by kde-frameworks/knotificatons
 media-libs/phonon qt5
