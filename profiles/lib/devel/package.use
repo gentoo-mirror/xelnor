@@ -56,10 +56,7 @@ app-emulation/libvirt virt-network
 sys-libs/zlib abi_x86_32
 
 # Required by dev-util/android-ndk
-sys-libs/ncurses abi_x86_32 tinfo
-
-# Required by dev-util/android-ndk->sys-libs/ncurses
-sys-libs/gpm abi_x86_32
+sys-libs/ncurses tinfo
 
 # Required by app-emulation/qemu
 media-libs/mesa gles2

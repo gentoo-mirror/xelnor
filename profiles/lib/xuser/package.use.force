@@ -22,7 +22,7 @@ dev-libs/qtkeychain qt5
 app-crypt/gpgme qt5
 
 # Required by app-text/qpdfview
-app-text/poppler qt4
+app-text/poppler qt5
 
 # required by www-client/chromium-54.0.2840.59::gentoo
 media-libs/libvpx svc
