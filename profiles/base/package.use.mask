@@ -1,0 +1,4 @@
+# Disable glibc.sunrpc, causes fPIC issues
+sys-libs/glibc rpc
+
+# vim:set ft=gentoo-package-use:

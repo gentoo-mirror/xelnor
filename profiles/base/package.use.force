@@ -14,7 +14,6 @@ dev-python/pypy sqlite
 # Configure vim
 app-editors/vim vim-pager
 
-
 # Deps
 # ====
 
