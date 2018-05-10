@@ -1,4 +1,4 @@
-../
+../multilib-no-hardened
 ../../lib/cdvd
 ../../lib/devel
 ../../lib/physical
