@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile configure install unpack
+DEPEND=sys-kernel/gentoo-sources:4.9.76-r1 app-arch/cpio
+DESCRIPTION=Compiled kernel object tree
+EAPI=6
+HOMEPAGE=https://git.xelnor.net/
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RESTRICT=binchecks strip
+SLOT=0/4.9.76-r1
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	fa02994d0beba88681127d93da4411ec
+_md5_=570e3f156b3500a5b7a7876140991046
