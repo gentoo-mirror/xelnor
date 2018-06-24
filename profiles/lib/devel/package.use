@@ -45,6 +45,9 @@ dev-vcs/subversion perl
 # Needed for polydev intebox graphics
 app-emulation/qemu spice
 
+# Needed for arm docker execution
+app-emulation/qemu static-user
+
 # Needed for polydev intebox network
 app-emulation/libvirt virt-network
 
@@ -72,5 +75,11 @@ net-misc/openssh -bindist
 
 # Required by app-emulation/libvirt[virt-network]
 net-dns/dnsmasq script
+
+# Required by app-emulation/qemu[static-user]
+dev-libs/glib static-libs
+dev-libs/libpcre static-libs
+sys-apps/attr static-libs
+sys-libs/zlib static-libs
 
 # vim:set ft=gentoo-package-use:
