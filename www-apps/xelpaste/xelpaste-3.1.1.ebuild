@@ -24,7 +24,14 @@ RDEPEND=">=dev-python/django-2.0[${PYTHON_USEDEP}]
 	>=dev-python/django-sendfile-0.3.9[${PYTHON_USEDEP}]
 	>=dev-python/django-mptt-0.9.1[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	dev-python/setuptools[${PYTHON_USEDEP}]
+	net-libs/nodejs"
+
+python_prepare_all() {
+	emake update-js
+	emake build
+	distutils-r1_python_prepare_all
+}
 
 src_install() {
 	distutils-r1_src_install
