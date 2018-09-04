@@ -26,8 +26,12 @@ DEPEND="${RDEPEND}
 
 python_prepare_all() {
 	emake update-js
-	emake build
 	distutils-r1_python_prepare_all
+}
+
+python_compile() {
+	emake build
+	distutils-r1_python_compile
 }
 
 src_install() {
