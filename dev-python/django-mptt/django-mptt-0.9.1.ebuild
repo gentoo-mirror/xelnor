@@ -24,7 +24,3 @@ DEPEND="
 	${RDEPEND}
 	dev-python/setuptools
 "
-
-src_prepare() {
-	epatch "${FILESDIR}/exclude_tests.patch"
-}
