@@ -1,5 +1,5 @@
 # Additional use flags for claws-mail
-mail-client/claws-mail smime spell webkit xface
+mail-client/claws-mail smime spell webkit xface dillo
 
 # Add GUI to common packages
 sci-visualization/gnuplot qt4
@@ -28,5 +28,7 @@ app-text/poppler qt5
 
 # required by www-client/chromium-54.0.2840.59::gentoo
 media-libs/libvpx svc
+
+=app-office/libreoffice-bin-6.0.3.2 python_targets_python3_5
 
 # vim:set ft=gentoo-package-use:
