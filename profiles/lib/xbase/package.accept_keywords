@@ -2,4 +2,4 @@
 app-misc/nss-systemcerts ~amd64
 
 # phototonic isn't stable yet
-=media-gfx/phototonic-1.6.17 ~amd64
+=media-gfx/phototonic-2.1 ~amd64
