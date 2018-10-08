@@ -1,5 +1,5 @@
 # Additional use flags for claws-mail
-mail-client/claws-mail smime spell webkit xface
+mail-client/claws-mail smime spell webkit xface dillo
 
 # Add GUI to common packages
 sci-visualization/gnuplot qt4
