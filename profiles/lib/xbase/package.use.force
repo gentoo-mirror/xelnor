@@ -27,6 +27,8 @@ media-sound/pulseaudio dbus
 net-print/cups dbus
 www-client/firefox dbus
 
+# Faster compilation for chromium
+www-client/chromium jumbo-build
 
 # Deps
 # ====
