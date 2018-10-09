@@ -14,7 +14,6 @@ dev-python/pip
 dev-python/psycopg
 dev-python/pychecker
 dev-python/pypy
-dev-util/android-ndk
 dev-util/debootstrap
 dev-util/valgrind
 media-gfx/zbar

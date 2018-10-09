@@ -58,12 +58,6 @@ dev-libs/libuv ~amd64
 <app-eselect/eselect-gradle-1.0 ~amd64
 
 
-# Android development
-# ===================
-dev-util/android-sdk-update-manager ~amd64
-dev-util/android-ndk ~amd64
-
-
 # Deps/conflicts
 # ==============
 

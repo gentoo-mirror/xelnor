@@ -55,12 +55,6 @@ app-emulation/libvirt virt-network
 # Deps
 # ====
 
-# Required by android-ndk->android-sdk-update-manager
-sys-libs/zlib abi_x86_32
-
-# Required by dev-util/android-ndk
-sys-libs/ncurses tinfo
-
 # Required by app-emulation/qemu
 media-libs/mesa gles2
 
