@@ -13,8 +13,9 @@ USE="${USE} vim-syntax zsh-completion"
 USE="${USE} syslog"
 
 # Languages
+# https://wiki.gentoo.org/wiki/Localization/Guide#LINGUAS for syntax
 LINGUAS="-* fr en en_GB en_US"
-L10N="-* fr en en_GB en_US"
+L10N="-* fr en en-GB en-US"
 
 VIDEO_CARDS="-*"
 
