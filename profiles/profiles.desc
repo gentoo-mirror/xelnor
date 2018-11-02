@@ -11,6 +11,7 @@ amd64       amd64/dcserver                   dev
 amd64       amd64/storage                    dev
 
 amd64       hosts/anoth                      dev
+amd64       hosts/danuta                     dev
 amd64       hosts/nkllon                     dev
 amd64       blocksolve/amd64/physical        dev
 amd64       blocksolve/amd64                 dev
