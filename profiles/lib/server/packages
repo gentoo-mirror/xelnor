@@ -2,4 +2,5 @@ app-crypt/mit-krb5
 #app-crypt/mit-krb5-repl
 app-emulation/docker
 mail-mta/postfix
+net-analyzer/nrpe
 net-vpn/strongswan
