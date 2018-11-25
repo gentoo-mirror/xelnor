@@ -1,0 +1,22 @@
+# Languages
+# =========
+
+# Enable pl/python
+dev-db/postgresql python
+
+# uwsgi needs some frontend
+www-servers/uwsgi python
+
+
+# GIS
+# ===
+
+# that's gdal/geos, for DBs & code
+
+# Enable python bindings
+sci-libs/geos python
+# Add gdal/geos support for databases
+sci-libs/gdal geos postgres sqlite
+dev-db/postgis geos proj
+
+# vim:set ft=gentoo-package-use:

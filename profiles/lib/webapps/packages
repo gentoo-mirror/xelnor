@@ -1,0 +1,6 @@
+sci-libs/gdal
+www-servers/uwsgi
+
+dev-db/redis
+dev-db/postgis
+dev-db/postgresql
