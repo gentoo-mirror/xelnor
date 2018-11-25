@@ -10,6 +10,7 @@ amd64       amd64/router                     dev
 amd64       amd64/dcserver                   dev
 amd64       amd64/storage                    dev
 
+amd64       hosts/anaxes                     dev
 amd64       hosts/anoth                      dev
 amd64       hosts/carida                     dev
 amd64       hosts/nkllon                     dev
