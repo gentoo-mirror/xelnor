@@ -14,4 +14,7 @@ dev-libs/boost icu
 # Required by virtual/libusb[udev]
 dev-libs/libusb udev
 
+# Required by sys-boot/os-prober
+sys-boot/grub:2 mount
+
 # vim:set ft=gentoo-package-use:

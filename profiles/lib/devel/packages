@@ -14,21 +14,15 @@ dev-python/pip
 dev-python/psycopg
 dev-python/pychecker
 dev-python/pypy
-dev-util/android-ndk
 dev-util/debootstrap
 dev-util/valgrind
 media-gfx/zbar
 net-libs/nodejs
-sci-libs/gdal
 sci-visualization/gnuplot
 sys-devel/gdb
 virtual/jdk
-www-servers/uwsgi
 
 # Polydev
-dev-db/postgis
-dev-db/postgresql:9.6
-dev-db/redis
 net-misc/rabbitmq-server
 
 # Needed for polydev integration box

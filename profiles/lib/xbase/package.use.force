@@ -17,16 +17,14 @@ x11-terms/rxvt-unicode xft
 media-video/mpv bluray cdio
 media-video/vlc cddb vlm
 
-# Enable spell helpers
-net-libs/webkit-gtk spell
-kde-base/kdelibs spell
-
 # Enable dbus for select packages
 lxde-base/lxappearance dbus
 media-sound/pulseaudio dbus
 net-print/cups dbus
 www-client/firefox dbus
 
+# Faster compilation for chromium
+www-client/chromium jumbo-build
 
 # Deps
 # ====

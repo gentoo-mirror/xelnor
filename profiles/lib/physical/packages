@@ -12,6 +12,7 @@ sys-apps/lshw
 sys-apps/sdparm
 sys-apps/usbutils
 sys-boot/grub:2
+sys-boot/os-prober
 sys-firmware/seabios
 sys-fs/ddrescue
 sys-fs/dosfstools

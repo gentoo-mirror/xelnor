@@ -1,0 +1,4 @@
+# No need for multilib X11 UI.
+x11-drivers/nvidia-drivers abi_x86_32 multilib
+
+# vim:set ft=gentoo-package-use:

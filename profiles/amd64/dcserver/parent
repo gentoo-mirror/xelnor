@@ -1,2 +1,3 @@
 ../hardened-no-multilib
+../../lib/datacenter
 ../../lib/server
