@@ -3,4 +3,5 @@ app-crypt/mit-krb5
 app-emulation/docker
 mail-mta/postfix
 net-analyzer/nrpe
+net-analyzer/nagios-xelnet-plugins
 net-vpn/strongswan
