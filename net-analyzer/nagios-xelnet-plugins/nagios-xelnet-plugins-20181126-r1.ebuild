@@ -29,7 +29,7 @@ src_compile() {
 }
 
 src_install() {
-	insinto /usr/$(get_libdir)/nagios/plugins/xelnet
-	doins "check_postgres.pl"
-	doins "check_drbd9.pl"
+	exeinto /usr/$(get_libdir)/nagios/plugins/xelnet
+	doexe "check_postgres.pl"
+	doexe "check_drbd9.pl"
 }
