@@ -26,6 +26,7 @@ src_unpack() {
 
 src_compile() {
 	cp $(find "${WORKDIR}/" -name "check_*.pl" -type f) "${WORKDIR}/${P}"
+	sed -i 's!/usr/sbin/drbd!/sbin/drbd!' "${WORKDIR}/${P}/check_drbd9.pl"
 }
 
 src_install() {
