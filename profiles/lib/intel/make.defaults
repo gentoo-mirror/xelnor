@@ -1,0 +1,2 @@
+# Intel graphics
+VIDEO_CARDS="${VIDEO_CARDS} intel"

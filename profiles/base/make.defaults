@@ -17,6 +17,8 @@ USE="${USE} syslog"
 LINGUAS="-* fr en en_GB en_US"
 L10N="-* fr en en-GB en-US"
 
+# Reset common sets
+LCD_DEVICES="-*"
 VIDEO_CARDS="-*"
 
 # Python
