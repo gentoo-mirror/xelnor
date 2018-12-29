@@ -43,11 +43,6 @@ dev-python/setuptools ~amd64
 
 # Javascript
 # ==========
-net-libs/nodejs ~amd64
-# required by net-libs/nodejs::gentoo
-dev-libs/libuv ~amd64
-~net-libs/http-parser-2.7.1 ~amd64
-~net-libs/nghttp2-1.30.0 ~amd64
 
 
 

@@ -5,7 +5,7 @@
 ~media-sound/cantata-2.3.2 ~amd64
 
 # Use latest claws-mail
-~mail-client/claws-mail-3.17.1 ~amd64
+~mail-client/claws-mail-3.17.3 ~amd64
 
 # Use latest trojita
 =mail-client/trojita-9999 **
