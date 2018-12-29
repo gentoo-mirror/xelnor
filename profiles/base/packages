@@ -21,7 +21,9 @@ app-editors/vim
 app-misc/colordiff
 app-misc/screen
 app-misc/tmux
+app-shells/gentoo-zsh-completions
 app-shells/zsh
+app-shells/zsh-completions
 app-text/tree
 dev-lang/python
 dev-vcs/git
