@@ -1,0 +1,4 @@
+# Disable ipv6 in dhcpcd - we use the kernel RA stack.
+net-misc/dhcpcd ipv6
+
+# vim:set ft=gentoo-package-use:
