@@ -1,11 +1,9 @@
 app-admin/conky
 app-office/libreoffice-bin
-app-text/qpdfview
 dev-util/android-tools
 mail-client/claws-mail
 mail-client/clawsker
 mail-client/trojita
-media-gfx/scrot
 media-sound/cantata
 net-analyzer/wireshark
 net-irc/hexchat

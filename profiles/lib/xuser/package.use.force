@@ -23,9 +23,6 @@ dev-libs/qtkeychain qt5
 # required by mail-client/trojita-9999::gentoo[crypt]
 app-crypt/gpgme qt5
 
-# Required by app-text/qpdfview
-app-text/poppler qt5
-
 # required by www-client/chromium-54.0.2840.59::gentoo
 media-libs/libvpx svc
 
