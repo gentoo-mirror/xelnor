@@ -15,6 +15,7 @@ amd64       hosts/anoth                      dev
 amd64       hosts/carida                     dev
 amd64       hosts/corvis                     dev
 amd64       hosts/nkllon                     dev
+amd64       hosts/ryloth                     dev
 amd64       blocksolve/amd64/physical        dev
 amd64       blocksolve/amd64                 dev
 arm         blocksolve/armv6j                dev
