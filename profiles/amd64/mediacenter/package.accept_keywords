@@ -4,3 +4,6 @@
 ~dev-python/jellyfish-0.5.6 ~amd64
 # required by media-sound/beets-1.4.7::gentoo
 ~dev-python/munkres-1.0.12 ~amd64
+
+# required by media-sound/beets-1.4.7::gentoo[discogs]
+~dev-python/discogs-client-2.2.1 ~amd64
