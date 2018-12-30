@@ -26,6 +26,10 @@ www-client/firefox dbus
 # Faster compilation for chromium
 www-client/chromium jumbo-build
 
+# Enable kerberos on chromium, all instances.
+# Allows to share tbz2 between xfull & xbase hosts
+www-client/chromium kerberos
+
 # Deps
 # ====
 
