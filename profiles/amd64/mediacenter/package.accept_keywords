@@ -7,3 +7,7 @@
 
 # required by media-sound/beets-1.4.7::gentoo[discogs]
 ~dev-python/discogs-client-2.2.1 ~amd64
+
+# No stable version
+app-misc/inputexec
+media-sound/mpdlcd
