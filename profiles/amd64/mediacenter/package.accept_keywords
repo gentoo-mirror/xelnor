@@ -9,5 +9,8 @@
 ~dev-python/discogs-client-2.2.1 ~amd64
 
 # No stable version
-app-misc/inputexec
-app-misc/mpdlcd
+app-misc/inputexec ~amd64
+app-misc/mpdlcd ~amd64
+
+# requied by app-misc/inputexec-0.2.3::xelnor
+~dev-python/evdev-0.4.0 ~amd64
