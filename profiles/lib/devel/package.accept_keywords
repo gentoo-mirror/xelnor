@@ -12,11 +12,8 @@ dev-lang/python ~amd64
 
 # Python packaging
 # ================
-dev-python/pip ~amd64
-dev-python/wheel ~amd64
-dev-python/pew ~amd64
-dev-python/virtualenv ~amd64
-dev-python/setuptools ~amd64
+~dev-python/pip-10.0.1 ~amd64
+~dev-python/pew-1.1.1 ~amd64
 
 # required by dev-python/pew-1.1.1::gentoo
 ~dev-python/resumable-urlretrieve-0.1.5 ~amd64
