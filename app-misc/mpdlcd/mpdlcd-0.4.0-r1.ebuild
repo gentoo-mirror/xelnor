@@ -26,7 +26,7 @@ DOCS="README.rst"
 src_install() {
 	distutils-r1_src_install
 
-	doinitd initd/${PN}
+	newinitd initd/${PN}.gentoo ${PN}
 
 	doman man/*
 
