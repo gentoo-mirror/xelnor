@@ -13,4 +13,8 @@ media-video/lsdvd
 www-client/chromium
 www-client/firefox
 www-plugins/adobe-flash
+
 x11-wm/fluxbox
+
+# For notifications (no default in fluxbox)
+x11-misc/dunst
