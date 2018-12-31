@@ -21,7 +21,7 @@ RDEPEND="dev-python/lcdproc[${PYTHON_USEDEP}]
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 
-DOCS="README"
+DOCS="README.rst"
 
 src_install() {
 	distutils-r1_src_install
