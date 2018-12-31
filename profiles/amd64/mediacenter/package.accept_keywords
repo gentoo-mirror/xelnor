@@ -8,6 +8,12 @@
 # required by media-sound/beets-1.4.7::gentoo[discogs]
 ~dev-python/discogs-client-2.2.1 ~amd64
 
+# required by media-sound/beets-1.4.7::gentoo[chromaprint]
+~dev-python/pyacoustid-1.1.5 ~amd64
+# required by dev-python/pyacoustid-1.1.5::gentoo
+~dev-python/audioread-1.0.1 ~amd64
+
+
 # No stable version
 app-misc/inputexec ~amd64
 app-misc/mpdlcd ~amd64
