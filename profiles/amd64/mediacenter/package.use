@@ -1,6 +1,4 @@
 media-sound/beets chromaprint discogs lastfm replaygain
 
-media-sound/pulseaudio system-wide
-
 # required by media-sound/beets-1.4.7::gentoo[chromaprint]
 media-libs/chromaprint tools
