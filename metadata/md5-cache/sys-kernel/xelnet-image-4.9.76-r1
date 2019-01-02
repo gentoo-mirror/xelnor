@@ -1,10 +1,10 @@
 DEFINED_PHASES=compile install unpack
-DEPEND=sys-kernel/xelnet-kbuild:0/4.9.16 =sys-kernel/gentoo-sources-4.9.16 sys-apps/debianutils
+DEPEND=sys-kernel/xelnet-kbuild:0/4.9.76-r1 =sys-kernel/gentoo-sources-4.9.76-r1 sys-apps/debianutils
 DESCRIPTION=Compiled linux kernel
 EAPI=6
 HOMEPAGE=https://git.xelnor.net/
 KEYWORDS=~amd64
 LICENSE=GPL-2
-SLOT=0/4.9.16
+SLOT=0/4.9.76-r1
 _eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
-_md5_=3e5530a57dac50525059892f4fa26dec
+_md5_=8a1ed1a1797fab4a3b9b95db21faa880
