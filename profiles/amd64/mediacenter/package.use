@@ -1,4 +1,7 @@
 media-sound/beets chromaprint discogs lastfm replaygain
 
+# required by media-sound/beets-1.4.7::gentoo[replaygain]
+~media-sound/beets-1.4.7 gstreamer
+
 # required by media-sound/beets-1.4.7::gentoo[chromaprint]
 media-libs/chromaprint tools
