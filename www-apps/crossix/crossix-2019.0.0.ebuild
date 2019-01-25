@@ -3,7 +3,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_4 )
+PYTHON_COMPAT=( python3_6 )
 
 inherit distutils-r1
 
@@ -16,12 +16,23 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-RDEPEND=">=dev-python/django-1.8.3[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/django-2.1[${PYTHON_USEDEP}]
 	>=dev-python/getconf-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/django-sendfile-0.3.9[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	dev-python/setuptools[${PYTHON_USEDEP}]
+	net-libs/nodejs"
+
+python_prepare_all() {
+	emake update-js
+	distutils-r1_python_prepare_all
+}
+
+python_compile() {
+	emake build
+	distutils-r1_python_compile
+}
 
 src_install() {
 	distutils-r1_src_install
