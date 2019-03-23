@@ -73,7 +73,7 @@ sys-process/lsof
 # Diagnostic - net
 net-analyzer/macchanger
 net-analyzer/mtr
-net-analyzer/netcat6
+net-analyzer/netcat
 net-analyzer/nettop
 net-analyzer/nmap
 net-analyzer/tcpdump
