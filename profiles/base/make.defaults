@@ -30,4 +30,12 @@ PORTAGE_ELOG_CLASSES="warn error log"
 PORTAGE_ELOG_SYSTEM="save echo"
 
 # Licences
-ACCEPT_LICENSE="@FREE dlj-1.1 skype-4.0.0.7-copyright skype-eula PUEL AdobeFlash-10.1 AdobeFlash-11.x Google-TOS Oracle-BCLA-JavaSE"
+ACCEPT_LICENSE="@FREE CC-BY-NC-SA-3.0 CC-BY-ND-3.0 freedist"
+# Corporate
+ACCEPT_LICENSE="${ACCEPT_LICENSE} unRAR NVIDIA-r2 linux-firmware MPEG-4 dlj-1.1 PUEL Google-TOS Oracle-BCLA-JavaSE"
+# Fonts
+ACCEPT_LICENSE="${ACCEPT_LICENSE} BitstreamCyberbit MSttfEULA grass-ipafonts bh-luxi"
+# Misc - media-fonts/tengwar-fonts::gentoo
+ACCEPT_LICENSE="${ACCEPT_LICENSE} free-noncomm"
+# Misc - x11-themes/claws-mail-themes-20140629::gentoo
+ACCEPT_LICENSE="${ACCEPT_LICENSE} all-rights-reserved"
