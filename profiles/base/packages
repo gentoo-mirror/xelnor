@@ -44,6 +44,7 @@ sys-apps/pv
 # Shell - network
 net-ftp/lftp
 net-dns/bind-tools
+net-misc/iperf
 net-misc/netkit-telnetd
 net-misc/socat
 net-misc/stunnel
