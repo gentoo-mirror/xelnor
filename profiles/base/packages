@@ -39,6 +39,7 @@ app-text/convmv
 app-crypt/mit-krb5-appl
 media-gfx/imagemagick
 media-gfx/exif
+sys-apps/miscfiles
 sys-apps/pv
 
 # Shell - network
