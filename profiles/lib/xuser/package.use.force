@@ -28,4 +28,11 @@ media-libs/libvpx svc
 
 =app-office/libreoffice-bin-6.0.3.2 python_targets_python3_5
 
+# Enable dbus for select packages
+net-print/cups dbus
+
+# required by x11-libs/gtk+-3.22.16::gentoo[cups]
+# required by net-print/cups-2.1.4::gentoo[X]
+app-text/xmlto text
+
 # vim:set ft=gentoo-package-use:

@@ -10,9 +10,6 @@ USE="${USE} wxwidgets"
 # Desktop-related: loading animation, ...
 USE="${USE} startup-notification"
 
-# Printing
-USE="${USE} cups ppds"
-
 # Fonts / rendering
 USE="${USE} cairo fontconfig lcms pango truetype"
 
