@@ -19,4 +19,7 @@ sci-libs/geos python
 sci-libs/gdal geos postgres sqlite
 dev-db/postgis geos proj
 
+# required by sci-libs/gdal
+sys-libs/zlib minizip
+
 # vim:set ft=gentoo-package-use:
