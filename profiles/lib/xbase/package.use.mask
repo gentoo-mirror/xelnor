@@ -1,6 +1,3 @@
-# Only the printer gateways need cups-usb
-net-print/cups usb
-
 # We don't want policykit
 kde-frameworks/kauth policykit
 kde-base/kdelibs policykit upower

@@ -1,2 +1,5 @@
+# Printing
+USE="${USE} cups ppds"
+
 # Add spelling suggestions
 USE="${USE} spell"

@@ -1,3 +1,6 @@
+# Only the printer gateways need cups-usb
+net-print/cups usb
+
 # Disable notifications for claws-mail
 mail-client/claws-mail libcanberra libindicate libnotify notification
 
