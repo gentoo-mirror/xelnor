@@ -1,20 +1,22 @@
+# Remote control
 app-misc/inputexec
 app-misc/lcdproc
 app-misc/lirc
 app-misc/mpdlcd
-app-text/qpdfview
-media-gfx/feh
-media-sound/ario
+
+# music library
 media-sound/beets
 media-sound/cantata
 media-sound/normalize
 media-sound/vorbis-tools
-media-video/lsdvd
-www-client/chromium
-www-client/firefox
-www-plugins/adobe-flash
 
+# X Display
+media-gfx/feh
 x11-wm/fluxbox
 
 # For notifications (no default in fluxbox)
 x11-misc/dunst
+
+# X applications
+app-text/qpdfview
+www-client/firefox
