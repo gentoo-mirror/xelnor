@@ -2,3 +2,7 @@ media-sound/beets badfiles chromaprint discogs icu replaygain thumbnail
 
 # required by media-sound/beets-1.4.8::gentoo[chromaprint]
 media-libs/chromaprint tools
+
+# required by media-sound/beets-1.4.8-r1::gentoo[icu]
+dev-db/sqlite icu
+
