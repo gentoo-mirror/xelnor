@@ -28,19 +28,26 @@ app-text/tree
 dev-lang/python
 dev-vcs/git
 mail-client/mailx
+sys-apps/ed
 virtual/ssh
 
 # Shell - extra
 app-admin/pwgen
+app-arch/p7zip
 app-arch/unrar
 app-arch/unzip
 app-misc/uconf
 app-text/convmv
+app-text/recode
 app-crypt/mit-krb5-appl
 media-gfx/imagemagick
 media-gfx/exif
 sys-apps/miscfiles
 sys-apps/pv
+
+# Shell - scripting
+dev-python/pytz
+virtual/python-typing
 
 # Shell - network
 net-ftp/lftp
