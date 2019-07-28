@@ -44,6 +44,7 @@ x11-misc/x2x
 x11-misc/xautolock
 x11-misc/xcompmgr
 x11-misc/xdotool
+x11-misc/xdg-utils
 x11-misc/xlockmore
 x11-misc/xscreensaver
 x11-terms/rxvt-unicode
