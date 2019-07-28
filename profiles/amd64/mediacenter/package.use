@@ -1,7 +1,4 @@
-media-sound/beets badfiles chromaprint discogs replaygain thumbnail
+media-sound/beets badfiles chromaprint discogs icu replaygain thumbnail
 
-# required by media-sound/beets-1.4.7::gentoo[replaygain]
-~media-sound/beets-1.4.7 gstreamer
-
-# required by media-sound/beets-1.4.7::gentoo[chromaprint]
+# required by media-sound/beets-1.4.8::gentoo[chromaprint]
 media-libs/chromaprint tools

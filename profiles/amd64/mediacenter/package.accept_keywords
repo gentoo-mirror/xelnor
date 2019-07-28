@@ -13,6 +13,9 @@
 # required by dev-python/pyacoustid-1.1.5::gentoo
 ~dev-python/audioread-1.0.1 ~amd64
 
+# required by media-sound/beets-1.4.8-r1::gentoo[badfiles]
+~media-sound/mp3val-0.1.8 ~amd64
+
 
 # No stable version
 app-misc/inputexec ~amd64
