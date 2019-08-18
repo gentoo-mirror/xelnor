@@ -1,6 +1,6 @@
 # Python versions
 # ===============
-dev-python/pypy ~amd64
+dev-python/pypy3 ~amd64
 dev-lang/python ~amd64
 
 # Required for dev-lang/python-3.4.3-r7

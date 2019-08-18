@@ -13,7 +13,7 @@ dev-python/pew
 dev-python/pip
 dev-python/psycopg
 dev-python/pychecker
-dev-python/pypy
+dev-python/pypy3
 dev-util/debootstrap
 dev-util/valgrind
 media-gfx/zbar

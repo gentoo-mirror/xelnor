@@ -44,7 +44,7 @@ media-libs/mesa gles2
 # Required by app-emulation/docker
 sys-libs/libseccomp static-libs
 
-# Required by dev-lang/pypy
+# Required by dev-lang/pypy3
 dev-libs/openssl -bindist
 
 # Required by dev-libs/openssl[-bindist] because uses [bindist=]
