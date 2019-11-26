@@ -1,14 +1,11 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
-DESCRIPTION="Virtual for Linux prebuilt kernel"
+DESCRIPTION="Prepared kernel sources, suitable for out-of-tree modules"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="+linux-handbuild"
 
-DEPEND="
-	|| (
-		sys-kernel/xelnet-kbuild
-	)"
+DEPEND="!linux-handbuild? ( sys-kernel/xelnet-kbuild )"

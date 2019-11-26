@@ -1,0 +1,14 @@
+# required by sys-kernel/xelnet-kbuild
+dev-util/kconfgen
+
+sys-kernel/xelnet-linuxconfig
+sys-kernel/xelnet-kbuild
+sys-kernel/xelnet-image
+
+# Dpeendencies
+# ============
+
+# required by dev-util/kconfgen-1.0.1::xelnor
+~dev-python/kconfiglib-12.12.1
+# required by dev-util/kconfgen-1.0.1::xelnor
+~dev-python/toml-0.10.0

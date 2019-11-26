@@ -10,7 +10,8 @@ assumptions on the way a user's kernel is managed:
 * The kernel sources are installed at ``KERNEL_DIR``, default: ``/usr/src/linux``
 * A ``.config`` file is available in ``KBUILD_OUTPUT``, default: ``KERNEL_DIR``
 * For out-of-tree modules (e.g nvidia-drivers, virtualbox-modules, etc.), the tree at
-  ``KBUILD_OUTPUT`` has already gone through ``make modules_prepare``
+  ``KBUILD_OUTPUT`` has already gone through ``make modules_prepare``.
+  For proper module building, a ``Module.symvers`` file is required.
 
 
 Goals
@@ -23,7 +24,7 @@ This means that:
 
 * The package satisfying ``virtual/linux-source`` should be installed on the compiling
   host
-* A secondary, ``DEPEND``-only ebuild should handle preparing ``KBUILD_OUTPUT`` for
+* A secondary, ``BDEPEND``-only ebuild should handle preparing ``KBUILD_OUTPUT`` for
   ``linux-info`` and ``linux-mod``-based ebuilds
 * Only the in-tree modules and final kernel should be installed to the target system
 
@@ -31,19 +32,26 @@ This means that:
 Implementation
 --------------
 
-The stack is split into two ebuilds:
+The stack is split into a few ebuilds ebuilds:
+
+``sys-kernel/xelnet-linuxconfig``
+    This ebuild handlers:
+
+    * Fetching the XelNet defconfig files
+    * Selecting a subset of those defconfig files (based on ``ARCH`` and ``USE`` flags)
+    * Assembling a Linux ``defconfig`` file
 
 ``sys-kernel/xelnet-kbuild``
     This ebuild handles:
 
-    * Writing down the ``.config`` file
-    * Preparing the modules
-    * Saving the resulting minimal kernel tree to ``/usr/src/kbuild/${KV}``
+    * Writing down the ``.config`` file from the ``sys-kernel/xelnet-linuxconfig`` generated defconfig
+    * Building the modules and image
+    * Archiving the resulting kernel tree to ``/usr/src/kbuild/${KV}``
 
 ``sys-kernel/xelnet-image``
     This ebuild handles:
 
-    * Compiling and installing the modules, vmlinux, bzImage
+    * Installing the modules, vmlinux, bzImage
       based on ``/usr/src/kbuild/${KV}``
 
 
