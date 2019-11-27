@@ -1,4 +1,5 @@
 app-backup/borgmatic 1.3.12: Simple, configuration-driven backup software for servers and workstations
+app-crypt/luxtrust-middleware 1.2.1: LuxTrust middleware
 app-crypt/mit-krb5-repl 0.1: Replication tools for mit-krb5
 app-misc/mpdlcd 0.5.1 0.5.2: Display MPD status on a lcdproc server
 app-misc/nosier 1.1: Monitor paths and call a user-defined command when changes occur
