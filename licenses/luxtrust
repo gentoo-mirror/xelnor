@@ -1,0 +1,8 @@
+# Source: https://www.luxtrust.lu/en/article/672
+
+The enclosed middleware is provided as obtained from our software provider (Gemalto) under the following license terms (cf. https://www.luxtrust.lu/downloads/middleware/eula.pdf). LuxTrust does not perform any test on or validation of the middleware for unsupported platforms (OpenSuse, Debian, Fedora). For these platforms, the user is solely liable for testing and validating the middleware. LuxTrust does not provide any guarantees as to the absence of bugs, flaws or vulnerabilities nor concerning performances, compatibility or fitness for a particular purpose.
+
+By downloading or using this middleware, the user:
+(i) accepts to comply with applicable license terms,
+(ii) acknowledges being informed of this middleware’s technical characteristics and limitations and declares considering them appropriate and acceptable with respect to its intended use, and
+(iii) agrees to be solely responsible for all direct or indirect consequences of such use. LuxTrust cannot be held liable for any related damage.
