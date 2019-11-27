@@ -4,3 +4,5 @@
 INPUT_DEVICES="evdev keyboard mouse"
 
 SANE_BACKENDS="-*"
+
+ACCEPT_LICENSE="${ACCEPT_LICENSE} luxtrust"
