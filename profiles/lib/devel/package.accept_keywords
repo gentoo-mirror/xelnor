@@ -27,6 +27,8 @@ dev-lang/python ~amd64
 # Development tools
 # =================
 
+<dev-python/awscli-2.0 ~amd64
+
 <app-misc/nosier-2.0 ~amd64
 
 # Required by app-misc/nosier-1.1::xelnor
@@ -68,6 +70,10 @@ dev-lang/python ~amd64
 
 # Work around json-c conflict with media-sound/pulseaudio
 ~dev-db/postgis-2.2.2 ~amd64
+
+# required by dev-python/awscli-1.16.283::gentoo
+~dev-python/botocore-1.13.19 ~amd64
+
 
 
 # vim:set ft=gentoo-package-keywords:

@@ -22,6 +22,8 @@ sci-visualization/gnuplot
 sys-devel/gdb
 virtual/jdk
 
+dev-python/awscli
+
 # Polydev
 net-misc/rabbitmq-server
 
