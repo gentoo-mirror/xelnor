@@ -34,6 +34,15 @@ dev-lang/python ~amd64
 
 ~dev-vcs/git-repo-1.22 ~amd64
 
+
+# NFC/RFID
+# ========
+~sys-apps/pcsc-tools-1.5.3 ~amd64
+
+# required by sys-apps/pcsc-tools-1.5.3::gentoo
+~dev-perl/pcsc-perl-1.4.14 ~amd64
+
+
 # Blue Development
 # ================
 ~net-misc/rabbitmq-server-3.6.2 ~amd64

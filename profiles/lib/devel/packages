@@ -30,3 +30,8 @@ sys-auth/nss-mdns
 
 # Used by polydev release process
 dev-vcs/git-repo
+
+# RFID/NFC
+sys-apps/pcsc-lite
+sys-apps/pcsc-tools
+app-crypt/ccid
