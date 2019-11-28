@@ -1,0 +1,3 @@
+sys-kernel/gentoo-sources symlink
+sys-kernel/xelnet-image grub
+virtual/linux-kbuild -linux-handbuild

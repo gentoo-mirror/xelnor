@@ -7,7 +7,7 @@ media-sound/pamix
 net-misc/dhcpcd
 sys-apps/hdparm
 sys-apps/ifplugd
-sys-apps/lm_sensors
+sys-apps/lm-sensors
 sys-apps/lshw
 sys-apps/sdparm
 sys-apps/usbutils

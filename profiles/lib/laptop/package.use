@@ -1,4 +1,6 @@
 # Display wifi status in conky, if installed
 app-admin/conky wifi
 
+sys-kernel/xelnet-linuxconfig laptop multimedia
+
 # vim:set ft=gentoo-package-use:

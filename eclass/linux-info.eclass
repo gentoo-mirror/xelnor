@@ -111,11 +111,7 @@ inherit toolchain-funcs
 
 EXPORT_FUNCTIONS pkg_setup
 
-IUSE="kernel-autobuild kernel_linux"
-DEPEND="kernel-autobuild? (
-	virtual/linux-kbuild
-)"
-
+IUSE="kernel_linux"
 
 # Overwritable environment Var's
 # ---------------------------------------
@@ -524,8 +520,8 @@ get_version() {
 	KERNEL_MAKEFILE="${KV_DIR}/Makefile"
 
 	XELNET_KV_PVR=$(basename $(readlink --canonicalize "${KV_DIR}"))
-	XELNET_KBUILD_OUTPUT="${ROOT}usr/src/kbuild/${XELNET_KV_PVR}"
-	XELNET_ALT_KBUILD_OUTPUT="/usr/src/kbuild/${XELNET_KV_PVR}"
+	XELNET_KBUILD_OUTPUT="${ROOT%/}/usr/src/kbuild/linux"
+	XELNET_ALT_KBUILD_OUTPUT="/usr/src/kbuild/linux"
 	if [ -z "${OUTPUT_DIR}" -a -d "${XELNET_KBUILD_OUTPUT}" ]; then
 		OUTPUT_DIR="${XELNET_KBUILD_OUTPUT}"
 	fi

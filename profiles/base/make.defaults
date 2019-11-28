@@ -39,3 +39,5 @@ ACCEPT_LICENSE="${ACCEPT_LICENSE} BitstreamCyberbit MSttfEULA grass-ipafonts bh-
 ACCEPT_LICENSE="${ACCEPT_LICENSE} free-noncomm"
 # Misc - x11-themes/claws-mail-themes-20140629::gentoo
 ACCEPT_LICENSE="${ACCEPT_LICENSE} all-rights-reserved"
+# Kernel - sys-kernel/linux-firmware
+ACCEPT_LICENSE="${ACCEPT_LICENSE} no-source-code"

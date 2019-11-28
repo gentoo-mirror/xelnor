@@ -1,5 +1,5 @@
 # Add GUI to common packages
-media-gfx/graphviz qt4
+media-gfx/graphviz qt5
 
 # Use SASL with LDAP
 net-nds/openldap sasl

@@ -1,7 +1,8 @@
 DEFINED_PHASES=-
-DEPEND=|| ( sys-kernel/xelnet-kbuild )
-DESCRIPTION=Virtual for Linux prebuilt kernel
-EAPI=6
+DEPEND=!linux-handbuild? ( sys-kernel/xelnet-kbuild )
+DESCRIPTION=Prepared kernel sources, suitable for out-of-tree modules
+EAPI=7
+IUSE=+linux-handbuild
 KEYWORDS=~amd64 ~x86
 SLOT=0
-_md5_=45baa30fad3e6c80496470703ff34979
+_md5_=e63ed9b3b2635c74489045c234169bb7

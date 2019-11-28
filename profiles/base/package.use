@@ -9,7 +9,7 @@ dev-libs/libxml2 python
 
 # Full python with sqlite
 dev-lang/python sqlite
-dev-python/pypy sqlite
+dev-python/pypy3 sqlite
 
 # Configure vim
 app-editors/vim vim-pager

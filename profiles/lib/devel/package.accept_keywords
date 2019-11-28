@@ -1,6 +1,6 @@
 # Python versions
 # ===============
-dev-python/pypy ~amd64
+dev-python/pypy3 ~amd64
 dev-lang/python ~amd64
 
 # Required for dev-lang/python-3.4.3-r7
@@ -27,12 +27,23 @@ dev-lang/python ~amd64
 # Development tools
 # =================
 
+<dev-python/awscli-2.0 ~amd64
+
 <app-misc/nosier-2.0 ~amd64
 
 # Required by app-misc/nosier-1.1::xelnor
 =dev-python/inotifyx-0.2.2 ~amd64
 
 ~dev-vcs/git-repo-1.22 ~amd64
+
+
+# NFC/RFID
+# ========
+~sys-apps/pcsc-tools-1.5.3 ~amd64
+
+# required by sys-apps/pcsc-tools-1.5.3::gentoo
+~dev-perl/pcsc-perl-1.4.14 ~amd64
+
 
 # Blue Development
 # ================
@@ -55,9 +66,14 @@ dev-lang/python ~amd64
 # ==============
 
 # Work around uwsgi bug https://bugs.gentoo.org/show_bug.cgi?id=586606
-=www-servers/uwsgi-2.0.13.1-r1 ~amd64
+~www-servers/uwsgi-2.0.13.1-r1 ~amd64
 
 # Work around json-c conflict with media-sound/pulseaudio
-=dev-db/postgis-2.2.2 ~amd64
+~dev-db/postgis-2.2.2 ~amd64
+
+# required by dev-python/awscli-1.16.283::gentoo
+~dev-python/botocore-1.13.19 ~amd64
+
+
 
 # vim:set ft=gentoo-package-keywords:
