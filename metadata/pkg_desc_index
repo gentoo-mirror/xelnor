@@ -15,6 +15,7 @@ dev-python/pew 0.1.14 0.1.15: Python Env Wrapper is a pure python wrapper around
 dev-python/pykwalify 1.7.0: Python lib/cli for JSON/YAML schema validation
 dev-python/tdparser 1.1.6 1.1.6-r1: A top-down parser for Python
 dev-python/virtualenv-clone 0.2.5: A script for cloning a non-relocatable virtualenv
+dev-util/kconfgen 1.1.0 1.2.0 1.2.1: Manage Kconfig-based configuration files
 dev-vcs/git-repo 1.22: The multiple repository tool from Android
 mail-filter/pfixtools 0.9: Tools for postfix
 media-sound/sonata 1.7_alpha2: an elegant GTK 3 client for the Music Player Daemon
@@ -23,8 +24,9 @@ net-analyzer/nagircbot 0.0.29b-r100: An irc bot that alerts you to nagios change
 net-dns/dns2tcp 0.5.2: A tool to tunnel tcp data over DNS queries
 net-im/bitlbee-facebook 9999: Bitlbee plugin for facebook
 net-misc/socat-initd 0.1-r1: Init.d script for socat
-sys-kernel/xelnet-image 4.9.16 4.9.76-r1 4.14.65: Compiled linux kernel
-sys-kernel/xelnet-kbuild 4.9.16 4.9.76-r1 4.14.65: Compiled kernel object tree
-virtual/linux-kbuild 0: Virtual for Linux prebuilt kernel
+sys-kernel/xelnet-image 4.19.57 4.19.82: Compiled linux kernel
+sys-kernel/xelnet-kbuild 4.19.57 4.19.82: Compiled kernel object tree
+sys-kernel/xelnet-linuxconfig 2019.2.2 2019.3.2: Xelnet Linux configuration
+virtual/linux-kbuild 0: Prepared kernel sources, suitable for out-of-tree modules
 www-apps/crossix 2018.1.2 2019.0.0 2019.1.0: Django-based registration for crosstriangulaire.com.
 www-apps/xelpaste 3.0.1 3.0.1-r1 3.1.1: Django-based pastebin with image support.
