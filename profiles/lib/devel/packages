@@ -24,6 +24,9 @@ virtual/jdk
 
 dev-python/awscli
 
+# DB Clients
+dev-db/mysql
+
 # Polydev
 net-misc/rabbitmq-server
 
