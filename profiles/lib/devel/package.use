@@ -35,6 +35,12 @@ app-emulation/qemu static-user
 app-emulation/libvirt virt-network
 
 
+
+# Kernel
+# ======
+
+sys-kernel/xelnet-linuxconfig dev
+
 # Deps
 # ====
 

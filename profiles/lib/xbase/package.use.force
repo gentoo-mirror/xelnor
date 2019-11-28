@@ -29,6 +29,9 @@ www-client/chromium jumbo-build
 # Allows to share tbz2 between xfull & xbase hosts
 www-client/chromium kerberos
 
+# Kernel
+sys-kernel/xelnet-linuxconfig multimedia
+
 # Deps
 # ====
 
