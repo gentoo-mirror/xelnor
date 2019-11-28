@@ -36,6 +36,12 @@ sys-auth/nss-mdns
 # Used by polydev release process
 dev-vcs/git-repo
 
+# Overlay management
+app-portage/repoman
+app-portage/overlint
+app-portage/euscan
+app-doc/eclass-manpages
+
 # RFID/NFC
 sys-apps/pcsc-lite
 sys-apps/pcsc-tools
