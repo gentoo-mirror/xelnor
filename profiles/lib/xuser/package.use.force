@@ -2,7 +2,7 @@
 mail-client/claws-mail smime webkit xface dillo
 
 # Add GUI to common packages
-sci-visualization/gnuplot qt4
+sci-visualization/gnuplot qt5
 
 # Compositing
 x11-libs/libaosd xcomposite
@@ -25,6 +25,9 @@ app-crypt/gpgme qt5
 
 # required by www-client/chromium-54.0.2840.59::gentoo
 media-libs/libvpx svc
+# required by www-client/firefox-68.2.0::gentoo[system-libvpx]
+media-libs/libvpx postproc
+dev-db/sqlite secure-delete
 
 =app-office/libreoffice-bin-6.0.3.2 python_targets_python3_5
 

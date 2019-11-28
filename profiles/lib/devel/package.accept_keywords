@@ -64,9 +64,10 @@ dev-lang/python ~amd64
 # ==============
 
 # Work around uwsgi bug https://bugs.gentoo.org/show_bug.cgi?id=586606
-=www-servers/uwsgi-2.0.13.1-r1 ~amd64
+~www-servers/uwsgi-2.0.13.1-r1 ~amd64
 
 # Work around json-c conflict with media-sound/pulseaudio
-=dev-db/postgis-2.2.2 ~amd64
+~dev-db/postgis-2.2.2 ~amd64
+
 
 # vim:set ft=gentoo-package-keywords:
