@@ -18,7 +18,6 @@ dev-python/virtualenv-clone 0.2.5: A script for cloning a non-relocatable virtua
 dev-util/kconfgen 1.1.0 1.2.0 1.2.1: Manage Kconfig-based configuration files
 dev-vcs/git-repo 1.22: The multiple repository tool from Android
 mail-filter/pfixtools 0.9: Tools for postfix
-media-sound/sonata 1.7_alpha2: an elegant GTK 3 client for the Music Player Daemon
 net-analyzer/nagios-xelnet-plugins 20181126-r1: Xelnet collection of Nagios plugins
 net-analyzer/nagircbot 0.0.29b-r100: An irc bot that alerts you to nagios changes
 net-dns/dns2tcp 0.5.2: A tool to tunnel tcp data over DNS queries
