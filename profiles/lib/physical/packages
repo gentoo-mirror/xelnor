@@ -1,22 +1,39 @@
+# Sensors
 app-admin/hddtemp
-app-admin/testdisk
-media-sound/alsa-utils
-media-sound/mpc
-media-sound/pamix
-net-misc/dhcpcd
-sys-apps/hdparm
-sys-apps/ifplugd
 sys-apps/lm-sensors
-sys-apps/lshw
-sys-apps/sdparm
+
+# Power management
+sys-power/acpi
+sys-power/cpupower
+
+# Hardware detection
 sys-apps/usbutils
-sys-boot/grub:2
-sys-boot/os-prober
-sys-firmware/seabios
-sys-fs/ddrescue
+sys-apps/lshw
+
+# Removage storage
 sys-fs/dosfstools
 sys-fs/mtpfs
 sys-fs/ntfs3g
+
+# Disks
+app-admin/testdisk
+sys-apps/hdparm
+sys-apps/sdparm
+sys-fs/ddrescue
+
+# Sound
+media-sound/alsa-utils
+media-sound/mpc
+media-sound/pamix
+
+# Network
+net-misc/dhcpcd
+sys-apps/ifplugd
+
+# Boot
+sys-boot/grub:2
+sys-boot/os-prober
+sys-firmware/seabios
+
+# Console
 sys-libs/gpm
-sys-power/acpi
-sys-power/cpupower
