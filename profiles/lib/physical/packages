@@ -5,6 +5,7 @@ sys-apps/lm-sensors
 # Power management
 sys-power/acpi
 sys-power/cpupower
+sys-power/powertop
 
 # Hardware detection
 sys-apps/usbutils
