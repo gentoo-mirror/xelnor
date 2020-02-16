@@ -8,8 +8,9 @@ sys-block/parted device-mapper
 # Deps
 # ====
 
-# Required by media-sound/ncmpcpp
-dev-libs/boost icu
+# Required by media-sound/pulseaudio[alsa-plugins,alsa]
+# Required by media-sound/pamix
+media-sound/alsa-plugins pulseaudio
 
 # Required by virtual/libusb[udev]
 dev-libs/libusb udev
