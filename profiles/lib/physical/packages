@@ -2,7 +2,6 @@ app-admin/hddtemp
 app-admin/testdisk
 media-sound/alsa-utils
 media-sound/mpc
-media-sound/ncmpcpp
 media-sound/pamix
 net-misc/dhcpcd
 sys-apps/hdparm
