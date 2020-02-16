@@ -10,7 +10,7 @@ sys-block/parted device-mapper
 
 # Required by media-sound/pulseaudio[alsa-plugins,alsa]
 # Required by media-sound/pamix
-media-sound/alsa-plugins pulseaudio
+media-plugins/alsa-plugins pulseaudio
 
 # Required by virtual/libusb[udev]
 dev-libs/libusb udev
