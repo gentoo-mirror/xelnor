@@ -5,7 +5,7 @@ net-misc/ntp
 net-misc/oidentd
 sys-apps/mlocate
 sys-process/at
-sys-process/vixie-cron
+sys-process/cronie
 
 # System - core
 app-admin/sudo
