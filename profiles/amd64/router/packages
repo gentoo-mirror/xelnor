@@ -1,0 +1,5 @@
+# Lan
+net-dialup/freeradius
+net-misc/dhcp
+net-misc/radvd
+net-wireless/unifi

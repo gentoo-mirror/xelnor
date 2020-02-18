@@ -1,3 +1,4 @@
 ../hardened-no-multilib
 ../../lib/physical
 ../../lib/server
+../../roles/dns
