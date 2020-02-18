@@ -1,0 +1,4 @@
+# required for net-wireless/unifi
+ACCEPT_LICENSE="${ACCEPT_LICENSE} ubiquiti"
+# required by net-wireless/unifi-5.12.35::gentoo for dev-db/mongodb
+ACCEPT_LICENSE="${ACCEPT_LICENSE} SSPL-1"
