@@ -1,0 +1,4 @@
+net-wireless/unifi ubiquiti
+# required by net-wireless/unifi-5.12.35::gentoo
+dev-db/mongodb SSPL-1
+
