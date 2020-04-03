@@ -1,3 +1,4 @@
 ../../amd64/dcserver
 ../../roles/webapps
 ../../roles/dns
+../../lib/autoaccount
