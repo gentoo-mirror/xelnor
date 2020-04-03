@@ -1,3 +1,5 @@
+acct-group/xelnet 0: System group: xelnet
+acct-user/xelnor 0: Xelnor user account
 app-backup/borgmatic 1.3.12: Simple, configuration-driven backup software for servers and workstations
 app-crypt/luxtrust-middleware 1.2.1: LuxTrust middleware
 app-crypt/mit-krb5-repl 0.1: Replication tools for mit-krb5
