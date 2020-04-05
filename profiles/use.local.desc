@@ -4,3 +4,6 @@
 
 app-crypt/mit-krb5-repl:master - Enable master side of the kerberos replication
 app-crypt/mit-krb5-repl:slave - Enable receiving side of the kerberos replication
+sys-cluster/drbd-utils:heartbeat - Enable Heartbeat integration
+sys-cluster/drbd-utils:pacemaker - Enable Pacemaker integration
+sys-cluster/drbd-utils:xen - Enable Xen integration
