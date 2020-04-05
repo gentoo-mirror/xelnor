@@ -14,6 +14,9 @@ dev-python/pypy3 sqlite
 # Configure vim
 app-editors/vim vim-pager
 
+# Include man/docs for packages
+net-firewall/nftables doc
+
 # Deps
 # ====
 
