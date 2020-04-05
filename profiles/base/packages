@@ -10,6 +10,7 @@ sys-process/cronie
 # System - core
 app-admin/sudo
 net-firewall/iptables
+net-firewall/nftables
 net-misc/bridge-utils
 net-misc/vconfig
 sys-apps/iproute2
