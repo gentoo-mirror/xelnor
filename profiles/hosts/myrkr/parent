@@ -1,1 +1,3 @@
 ../../amd64/router
+../../roles/dns
+../../lib/autoaccount
