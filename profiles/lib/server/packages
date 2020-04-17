@@ -1,8 +1,6 @@
-app-crypt/mit-krb5
-#app-crypt/mit-krb5-repl
-app-emulation/docker
 # Daemons
 mail-mta/postfix
+net-dns/unbound
 net-vpn/strongswan
 
 # Monitoring

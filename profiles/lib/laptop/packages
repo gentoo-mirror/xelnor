@@ -11,3 +11,5 @@ net-wireless/wpa_supplicant
 net-dns/dns2tcp
 net-dns/openresolv
 net-vpn/openvpn
+net-dns/unbound
+net-vpn/strongswan
