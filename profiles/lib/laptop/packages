@@ -1,9 +1,13 @@
+# Power
 app-laptop/laptop-mode-tools
-net-dns/dns2tcp
-net-dns/dnsmasq
-net-dns/openresolv
-net-vpn/openvpn
+sys-power/powertop
+
+# Wi-Fi
 net-wireless/aircrack-ng
 net-wireless/wireless-tools
 net-wireless/wpa_supplicant
-sys-power/powertop
+
+# VPNs and network
+net-dns/dns2tcp
+net-dns/openresolv
+net-vpn/openvpn
