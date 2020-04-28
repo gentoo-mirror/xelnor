@@ -1,4 +1,5 @@
 ../../amd64/router
 ../../roles/dns
 ../../roles/irc
+../../roles/ircd
 ../../lib/autoaccount
