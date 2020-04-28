@@ -23,7 +23,6 @@ mail-filter/pfixtools 0.9: Tools for postfix
 net-analyzer/nagios-xelnet-plugins 20181126-r1: Xelnet collection of Nagios plugins
 net-analyzer/nagircbot 0.0.29b-r100: An irc bot that alerts you to nagios changes
 net-dns/dns2tcp 0.5.2: A tool to tunnel tcp data over DNS queries
-net-im/bitlbee-facebook 9999: Bitlbee plugin for facebook
 net-misc/socat-initd 0.1-r1: Init.d script for socat
 sys-cluster/drbd-utils 8.9.6-r2: mirror/replicate block-devices across a network-connection
 sys-kernel/xelnet-image 4.19.57 4.19.82: Compiled linux kernel
