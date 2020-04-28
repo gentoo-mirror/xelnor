@@ -1,3 +1,4 @@
 ../../amd64/router
 ../../roles/dns
+../../roles/irc
 ../../lib/autoaccount
