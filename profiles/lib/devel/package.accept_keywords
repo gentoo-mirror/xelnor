@@ -34,8 +34,6 @@ dev-lang/python ~amd64
 # Required by app-misc/nosier-1.1::xelnor
 =dev-python/inotifyx-0.2.2 ~amd64
 
-~dev-vcs/git-repo-1.22 ~amd64
-
 
 # NFC/RFID
 # ========

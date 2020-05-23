@@ -33,9 +33,6 @@ net-misc/rabbitmq-server
 # Needed for polydev integration box
 sys-auth/nss-mdns
 
-# Used by polydev release process
-dev-vcs/git-repo
-
 # Overlay management
 app-portage/repoman
 app-portage/overlint
