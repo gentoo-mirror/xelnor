@@ -1,6 +1,6 @@
 # Kernel
 USE="${USE} kernel-autobuild"
 
-INPUT_DEVICES="evdev keyboard mouse"
+INPUT_DEVICES="evdev -synaptics"
 
 SANE_BACKENDS="-* genesys"
