@@ -7,7 +7,7 @@ DESCRIPTION="Minimal, offline, CommonJS-compliant registry"
 HOMEPAGE="https://github.com/rbarrois/cjs-ledger"
 SRC_URI="https://dist.xelnor.net/${P}.tar.gz"
 
-LICENSE="GPL3"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
