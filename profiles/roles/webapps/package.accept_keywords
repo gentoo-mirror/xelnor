@@ -1,0 +1,10 @@
+www-apps/crossix ~amd64
+
+# Required by www-apps/crossix
+dev-nodejs/jquery ~amd64
+dev-nodejs/webpack ~amd64
+dev-python/getconf ~amd64
+<dev-python/django-sendfile2-1.0 ~amd64
+
+# Build-time dependencies required by www-apps/crossix
+dev-nodejs/cjs-ledger ~amd64
