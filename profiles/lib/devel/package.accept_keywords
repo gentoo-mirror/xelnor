@@ -68,8 +68,10 @@ dev-lang/python ~amd64
 # Work around json-c conflict with media-sound/pulseaudio
 ~dev-db/postgis-2.2.2 ~amd64
 
-# required by dev-python/awscli-1.16.283::gentoo
-~dev-python/botocore-1.13.19 ~amd64
+# required by dev-python/awscli-1.18.62::gentoo
+~dev-python/s3transfer-0.3.1 ~amd64
+~dev-python/rsa-3.4.2-r1 ~amd64
+~dev-python/botocore-1.16.12 ~amd64
 
 
 
