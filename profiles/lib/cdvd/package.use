@@ -1,3 +1,8 @@
 media-sound/abcde cdparanoia musicbrainz normalize replaygain
 
+# Required by media-sound/abcde
+# Required by dev-python/eyeD3
+# Conflicts with dev-python/python-magic
+sys-apps/file -python
+
 # vim:set ft=gentoo-package-use:

@@ -20,3 +20,5 @@ x11-misc/gmrun
 x11-themes/claws-mail-themes
 x11-themes/fluxbox-styles-fluxmod
 x11-wm/fluxbox
+
+media-gfx/plantuml

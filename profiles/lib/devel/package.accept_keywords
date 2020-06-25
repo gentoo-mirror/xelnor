@@ -1,6 +1,5 @@
 # Python versions
 # ===============
-dev-python/pypy3 ~amd64
 dev-lang/python ~amd64
 
 # Required for dev-lang/python-3.4.3-r7
@@ -34,8 +33,6 @@ dev-lang/python ~amd64
 # Required by app-misc/nosier-1.1::xelnor
 =dev-python/inotifyx-0.2.2 ~amd64
 
-~dev-vcs/git-repo-1.22 ~amd64
-
 
 # NFC/RFID
 # ========
@@ -52,8 +49,15 @@ dev-lang/python ~amd64
 
 # Javascript
 # ==========
+dev-nodejs/webpack ~amd64
+dev-nodejs/cjs-ledger ~amd64
 
 
+# Haskell
+# =======
+<dev-lang/ghc-9 ~amd64
+# required by dev-lang/ghc::gentoo
+<app-admin/haskell-updater-1.4 ~amd64
 
 
 # Java development (from local overlay)
@@ -71,8 +75,10 @@ dev-lang/python ~amd64
 # Work around json-c conflict with media-sound/pulseaudio
 ~dev-db/postgis-2.2.2 ~amd64
 
-# required by dev-python/awscli-1.16.283::gentoo
-~dev-python/botocore-1.13.19 ~amd64
+# required by dev-python/awscli-1.18.62::gentoo
+~dev-python/s3transfer-0.3.1 ~amd64
+~dev-python/rsa-3.4.2-r1 ~amd64
+~dev-python/botocore-1.16.12 ~amd64
 
 
 

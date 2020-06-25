@@ -9,6 +9,4 @@ sys-kernel/xelnet-image
 # ============
 
 # required by dev-util/kconfgen-1.0.1::xelnor
-~dev-python/kconfiglib-12.12.1
-# required by dev-util/kconfgen-1.0.1::xelnor
-~dev-python/toml-0.10.0
+~dev-python/kconfiglib-14.1.0
