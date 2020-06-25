@@ -55,3 +55,7 @@ x11-themes/gtk-theme-switch
 x11-themes/qtcurve
 x11-themes/slim-themes
 xfce-base/exo
+
+app-i18n/ibus
+app-i18n/ibus-table-others
+app-i18n/ibus-typing-booster

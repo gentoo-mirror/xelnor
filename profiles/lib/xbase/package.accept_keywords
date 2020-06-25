@@ -3,3 +3,9 @@ app-misc/nss-systemcerts ~amd64
 
 # phototonic isn't stable yet
 =media-gfx/phototonic-2.1 ~amd64
+
+# ibus-table-others isn't stable yet
+~app-i18n/ibus-table-others-1.3.9 ~amd64
+
+# ibus-typing-booster isn't stable yet
+~app-i18n/ibus-typing-booster-2.8.3 ~amd64
