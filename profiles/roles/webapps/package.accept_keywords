@@ -6,5 +6,10 @@ dev-nodejs/webpack ~amd64
 dev-python/getconf ~amd64
 <dev-python/django-sendfile2-1.0 ~amd64
 
+# Required by www-apps/xelpaste
+<dev-python/django-mptt-1.0 ~amd64
+~dev-python/django-js-asset-1.2.2 ~amd64
+~dev-python/django-appconf-1.0.4 ~amd64
+
 # Build-time dependencies required by www-apps/crossix
 dev-nodejs/cjs-ledger ~amd64

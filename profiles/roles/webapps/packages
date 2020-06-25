@@ -6,3 +6,4 @@ dev-db/postgis
 dev-db/postgresql
 
 www-apps/crossix
+www-apps/xelpaste
