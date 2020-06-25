@@ -8,9 +8,6 @@ dev-lang/ghc
 dev-lang/ocaml
 dev-lang/scala
 dev-libs/check
-dev-python/coverage
-dev-python/pew
-dev-python/pip
 dev-python/psycopg
 dev-python/pychecker
 dev-python/pypy3
@@ -21,6 +18,15 @@ net-libs/nodejs
 sci-visualization/gnuplot
 sys-devel/gdb
 virtual/jdk
+
+# Editors
+dev-util/ctags
+
+# Python
+dev-python/coverage
+dev-python/mypy
+dev-python/pew
+dev-python/pip
 
 dev-python/awscli
 
@@ -36,7 +42,6 @@ sys-auth/nss-mdns
 # Overlay management
 app-portage/repoman
 app-portage/overlint
-app-portage/euscan
 app-doc/eclass-manpages
 
 # RFID/NFC
