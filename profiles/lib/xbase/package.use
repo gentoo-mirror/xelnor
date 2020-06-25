@@ -85,9 +85,6 @@ dev-qt/qtwebkit icu
 # required by x11-misc/xdg-utils-1.1.1-r1::gentoo
 app-text/xmlto text
 
-# Required by x11, somehow
-x11-base/xcb-proto abi_x86_32
-
 # required by www-client/chromium-71.0.3578.80::gentoo
 =net-libs/nodejs-12.13.0 icu inspector
 
