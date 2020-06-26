@@ -1,4 +1,5 @@
 www-apps/crossix ~amd64
+www-apps/xelpaste ~amd64
 
 # Required by www-apps/crossix
 dev-nodejs/jquery ~amd64
