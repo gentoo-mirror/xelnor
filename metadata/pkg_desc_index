@@ -7,7 +7,7 @@ app-misc/mpdlcd 0.5.1 0.5.2: Display MPD status on a lcdproc server
 app-misc/nosier 1.1: Monitor paths and call a user-defined command when changes occur
 app-misc/nss-systemcerts 0.1.0 0.1.1 1.0.0: Synchronise /etc/ssl/certs and a system-wide NSS certificate db
 app-misc/uconf 0.3.8: An efficient configuration file manager
-dev-nodejs/cjs-ledger 0.3.0: Minimal, offline, CommonJS-compliant registry
+dev-nodejs/cjs-ledger 0.3.0 0.3.0-r1: Minimal, offline, CommonJS-compliant registry
 dev-nodejs/webpack 4.43.0: A bundler for javascript and friends
 dev-python/backports-shutil-get-terminal-size 1.0.0: Backport of the shutil.get_terminal_size function from Python3.3
 dev-python/confutils 0.3.7 0.3.7-r1: Advanced config file utilities
