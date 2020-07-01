@@ -1,0 +1,7 @@
+# required by net-analyzer/smokeping-2.6.9-r1::gentoo
+net-analyzer/fping suid
+net-analyzer/rrdtool graph perl
+
+# required by net-analyzer/nagios-core-4.4.6::gentoo[web]
+# required by net-analyzer/nagios-4.4.6::gentoo
+media-libs/gd png jpeg
