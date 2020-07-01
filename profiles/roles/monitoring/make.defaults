@@ -1,0 +1,8 @@
+# required by net-analyzer/smokeping-2.6.9-r1::gentoo
+#=net-analyzer/fping-3.13 fping
+ACCEPT_LICENSE="${ACCEPT_LICENSE} fping"
+
+# required by net-analyzer/nagios-core-4.4.6::gentoo[vim-syntax]
+# required by net-analyzer/nagios-4.4.6::gentoo
+#>=app-vim/nagios-syntax-1.8 vim.org
+ACCEPT_LICENSE="${ACCEPT_LICENSE} vim.org"
