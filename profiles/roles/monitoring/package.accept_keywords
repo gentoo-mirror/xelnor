@@ -1,1 +1,3 @@
 <net-analyzer/nagircbot-0.1 ~amd64
+
+app-crypt/acme-tiny-automation ~amd64

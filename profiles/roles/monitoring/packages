@@ -4,7 +4,7 @@ net-analyzer/smokeping
 
 # Required for serving nagios/smokeping websites.
 www-servers/nginx
-app-crypt/acme-tiny
+app-crypt/acme-tiny-automation
 
 # Wrap CGI apps into FastCGI
 www-misc/fcgiwrap
