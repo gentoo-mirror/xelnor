@@ -36,7 +36,7 @@ src_configure() {
 
 	econf \
 		--acme-user acme --acme-group acme \
-		--www-user "${WWW_USER}"
+		--www-user "${WWW_USER}" \
 		--www-group "${WWW_GROUP}" \
 		--logdir "${EPREFIX}/var/log" \
 		$(use_with nginx) \
