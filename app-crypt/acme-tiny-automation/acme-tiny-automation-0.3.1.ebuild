@@ -21,20 +21,31 @@ DEPEND=""
 RDEPEND="app-crypt/acme-tiny
 acct-user/acme
 acct-group/acme
-apache? ( acct-group/apache )"
+apache? ( acct-group/apache www-servers/apache[apache2_modules_rewrite] )
+nginx? ( www-servers/nginx )"
 
 src_configure() {
 	if use apache; then
+		WWW_USER=apache
 		WWW_GROUP=apache
 	fi
 	if use nginx; then
+		WWW_USER=nginx
 		WWW_GROUP=nginx
 	fi
 
-	econf --acme-user acme --acme-group acme --www-group ${WWW_GROUP}
+	econf \
+		--acme-user acme --acme-group acme \
+		--www-user "${WWW_USER}" \
+		--www-group "${WWW_GROUP}" \
+		--logdir "${EPREFIX}/var/log" \
+		$(use_with nginx) \
+		$(use_with apache)
 }
 
 src_install() {
 	default
 	keepdir /var/lib/www/acme-challenge
+	use nginx && keepdir /var/log/nginx/http_to_https
+	use apache && keepdir /var/log/apache/http_to_https
 }
