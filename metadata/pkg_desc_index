@@ -3,7 +3,7 @@ acct-group/xelnet 0: System group: xelnet
 acct-user/acme 0: User account for the ACME protocol (certificate renewal)
 acct-user/xelnor 0: Xelnor user account
 app-backup/borgmatic 1.3.12: Simple, configuration-driven backup software for servers and workstations
-app-crypt/acme-tiny-automation 0.1.0 0.2.3: A set of tools to automate acme-tiny, in a simple, low-config way.
+app-crypt/acme-tiny-automation 0.2.3 0.3.1: A set of tools to automate acme-tiny, in a simple, low-config way.
 app-crypt/luxtrust-middleware 1.2.1: LuxTrust middleware
 app-crypt/mit-krb5-repl 0.1: Replication tools for mit-krb5
 app-misc/mpdlcd 0.5.1 0.5.2: Display MPD status on a lcdproc server
