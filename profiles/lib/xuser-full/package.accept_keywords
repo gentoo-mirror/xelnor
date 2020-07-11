@@ -1,6 +1,0 @@
-# Python development
-<dev-python/runsnakerun-3.0 ~amd64
-
-# Required by dev-python/runsnakerun-2.0.4::gentoo
-=dev-python/squaremap-1.0.4 ~amd64
-
