@@ -23,4 +23,8 @@ net-firewall/nftables doc
 # Required for aclocal. Kinda important.
 dev-lang/perl ithreads
 
+# Required for imagemagick[svg]
+media-gfx/imagemagick xml
+
+
 # vim:set ft=gentoo-package-use:
