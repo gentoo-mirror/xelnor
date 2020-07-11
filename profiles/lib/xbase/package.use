@@ -91,4 +91,10 @@ app-text/xmlto text
 # Required by app-text/qpdfview
 app-text/poppler qt5
 
+# required by app-i18n/ibus-table-1.9.18-r1::gentoo
+~app-i18n/ibus-1.5.22 python_targets_python3_6
+# required by app-i18n/ibus-1.5.22::gentoo[python_targets_python3_6]
+~dev-python/pygobject-3.34.0 python_targets_python3_6
+
+
 # vim:set ft=gentoo-package-use:
