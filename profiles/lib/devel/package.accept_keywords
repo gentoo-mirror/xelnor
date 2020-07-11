@@ -44,7 +44,7 @@ dev-lang/python ~amd64
 
 # Blue Development
 # ================
-~net-misc/rabbitmq-server-3.6.2 ~amd64
+~net-misc/rabbitmq-server-3.8.3 ~amd64
 
 
 # Javascript
