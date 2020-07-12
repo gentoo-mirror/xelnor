@@ -56,6 +56,10 @@ x11-themes/qtcurve
 x11-themes/slim-themes
 xfce-base/exo
 
+# i18n, emoji
 app-i18n/ibus
 app-i18n/ibus-table-others
 app-i18n/ibus-typing-booster
+
+# X11 management
+x11-misc/xsession-launcher
