@@ -62,4 +62,4 @@ app-i18n/ibus-table-others
 app-i18n/ibus-typing-booster
 
 # X11 management
-x11-apps/xsession-launcher
+x11-misc/xsession-launcher

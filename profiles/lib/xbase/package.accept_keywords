@@ -2,7 +2,7 @@
 app-misc/nss-systemcerts ~amd64
 
 # xsession-launcher is home-made
-x11-apps/xsession-launcher ~amd64
+x11-misc/xsession-launcher ~amd64
 
 # phototonic isn't stable yet
 =media-gfx/phototonic-2.1 ~amd64
