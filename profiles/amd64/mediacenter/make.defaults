@@ -1,0 +1,2 @@
+LIRC_DEVICES="${LIRC_DEVICES} inputlirc userspace"
+LCD_DEVICES="${LCD_DEVICES} imon imonlcd"
