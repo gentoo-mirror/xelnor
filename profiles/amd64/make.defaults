@@ -1,5 +1,6 @@
 # CFLAGS from http://en.gentoo-wiki.com/wiki/Safe_Cflags/Intel
-CFLAGS="-O2 -march=x86-64 -pipe -mtune=native"
-CXXFLAGS="${CFLAGS}"
-CHOST="x86_64-pc-linux-gnu"
-
+COMMON_FLAGS="-O2 -pipe -march=x86-64 -mtune=native"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
