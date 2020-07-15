@@ -19,6 +19,7 @@ L10N="-* fr en en-GB en-US"
 
 # Reset common sets
 LCD_DEVICES="-*"
+LIRC_DEVICES="-*"
 VIDEO_CARDS="-*"
 
 # Python
