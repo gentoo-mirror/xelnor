@@ -1,5 +1,4 @@
 # Daemons
-mail-mta/postfix
 net-dns/unbound
 net-vpn/strongswan
 

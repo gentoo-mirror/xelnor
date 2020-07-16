@@ -17,6 +17,9 @@ app-editors/vim vim-pager
 # Include man/docs for packages
 net-firewall/nftables doc
 
+# Add support for aliases.db
+mail-mta/postfix berkdb
+
 # Deps
 # ====
 
