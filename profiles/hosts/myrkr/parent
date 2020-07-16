@@ -4,3 +4,4 @@
 ../../roles/ircd
 ../../roles/monitoring
 ../../lib/autoaccount
+../../lib/upspower
