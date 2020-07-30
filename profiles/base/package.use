@@ -23,6 +23,9 @@ mail-mta/postfix berkdb
 # Include mesg/wall/write
 sys-apps/util-linux tty-helpers
 
+# Add support for utmp (and w / wall / ...)
+app-misc/tmux utempter
+
 # Deps
 # ====
 
