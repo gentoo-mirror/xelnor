@@ -20,6 +20,9 @@ net-firewall/nftables doc
 # Add support for aliases.db
 mail-mta/postfix berkdb
 
+# Include mesg/wall/write
+sys-apps/util-linux tty-helpers
+
 # Deps
 # ====
 
