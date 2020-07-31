@@ -1,4 +1,5 @@
-DEFINED_PHASES=-
+BDEPEND=|| ( dev-lang/python:3.8 dev-lang/python:3.7 dev-lang/python:3.6 )
+DEFINED_PHASES=setup
 DESCRIPTION=Send messages to all users on a system, both graphical and tty-based.
 EAPI=7
 HOMEPAGE=https://git.xelnor.net/?p=syswide-notify.git
@@ -7,4 +8,5 @@ LICENSE=GPL-3
 RDEPEND=x11-libs/libnotify
 SLOT=0
 SRC_URI=https://dist.xelnor.net/syswide-notify-0.1.0.tar.gz
-_md5_=e818ee5876aee10a52cd2ab079638660
+_eclasses_=multilib	2477ebe553d3e4d2c606191fe6c33602	python-any-r1	54a3178500786b0a7ede4a23b7f2a6ad	python-utils-r1	cae3d65c47270c9a8c4880076996c09c	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=acbbed5a2044222266e389d02094577d
