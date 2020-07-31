@@ -1,1 +1,4 @@
 ~media-sound/pamix-1.6 ~amd64 ~x86
+
+# Local package, unstable
+sys-power/powerscripts ~amd64
