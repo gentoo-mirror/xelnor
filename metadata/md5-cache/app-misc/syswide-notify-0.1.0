@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DESCRIPTION=Send messages to all users on a system, both graphical and tty-based.
+EAPI=7
+HOMEPAGE=https://git.xelnor.net/?p=syswide-notify.git
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=x11-libs/libnotify
+SLOT=0
+SRC_URI=https://dist.xelnor.net/syswide-notify-0.1.0.tar.gz
+_md5_=e818ee5876aee10a52cd2ab079638660
