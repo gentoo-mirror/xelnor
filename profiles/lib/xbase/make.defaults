@@ -1,6 +1,9 @@
 # X11/display
 USE="${USE} X dri glamor opengl xinerama xcb xv"
 
+# X11 uses elogind instead of being suid
+USE="${USE} elogind"
+
 # Desktop environments
 USE="${USE} branding -gnome -kde"
 
