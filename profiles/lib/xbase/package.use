@@ -16,6 +16,9 @@ x11-terms/rxvt-unicode xft
 # Add support for UTMP, enabling `w` and `wall`.
 x11-terms/xfce4-terminal utempter
 
+# Disable policykit
+sys-auth/elogind -policykit
+
 # Configure media players
 media-video/mpv bluray cdio
 media-video/vlc cddb vlm
