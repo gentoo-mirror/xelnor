@@ -1,0 +1,5 @@
+sys-fs/cryptsetup
+
+# For initrd
+sys-boot/dracut
+sys-boot/plymouth
