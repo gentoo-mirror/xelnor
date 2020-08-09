@@ -1,19 +1,21 @@
-~media-sound/beets-1.4.8
+~media-sound/beets-1.4.9
 
-# required by media-sound/beets-1.4.8::gentoo
-~dev-python/jellyfish-0.7.2 ~amd64
-# required by media-sound/beets-1.4.8::gentoo
-~dev-python/munkres-1.0.12 ~amd64
+# required by media-sound/beets-1.4.9::gentoo
+~dev-python/jellyfish-0.8.2 ~amd64
+# required by media-sound/beets-1.4.9::gentoo
+~dev-python/munkres-1.1.2 ~amd64
 
-# required by media-sound/beets-1.4.8::gentoo[discogs]
-~dev-python/discogs-client-2.2.1 ~amd64
+# required by media-sound/beets-1.4.9::gentoo[discogs]
+~dev-python/discogs-client-2.2.2 ~amd64
 
-# required by media-sound/beets-1.4.8::gentoo[chromaprint]
-~dev-python/pyacoustid-1.1.5 ~amd64
-# required by dev-python/pyacoustid-1.1.5::gentoo
-~dev-python/audioread-1.0.1 ~amd64
+# required by media-sound/beets-1.4.9::gentoo[chromaprint]
+~dev-python/pyacoustid-1.1.7 ~amd64
+# required by dev-python/pyacoustid-1.1.7::gentoo
+~dev-python/audioread-2.1.8 ~amd64
+# required by dev-python/audioread-2.1.8-r2::gentoo[mad]
+~dev-python/pymad-0.10 ~amd64
 
-# required by media-sound/beets-1.4.8-r1::gentoo[badfiles]
+# required by media-sound/beets-1.4.9::gentoo[badfiles]
 ~media-sound/mp3val-0.1.8 ~amd64
 
 
