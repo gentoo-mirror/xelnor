@@ -23,12 +23,6 @@ dev-libs/qtkeychain qt5
 # required by mail-client/trojita-9999::gentoo[crypt]
 app-crypt/gpgme qt5
 
-# required by www-client/chromium-54.0.2840.59::gentoo
-media-libs/libvpx svc
-# required by www-client/firefox-68.2.0::gentoo[system-libvpx]
-media-libs/libvpx postproc
-dev-db/sqlite secure-delete
-
 =app-office/libreoffice-bin-6.0.3.2 python_targets_python3_5
 
 # Enable dbus for select packages
