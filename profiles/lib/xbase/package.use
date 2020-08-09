@@ -71,9 +71,14 @@ sys-libs/zlib minizip
 
 # Required by www-client/chromium
 dev-libs/libxml2 icu
+# required by www-client/chromium-54.0.2840.59::gentoo
+media-libs/libvpx svc
 
 # Required by www-client/firefox
 media-libs/libpng apng
+# required by www-client/firefox-68.2.0::gentoo[system-libvpx]
+media-libs/libvpx postproc
+dev-db/sqlite secure-delete
 
 # Required by app-office/libreoffice-bin
 dev-libs/xmlsec nss
