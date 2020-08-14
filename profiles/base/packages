@@ -90,3 +90,4 @@ net-analyzer/nmap
 net-analyzer/tcpdump
 net-analyzer/traceroute
 sys-apps/ethtool
+sys-apps/grepcidr
