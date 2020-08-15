@@ -12,6 +12,8 @@ ACCT_USER_SHELL=/bin/zsh
 ACCT_USER_HOME=/home/xelnor
 ACCT_USER_HOME_OWNER=xelnor:xelnet
 ACCT_USER_HOME_PERMS=0770
-ACCT_USER_GROUPS=( xelnet wheel )
+ACCT_USER_GROUPS=( xelnet wheel portage audio video cdrom cdrw usb scanner wireshark tcpdump docker vboxusers )
+
+RDEPEND="app-shells/zsh"
 
 acct-user_add_deps
