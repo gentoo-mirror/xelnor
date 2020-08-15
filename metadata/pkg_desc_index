@@ -1,4 +1,9 @@
 acct-group/acme 0: System group: acme
+acct-group/cdrw 0: System group: cdrw
+acct-group/portage 0: System group: portage
+acct-group/scanner 0: System group: scanner
+acct-group/tcpdump 0: System group: tcpdump
+acct-group/wireshark 0: System group: wireshark
 acct-group/xelnet 0: System group: xelnet
 acct-user/acme 0: User account for the ACME protocol (certificate renewal)
 acct-user/xelnor 0: Xelnor user account
