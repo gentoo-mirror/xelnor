@@ -1,19 +1,25 @@
 app-misc/nss-systemcerts
 app-text/qpdfview
 lxde-base/lxappearance
+
+# Fonts
 media-fonts/arphicfonts
 media-fonts/bitstream-cyberbit
 media-fonts/corefonts
+media-fonts/dejavu
 media-fonts/droid
 media-fonts/freefont
 media-fonts/hunkyfonts
 media-fonts/ipamonafont
 media-fonts/ja-ipafonts
+media-fonts/noto-emoji
 media-fonts/takao-fonts
 media-fonts/tengwar-fonts
+media-fonts/terminus-font
 media-fonts/ttf-bitstream-vera
 media-fonts/wqy-microhei
 media-fonts/wqy-zenhei
+
 media-gfx/feh
 media-gfx/phototonic
 media-gfx/scrot
