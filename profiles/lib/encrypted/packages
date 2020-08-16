@@ -3,3 +3,4 @@ sys-fs/cryptsetup
 # For initrd
 sys-kernel/dracut
 sys-boot/plymouth
+sys-boot/plymouth-openrc-plugin
