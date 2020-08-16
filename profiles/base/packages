@@ -2,6 +2,7 @@
 app-admin/logrotate
 app-admin/syslog-ng
 mail-mta/postfix
+net-misc/chrony
 net-misc/ntp
 net-misc/oidentd
 sys-apps/mlocate
