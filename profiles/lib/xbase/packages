@@ -55,11 +55,14 @@ x11-misc/xlockmore
 x11-misc/xscreensaver
 x11-terms/rxvt-unicode
 x11-terms/xfce4-terminal
+
+kde-frameworks/oxygen-icons
 x11-themes/greybird
 x11-themes/gtk-chtheme
 x11-themes/gtk-theme-switch
 x11-themes/qtcurve
 x11-themes/slim-themes
+
 xfce-base/exo
 
 # i18n, emoji
