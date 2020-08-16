@@ -2,6 +2,7 @@
 app-admin/logrotate
 app-admin/syslog-ng
 mail-mta/postfix
+net-misc/chrony
 net-misc/ntp
 net-misc/oidentd
 sys-apps/mlocate
@@ -49,6 +50,8 @@ sys-apps/pv
 
 # Shell - scripting
 dev-python/pytz
+# Used by vim-packmgr
+dev-python/toml
 virtual/python-typing
 
 # Shell - network
