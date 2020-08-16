@@ -1,6 +1,9 @@
 # Display wifi status in conky, if installed
 app-admin/conky wifi
 
+# Add wpa_gui
+net-wireless/wpa_supplicant qt5
+
 sys-kernel/xelnet-linuxconfig laptop multimedia
 
 # vim:set ft=gentoo-package-use:

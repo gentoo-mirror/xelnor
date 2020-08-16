@@ -1,5 +1,6 @@
 # Power
 app-laptop/laptop-mode-tools
+sys-power/acpilight
 sys-power/powertop
 
 # Wi-Fi
