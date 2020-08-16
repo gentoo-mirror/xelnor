@@ -2,4 +2,5 @@
 net-vpn/wireguard-tools
 
 # Development
+>=net-libs/nodejs-12.17.0
 <net-libs/nodejs-13.0
