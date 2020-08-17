@@ -19,6 +19,9 @@ sci-visualization/gnuplot
 sys-devel/gdb
 virtual/jdk
 
+# HTTP and friends
+app-misc/jq
+
 # Editors
 dev-util/ctags
 
