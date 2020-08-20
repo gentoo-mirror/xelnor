@@ -4,3 +4,4 @@ sys-fs/cryptsetup
 sys-kernel/dracut
 sys-boot/plymouth
 sys-boot/plymouth-openrc-plugin
+sys-kernel/dracut-crypt-ssh
