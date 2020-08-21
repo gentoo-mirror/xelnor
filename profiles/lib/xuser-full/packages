@@ -1,10 +1,19 @@
+# VM
 app-emulation/virtualbox-bin
+
+# LaTeX
 app-text/texlive
 dev-tex/latex-beamer
+
+# Source code
 dev-util/gource
 dev-vcs/qgit
+
+# Graphics
 media-gfx/gimp
 media-gfx/graphviz
 media-gfx/inkscape
+
+# Sound management
 media-sound/normalize
 media-sound/vorbis-tools
