@@ -1,3 +1,4 @@
 # SSO / directory
 USE="${USE} kerberos ldap"
 
+ACCEPT_LICENSE="${ACCEPT_LICENSE} yEd"

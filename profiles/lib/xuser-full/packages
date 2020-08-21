@@ -13,6 +13,7 @@ dev-vcs/qgit
 media-gfx/gimp
 media-gfx/graphviz
 media-gfx/inkscape
+media-gfx/yEd
 
 # Sound management
 media-sound/normalize
