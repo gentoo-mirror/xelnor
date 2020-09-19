@@ -97,3 +97,6 @@ net-analyzer/tcpdump
 net-analyzer/traceroute
 sys-apps/ethtool
 sys-apps/grepcidr
+
+# Backups
+app-backup/borgbackup
