@@ -19,6 +19,9 @@ sys-apps/iproute2
 sys-fs/lvm2
 sys-fs/mdadm
 
+# System - accounts
+acct-user/xelnor
+
 # Shell - core
 app-editors/vim
 app-misc/colordiff

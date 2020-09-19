@@ -3,5 +3,4 @@
 ../../roles/irc
 ../../roles/ircd
 ../../roles/monitoring
-../../lib/autoaccount
 ../../lib/upspower
