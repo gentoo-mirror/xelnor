@@ -3,4 +3,5 @@
 ../../roles/irc
 ../../roles/ircd
 ../../roles/monitoring
+../../roles/pki-ca
 ../../lib/upspower
