@@ -2,7 +2,7 @@
 net-print/cups usb
 
 # Disable notifications for claws-mail
-mail-client/claws-mail libcanberra libindicate libnotify notification
+mail-client/claws-mail appindicator libcanberra libindicate libnotify notification
 
 # We're using the Qt4 GUI for wireshark
 net-analyzer/wireshark gtk3
