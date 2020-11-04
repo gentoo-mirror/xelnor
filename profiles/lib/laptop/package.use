@@ -6,4 +6,10 @@ net-wireless/wpa_supplicant qt5
 
 sys-kernel/xelnet-linuxconfig laptop multimedia
 
+# Dependencies
+# ------------
+
+# Required by net-wireless/aircrack-ng-1.6-r1::gentoo[airdrop-ng]
+net-wireless/lorcon python
+
 # vim:set ft=gentoo-package-use:
