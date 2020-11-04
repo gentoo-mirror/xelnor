@@ -96,8 +96,9 @@ dev-qt/qtwebkit icu
 # required by x11-misc/xdg-utils-1.1.1-r1::gentoo
 app-text/xmlto text
 
-# required by www-client/chromium-83.0.4103.116::gentoo
-~net-libs/nodejs-14.4.0 icu inspector
+# required by www-client/chromium-86.0.4240.75::gentoo
+~net-libs/nodejs-14.11.0 icu inspector
+
 
 # Required by app-text/qpdfview
 app-text/poppler qt5
