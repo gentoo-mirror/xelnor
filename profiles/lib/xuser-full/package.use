@@ -10,7 +10,4 @@ app-text/texlive extra graphics luatex pstricks publishers science
 # Required by dev-texlive/luatex -> dev-texlive/xetex
 app-text/texlive-core xetex
 
-# 2020-05-23 Stable inkscape doesn't support Python3
-<media-gfx/inkscape-1.0 python_single_target_python2_7
-
 # vim:set ft=gentoo-package-use:
