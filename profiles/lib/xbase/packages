@@ -1,6 +1,9 @@
 app-misc/nss-systemcerts
-app-text/qpdfview
 lxde-base/lxappearance
+
+# PDF
+app-text/qpdfview
+app-text/xournal
 
 # Fonts
 media-fonts/arphicfonts
