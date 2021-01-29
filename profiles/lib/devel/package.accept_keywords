@@ -26,13 +26,6 @@ dev-lang/python ~amd64
 # Development tools
 # =================
 
-<dev-python/awscli-2.0 ~amd64
-
-<app-misc/nosier-2.0 ~amd64
-
-# Required by app-misc/nosier-1.1::xelnor
-=dev-python/inotifyx-0.2.2 ~amd64
-
 
 # NFC/RFID
 # ========

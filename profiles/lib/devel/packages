@@ -1,7 +1,7 @@
+# Misc
 app-emulation/docker
 app-emulation/docker-compose
 app-emulation/qemu
-app-misc/nosier
 app-text/sloccount
 dev-lang/erlang
 dev-lang/ghc
@@ -30,6 +30,7 @@ dev-python/coverage
 dev-python/mypy
 dev-python/pew
 dev-python/pip
+dev-python/sphinx
 
 dev-python/awscli
 

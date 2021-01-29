@@ -16,6 +16,8 @@ net-firewall/nftables
 net-misc/bridge-utils
 net-misc/vconfig
 sys-apps/iproute2
+sys-block/parted
+sys-fs/cryptsetup
 sys-fs/lvm2
 sys-fs/mdadm
 
@@ -55,7 +57,6 @@ sys-apps/pv
 dev-python/pytz
 # Used by vim-packmgr
 dev-python/toml
-virtual/python-typing
 
 # Shell - network
 net-ftp/lftp
