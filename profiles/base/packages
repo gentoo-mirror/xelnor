@@ -16,6 +16,8 @@ net-firewall/nftables
 net-misc/bridge-utils
 net-misc/vconfig
 sys-apps/iproute2
+sys-block/parted
+sys-fs/cryptsetup
 sys-fs/lvm2
 sys-fs/mdadm
 
