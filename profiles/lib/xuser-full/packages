@@ -1,5 +1,5 @@
 # VM
-app-emulation/virtualbox-bin
+app-emulation/virtualbox
 
 # LaTeX
 app-text/texlive
