@@ -43,3 +43,5 @@ ACCEPT_LICENSE="${ACCEPT_LICENSE} free-noncomm"
 ACCEPT_LICENSE="${ACCEPT_LICENSE} all-rights-reserved"
 # Kernel - sys-kernel/linux-firmware
 ACCEPT_LICENSE="${ACCEPT_LICENSE} no-source-code linux-fw-redistributable"
+# Net - net-analyzer/nmap
+ACCEPT_LICENSE="${ACCEPT_LICENSE} NPSL"
