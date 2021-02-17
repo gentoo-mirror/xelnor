@@ -9,7 +9,6 @@ dev-lang/ocaml
 dev-lang/scala
 dev-libs/check
 dev-python/psycopg
-dev-python/pychecker
 dev-python/pypy3
 dev-util/debootstrap
 dev-util/valgrind
