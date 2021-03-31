@@ -2,6 +2,7 @@ DEFINED_PHASES=install postinst unpack
 DESCRIPTION=Synchronise /etc/ssl/certs and a system-wide NSS certificate db
 EAPI=5
 HOMEPAGE=https://github.com/rbarrois/nss-systemcerts
+INHERIT=vcs-snapshot
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=dev-libs/nss[utils] app-misc/ca-certificates

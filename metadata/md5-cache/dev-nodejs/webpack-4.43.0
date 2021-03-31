@@ -3,6 +3,7 @@ DEFINED_PHASES=compile install unpack
 DESCRIPTION=A bundler for javascript and friends
 EAPI=7
 HOMEPAGE=https://webpack.js.org
+INHERIT=xel-nodejs
 KEYWORDS=~amd64 ~x86
 RDEPEND=net-libs/nodejs
 SLOT=0

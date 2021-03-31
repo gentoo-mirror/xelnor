@@ -3,8 +3,9 @@ DEPEND=sys-kernel/xelnet-kbuild:0/4.19.82 =sys-kernel/gentoo-sources-4.19.82 sys
 DESCRIPTION=Compiled linux kernel
 EAPI=6
 HOMEPAGE=https://git.xelnor.net/
+INHERIT=toolchain-funcs
 KEYWORDS=~amd64
 LICENSE=GPL-2
 SLOT=0/4.19.82
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e
 _md5_=3e5530a57dac50525059892f4fa26dec

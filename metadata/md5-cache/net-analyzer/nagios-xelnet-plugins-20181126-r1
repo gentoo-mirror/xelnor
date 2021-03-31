@@ -3,6 +3,7 @@ DEPEND=dev-lang/perl
 DESCRIPTION=Xelnet collection of Nagios plugins
 EAPI=7
 HOMEPAGE=https://github.com/alaskacommunications/nagios_check_drbd9 https://bucardo.org/check_postgres/
+INHERIT=multilib
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 RDEPEND=dev-lang/perl
