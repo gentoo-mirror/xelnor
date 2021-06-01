@@ -22,7 +22,6 @@ dev-python/django-appconf 1.0.4: A helper class for handling configuration defau
 dev-python/django-sendfile2 0.6.0: Abstraction to offload file uploads to web-server once Django has checked perms
 dev-python/fslib 0.3.4: Python wrapper around low-level FS-related calls
 dev-python/getconf 1.9.0: A versatile configuration lib for Python projects
-dev-python/pykwalify 1.7.0: Python lib/cli for JSON/YAML schema validation
 dev-python/tdparser 1.1.6-r2: A top-down parser for Python
 dev-util/kconfgen 1.1.0 1.2.0 1.2.1 1.2.2: Manage Kconfig-based configuration files
 mail-filter/pfixtools 0.9: Tools for postfix
