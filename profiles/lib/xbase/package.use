@@ -97,7 +97,7 @@ dev-qt/qtwebkit icu
 app-text/xmlto text
 
 # required by www-client/chromium-87.0.4280.66::gentoo
-~net-libs/nodejs-14.15.1 icu inspector
+net-libs/nodejs inspector
 
 
 # Required by app-text/qpdfview

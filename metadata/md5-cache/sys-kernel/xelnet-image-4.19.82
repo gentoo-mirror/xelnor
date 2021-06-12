@@ -7,5 +7,5 @@ INHERIT=toolchain-funcs
 KEYWORDS=~amd64
 LICENSE=GPL-2
 SLOT=0/4.19.82
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479
+_eclasses_=multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
 _md5_=3e5530a57dac50525059892f4fa26dec
