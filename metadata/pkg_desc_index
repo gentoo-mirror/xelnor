@@ -22,8 +22,9 @@ dev-python/django-appconf 1.0.4: A helper class for handling configuration defau
 dev-python/django-sendfile2 0.6.0: Abstraction to offload file uploads to web-server once Django has checked perms
 dev-python/fslib 0.3.4: Python wrapper around low-level FS-related calls
 dev-python/getconf 1.9.0: A versatile configuration lib for Python projects
+dev-python/pew 1.2.0: tool to manage multiple virtualenvs written in pure python
 dev-python/tdparser 1.1.6-r2: A top-down parser for Python
-dev-util/kconfgen 1.1.0 1.2.0 1.2.1 1.2.2: Manage Kconfig-based configuration files
+dev-util/kconfgen 1.2.2: Manage Kconfig-based configuration files
 mail-filter/pfixtools 0.9: Tools for postfix
 media-gfx/yEd 3.20.1: Ed Graph Editor - High-quality diagrams made easy
 net-analyzer/nagios-xelnet-plugins 20181126-r1: Xelnet collection of Nagios plugins
@@ -37,6 +38,6 @@ sys-kernel/xelnet-kbuild 4.19.57 4.19.82: Compiled kernel object tree
 sys-kernel/xelnet-linuxconfig 2019.2.2 2019.3.2 2019.3.3: Xelnet Linux configuration
 sys-power/powerscripts 0.1.3: Scripts for power management on personal systems: suspend, powerfail.
 virtual/linux-kbuild 0: Prepared kernel sources, suitable for out-of-tree modules
-www-apps/crossix 2020.1.1: Django-based registration for crosstriangulaire.com.
+www-apps/crossix 2020.1.1 2021.0.0: Django-based registration for crosstriangulaire.com.
 www-apps/xelpaste 3.2.1: Django-based pastebin with image support.
 x11-misc/xsession-launcher 0.2.1: Helpers for simple X11 session launchers.
