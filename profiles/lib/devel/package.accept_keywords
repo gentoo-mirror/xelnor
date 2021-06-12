@@ -1,6 +1,5 @@
 # Python versions
 # ===============
-dev-lang/python ~amd64
 
 # Required for dev-lang/python-3.4.3-r7
 =dev-lang/python-exec-2.4.3 ~amd64
