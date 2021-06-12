@@ -1,6 +1,9 @@
 # Use modern adb
 <dev-util/android-tools-6 ~amd64
 
+# Use most recent plantuml
+~media-gfx/plantuml-1.2021.5 ~amd64
+
 # Get a cantata with tray icons
 ~media-sound/cantata-2.3.2 ~amd64
 
