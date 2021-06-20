@@ -25,12 +25,10 @@ dev-python/getconf 1.9.0: A versatile configuration lib for Python projects
 dev-python/pew 1.2.0: tool to manage multiple virtualenvs written in pure python
 dev-python/tdparser 1.1.6-r2: A top-down parser for Python
 dev-util/kconfgen 1.2.2: Manage Kconfig-based configuration files
-mail-filter/pfixtools 0.9: Tools for postfix
 media-gfx/yEd 3.20.1: Ed Graph Editor - High-quality diagrams made easy
 net-analyzer/nagios-xelnet-plugins 20181126-r1: Xelnet collection of Nagios plugins
 net-analyzer/nagircbot 0.0.29b-r100: An irc bot that alerts you to nagios changes
 net-dns/dns2tcp 0.5.2: A tool to tunnel tcp data over DNS queries
-net-misc/socat-initd 0.1-r1: Init.d script for socat
 sys-cluster/drbd-utils 8.9.6-r2: mirror/replicate block-devices across a network-connection
 sys-fs/android-simg2img 1.1.4: Tool to convert Android sparse images to raw images.
 sys-kernel/xelnet-image 4.19.57 4.19.82: Compiled linux kernel
