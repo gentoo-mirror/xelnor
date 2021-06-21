@@ -1,1 +1,0 @@
--d -d -lm tcp-l:443,bind=anoat.xelnor.net,fork,setgid=socat,setuid=socat tcp:zaloris.xelnor.net:1194,bind=anoat.xelnor.net
