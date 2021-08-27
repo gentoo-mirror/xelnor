@@ -31,7 +31,7 @@ dev-python/pew
 dev-python/pip
 dev-python/sphinx
 
-dev-python/awscli
+app-admin/awscli
 
 # DB Clients
 dev-db/mysql
