@@ -47,6 +47,9 @@ dev-libs/nss utils
 # Required by ffmpeg[x264]
 media-libs/x264 pic
 
+# Required by xscreensaver[xft]->fbida[X]
+x11-libs/motif xft
+
 # Required by kde->media-libs/phonon[vlc]->media-libs/phonon-vlc
 # Required by kde-frameworks/knotificatons
 media-libs/phonon qt5
