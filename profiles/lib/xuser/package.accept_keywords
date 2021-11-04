@@ -8,9 +8,10 @@
 ~media-sound/cantata-2.3.2 ~amd64
 
 # Use a recent firefox
-~www-client/firefox-89.0 ~amd64
-# required by "www-client/firefox-89.0::gentoo"
-~dev-libs/nss-3.65 ~amd64
+~www-client/firefox-93.0 ~amd64
+# required by "www-client/firefox-93.0::gentoo"
+~dev-libs/nss-3.70 ~amd64
+~dev-libs/nspr-4.32 ~amd64
 
 # Use latest claws-mail
 ~mail-client/claws-mail-3.17.3 ~amd64
