@@ -18,3 +18,6 @@ media-gfx/yEd
 # Sound management
 media-sound/normalize
 media-sound/vorbis-tools
+
+# Fonts
+media-fonts/notera-font
