@@ -3,7 +3,7 @@
 # required by media-sound/beets-1.4.9::gentoo
 ~dev-python/jellyfish-0.8.2 ~amd64
 # required by media-sound/beets-1.4.9::gentoo
-~dev-python/munkres-1.1.2 ~amd64
+~dev-python/munkres-1.1.4 ~amd64
 
 # required by media-sound/beets-1.4.9::gentoo[discogs]
 ~dev-python/discogs-client-2.2.2 ~amd64
