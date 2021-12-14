@@ -2,6 +2,7 @@
 ../../lib/nvidia
 ../../lib/kbuild
 ../../lib/upspower
+../../lib/webcam
 ../../lib/android-devel
 ../../lib/games
 ../../lib/paylead
