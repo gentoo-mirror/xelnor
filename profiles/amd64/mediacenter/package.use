@@ -6,3 +6,5 @@ media-libs/chromaprint tools
 # required by media-sound/beets-1.4.9::gentoo[icu]
 dev-db/sqlite icu
 
+# Avoid combined USE requirements
+app-misc/lcdproc -truetype
