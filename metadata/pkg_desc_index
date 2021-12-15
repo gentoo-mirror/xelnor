@@ -11,6 +11,7 @@ app-crypt/acme-tiny-automation 0.2.3 0.3.2: A set of tools to automate acme-tiny
 app-crypt/luxtrust-middleware 1.2.1: LuxTrust middleware
 app-crypt/mit-krb5-repl 0.1: Replication tools for mit-krb5
 app-crypt/naropki 0.2.0: Manage a PKI restricted to a few top-level domain names (e.g. *.example.org)
+app-misc/inputexec 0.2.5: Simple Python program to execute commands on keypress on headless systems
 app-misc/mpdlcd 0.5.2-r1: Display MPD status on a lcdproc server
 app-misc/nss-systemcerts 0.1.0 0.1.1 1.0.0: Synchronise /etc/ssl/certs and a system-wide NSS certificate db
 app-misc/syswide-notify 0.1.0: Send messages to all users on a system, both graphical and tty-based.
