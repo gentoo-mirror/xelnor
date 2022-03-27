@@ -9,6 +9,7 @@ virtual/ssh
 sys-apps/iproute2
 sys-block/parted
 sys-fs/cryptsetup
+sys-fs/dosfstools
 sys-fs/lvm2
 sys-fs/mdadm
 
