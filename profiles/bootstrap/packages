@@ -1,0 +1,28 @@
+# Daemons
+net-misc/chrony
+
+# Security
+app-admin/sudo
+virtual/ssh
+
+# System setup - disk, net
+sys-apps/iproute2
+sys-block/parted
+sys-fs/cryptsetup
+sys-fs/lvm2
+sys-fs/mdadm
+
+# System - accounts
+acct-user/xelnor
+
+# Shell
+app-editors/vim
+app-misc/tmux
+
+# Portage
+app-portage/eix
+app-portage/layman
+dev-vcs/git
+
+# Diagnostic - system
+sys-apps/pciutils
