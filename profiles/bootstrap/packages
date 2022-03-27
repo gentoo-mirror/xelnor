@@ -18,7 +18,6 @@ acct-user/xelnor
 
 # Boot
 sys-boot/grub
-sys-boot/efibootmgr
 
 # Shell
 app-editors/vim
