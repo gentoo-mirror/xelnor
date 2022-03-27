@@ -18,6 +18,7 @@ acct-user/xelnor
 # Shell
 app-editors/vim
 app-misc/tmux
+sys-apps/busybox
 
 # Portage
 app-portage/eix
