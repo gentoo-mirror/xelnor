@@ -1,19 +1,23 @@
 # Daemons
 net-misc/chrony
+virtual/ssh
 
 # Security
 app-admin/sudo
-virtual/ssh
 
 # System setup - disk, net
 sys-apps/iproute2
 sys-block/parted
 sys-fs/cryptsetup
+sys-fs/dosfstools
 sys-fs/lvm2
 sys-fs/mdadm
 
 # System - accounts
 acct-user/xelnor
+
+# Boot
+sys-boot/grub
 
 # Shell
 app-editors/vim
