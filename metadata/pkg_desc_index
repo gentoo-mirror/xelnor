@@ -1,4 +1,5 @@
 acct-group/acme 0: System group: acme
+acct-group/binpkg 0: System group: binpkg
 acct-group/cdrw 0: System group: cdrw
 acct-group/portage 0: System group: portage
 acct-group/scanner 0: System group: scanner
@@ -6,6 +7,7 @@ acct-group/tcpdump 0: System group: tcpdump
 acct-group/wireshark 0: System group: wireshark
 acct-group/xelnet 0: System group: xelnet
 acct-user/acme 0: User account for the ACME protocol (certificate renewal)
+acct-user/binpkg 0: Binary Package system account
 acct-user/xelnor 0: Xelnor user account
 app-crypt/acme-tiny-automation 0.2.3 0.3.2: A set of tools to automate acme-tiny, in a simple, low-config way.
 app-crypt/luxtrust-middleware 1.2.1: LuxTrust middleware
