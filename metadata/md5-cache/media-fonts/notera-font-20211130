@@ -9,5 +9,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MansGreback-PUA
 SLOT=0
 SRC_URI=https://get.fontspace.co/download/family/g7m19/f83cbac6a60e4773b89d475268e05dd6/notera-font.zip
-_eclasses_=font	b500e97c1ae30f830e84a95be6e9bd36
+_eclasses_=font	d31f12a0f6e13d56dc3062e76ae58a61
 _md5_=74d3fe65032f4e1068ff41116d7f2814
