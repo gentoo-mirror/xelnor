@@ -12,3 +12,10 @@ x11-misc/xsession-launcher ~amd64
 
 # ibus-typing-booster isn't stable yet
 ~app-i18n/ibus-typing-booster-2.8.3 ~amd64
+
+# Use a recent firefox
+www-client/firefox:rapid ~amd64
+# required by "www-client/firefox-99.0::gentoo"
+~dev-libs/nss-3.77 ~amd64
+~dev-libs/icu-70.1 ~amd64
+~media-libs/dav1d-1.0.0 ~amd64

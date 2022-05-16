@@ -81,3 +81,6 @@ app-i18n/ibus-typing-booster
 
 # X11 management
 x11-misc/xsession-launcher
+
+# Web
+www-client/firefox
