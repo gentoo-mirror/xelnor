@@ -27,7 +27,9 @@ dev-python/fslib 0.3.4: Python wrapper around low-level FS-related calls
 dev-python/getconf 1.9.0: A versatile configuration lib for Python projects
 dev-python/pew 1.2.0 1.2.0-r1: tool to manage multiple virtualenvs written in pure python
 dev-python/tdparser 1.1.6-r2: A top-down parser for Python
+dev-qt/qtwebkit 5.212.0_pre20200309-r1: WebKit rendering library for the Qt5 framework (deprecated)
 dev-util/kconfgen 1.2.2: Manage Kconfig-based configuration files
+mail-client/trojita 9999: A Qt IMAP e-mail client
 media-fonts/notera-font 20211130: Notera Font -- Handwritten
 media-gfx/yEd 3.20.1: Ed Graph Editor - High-quality diagrams made easy
 net-analyzer/nagios-xelnet-plugins 20181126-r1: Xelnet collection of Nagios plugins
