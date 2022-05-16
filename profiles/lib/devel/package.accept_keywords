@@ -58,11 +58,18 @@ dev-nodejs/cjs-ledger ~amd64
 <app-eselect/eselect-gradle-1.0 ~amd64
 
 
+# Scala
+# =====
+
+# Work around bug https://bugs.gentoo.org/671284
+~dev-java/sbt-0.13.18 ~amd64
+
+
 # Deps/conflicts
 # ==============
 
-# Work around uwsgi bug https://bugs.gentoo.org/show_bug.cgi?id=586606
-~www-servers/uwsgi-2.0.13.1-r1 ~amd64
+# For Python 3.9 support
+~www-servers/uwsgi-2.0.19.1-r101 ~amd64
 
 # Work around json-c conflict with media-sound/pulseaudio
 ~dev-db/postgis-2.2.2 ~amd64
