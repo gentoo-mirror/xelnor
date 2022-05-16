@@ -12,6 +12,10 @@ x11-libs/libdrm libkms
 
 # Add nice fonts to urxvt
 x11-terms/rxvt-unicode xft
+# Add perl support to urxvt (for kuake); fading-colors is a dep.
+x11-terms/rxvt-unicode perl fading-colors
+# More colors
+x11-terms/rxvt-unicode 256-color
 
 # Add support for UTMP, enabling `w` and `wall`.
 x11-terms/xfce4-terminal utempter
