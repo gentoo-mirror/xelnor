@@ -1,5 +1,5 @@
 app-admin/conky
-app-office/libreoffice-bin
+app-office/libreoffice
 dev-util/android-tools
 mail-client/claws-mail
 mail-client/clawsker
@@ -12,7 +12,6 @@ net-news/liferea
 net-print/cups
 sci-calculators/units
 www-client/chromium
-www-client/firefox
 x11-libs/libaosd
 x11-misc/dunst
 x11-misc/fbpager

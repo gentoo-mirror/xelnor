@@ -1,6 +1,6 @@
 # Misc
-app-emulation/docker
-app-emulation/docker-compose
+app-containers/docker
+app-containers/docker-compose
 app-emulation/qemu
 app-text/sloccount
 dev-lang/erlang
