@@ -31,7 +31,7 @@ dev-qt/qtwebkit 5.212.0_pre20200309-r1: WebKit rendering library for the Qt5 fra
 dev-util/kconfgen 1.2.2: Manage Kconfig-based configuration files
 mail-client/trojita 9999: A Qt IMAP e-mail client
 media-fonts/notera-font 20211130: Notera Font -- Handwritten
-media-gfx/yEd 3.20.1: Ed Graph Editor - High-quality diagrams made easy
+media-gfx/yEd 3.20.1 3.22: Ed Graph Editor - High-quality diagrams made easy
 net-analyzer/nagios-xelnet-plugins 20181126-r1: Xelnet collection of Nagios plugins
 net-analyzer/nagircbot 0.0.29b-r100: An irc bot that alerts you to nagios changes
 net-dns/dns2tcp 0.5.2: A tool to tunnel tcp data over DNS queries
