@@ -9,5 +9,5 @@ LICENSE=BSD
 RDEPEND=dev-lang/perl
 SLOT=0
 SRC_URI=https://github.com/alaskacommunications/nagios_check_drbd9/releases/download/v0.3/nagios_check_drbd9-0.3.tar.xz https://bucardo.org/downloads/check_postgres-2.24.0.tar.gz
-_eclasses_=multilib	4a33c9008e5ee30cb8840a3fdc24df2b	toolchain-funcs	fd9cde67030b26e479eeadaced488253
+_eclasses_=multilib	4fbbbc98f236f1b43acd99476bc3cd85	toolchain-funcs	fd9cde67030b26e479eeadaced488253
 _md5_=2b994d87b0c1e6365a78b42a222be4ff
