@@ -45,3 +45,5 @@ ACCEPT_LICENSE="${ACCEPT_LICENSE} all-rights-reserved"
 ACCEPT_LICENSE="${ACCEPT_LICENSE} no-source-code linux-fw-redistributable"
 # Net - net-analyzer/nmap
 ACCEPT_LICENSE="${ACCEPT_LICENSE} NPSL"
+# JSON - For terraform
+ACCEPT_LICENSE="${ACCEPT_LICENSE} JSON"
