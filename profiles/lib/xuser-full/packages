@@ -9,6 +9,9 @@ dev-tex/latex-beamer
 dev-util/gource
 dev-vcs/qgit
 
+# File storage
+net-p2p/syncthing
+
 # Graphics
 media-gfx/gimp
 media-gfx/graphviz
