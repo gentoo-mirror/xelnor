@@ -12,7 +12,6 @@ net-news/liferea
 net-print/cups
 sci-calculators/units
 www-client/chromium
-x11-libs/libaosd
 x11-misc/dunst
 x11-misc/fbpager
 x11-misc/gmrun
@@ -21,3 +20,6 @@ x11-themes/fluxbox-styles-fluxmod
 x11-wm/fluxbox
 
 media-gfx/plantuml
+
+# Security
+dev-libs/libfido2
