@@ -1,3 +1,4 @@
 ../../amd64/dcserver
+../../roles/storage
 ../../roles/webapps
 ../../roles/dns
