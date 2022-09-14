@@ -9,26 +9,26 @@ acct-group/xelnet 0: System group: xelnet
 acct-user/acme 0: User account for the ACME protocol (certificate renewal)
 acct-user/binpkg 0: Binary Package system account
 acct-user/xelnor 0: Xelnor user account
-app-crypt/acme-tiny-automation 0.2.3 0.3.2: A set of tools to automate acme-tiny, in a simple, low-config way.
+app-crypt/acme-tiny-automation 0.2.3 0.3.2 0.3.2-r1: A set of tools to automate acme-tiny, in a simple, low-config way.
 app-crypt/luxtrust-middleware 1.2.1: LuxTrust middleware
 app-crypt/mit-krb5-repl 0.1: Replication tools for mit-krb5
-app-crypt/naropki 0.2.0: Manage a PKI restricted to a few top-level domain names (e.g. *.example.org)
+app-crypt/naropki 0.2.0 0.2.0-r1: Manage a PKI restricted to a few top-level domain names (e.g. *.example.org)
 app-misc/inputexec 0.2.5: Simple Python program to execute commands on keypress on headless systems
-app-misc/mpdlcd 0.5.2-r1: Display MPD status on a lcdproc server
+app-misc/mpdlcd 0.5.2-r1 0.5.2-r2: Display MPD status on a lcdproc server
 app-misc/nss-systemcerts 0.1.0 0.1.1 1.0.0: Synchronise /etc/ssl/certs and a system-wide NSS certificate db
-app-misc/syswide-notify 0.1.0: Send messages to all users on a system, both graphical and tty-based.
-app-misc/uconf 0.4.1 0.4.1-r1: An efficient configuration file manager
-dev-nodejs/cjs-ledger 0.3.0 0.3.0-r1: Minimal, offline, CommonJS-compliant registry
+app-misc/syswide-notify 0.1.0 0.1.0-r1: Send messages to all users on a system, both graphical and tty-based.
+app-misc/uconf 0.4.1 0.4.1-r1 0.4.1-r2: An efficient configuration file manager
+dev-nodejs/cjs-ledger 0.3.0 0.3.0-r1 0.3.0-r2: Minimal, offline, CommonJS-compliant registry
 dev-nodejs/webpack 4.43.0: A bundler for javascript and friends
-dev-python/confutils 0.3.7-r2: Advanced config file utilities
-dev-python/django-appconf 1.0.4: A helper class for handling configuration defaults of packaged apps gracefully.
-dev-python/django-sendfile2 0.6.0: Abstraction to offload file uploads to web-server once Django has checked perms
-dev-python/fslib 0.3.4: Python wrapper around low-level FS-related calls
-dev-python/getconf 1.9.0: A versatile configuration lib for Python projects
-dev-python/pew 1.2.0 1.2.0-r1: tool to manage multiple virtualenvs written in pure python
-dev-python/tdparser 1.1.6-r2: A top-down parser for Python
+dev-python/confutils 0.3.7-r2 0.3.7-r3: Advanced config file utilities
+dev-python/django-appconf 1.0.4 1.0.4-r1: A helper class for handling configuration defaults of packaged apps gracefully.
+dev-python/django-sendfile2 0.6.0 0.6.0-r1: Abstraction to offload file uploads to web-server once Django has checked perms
+dev-python/fslib 0.3.4 0.3.4-r1: Python wrapper around low-level FS-related calls
+dev-python/getconf 1.9.0 1.9.0-r1: A versatile configuration lib for Python projects
+dev-python/pew 1.2.0 1.2.0-r1 1.2.0-r2: tool to manage multiple virtualenvs written in pure python
+dev-python/tdparser 1.1.6-r2 1.1.6-r3: A top-down parser for Python
 dev-qt/qtwebkit 5.212.0_pre20200309-r1: WebKit rendering library for the Qt5 framework (deprecated)
-dev-util/kconfgen 1.2.2: Manage Kconfig-based configuration files
+dev-util/kconfgen 1.2.2 1.2.2-r1: Manage Kconfig-based configuration files
 mail-client/trojita 9999: A Qt IMAP e-mail client
 media-fonts/notera-font 20211130: Notera Font -- Handwritten
 media-gfx/yEd 3.20.1 3.22: Ed Graph Editor - High-quality diagrams made easy
@@ -38,9 +38,9 @@ sys-fs/android-simg2img 1.1.4: Tool to convert Android sparse images to raw imag
 sys-kernel/xelnet-image 4.19.57 4.19.82: Compiled linux kernel
 sys-kernel/xelnet-kbuild 4.19.57 4.19.82: Compiled kernel object tree
 sys-kernel/xelnet-linuxconfig 2019.2.2 2019.3.2 2019.3.3: Xelnet Linux configuration
-sys-power/powerscripts 0.1.3: Scripts for power management on personal systems: suspend, powerfail.
+sys-power/powerscripts 0.1.3 0.1.3-r1: Scripts for power management on personal systems: suspend, powerfail.
 virtual/linux-kbuild 0: Prepared kernel sources, suitable for out-of-tree modules
-www-apps/crossix 2020.1.1 2021.0.0: Django-based registration for crosstriangulaire.com.
-www-apps/xelpaste 3.2.1: Django-based pastebin with image support.
-x11-misc/xsession-launcher 0.2.1: Helpers for simple X11 session launchers.
+www-apps/crossix 2020.1.1 2021.0.0 2021.0.0-r1: Django-based registration for crosstriangulaire.com.
+www-apps/xelpaste 3.2.1 3.2.1-r1: Django-based pastebin with image support.
+x11-misc/xsession-launcher 0.2.1 0.2.1-r1: Helpers for simple X11 session launchers.
 x11-plugins/purple-hangouts 9999: Hangouts Plugin for libpurple
