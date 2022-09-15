@@ -1,1 +1,6 @@
+# Infra
 app-admin/terraform
+
+# Docs
+~virtual/pandoc-0
+<app-text/pandoc-bin-3
