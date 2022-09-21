@@ -1,3 +1,6 @@
+# Security
+app-admin/1password ~amd64
+
 # Use modern adb
 <dev-util/android-tools-6 ~amd64
 
