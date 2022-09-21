@@ -26,6 +26,8 @@ acct-user/xelnor
 
 # Shell - core
 app-editors/vim
+app-vim/vim-spell-en
+app-vim/vim-spell-fr
 app-misc/colordiff
 app-misc/screen
 app-misc/tmux
