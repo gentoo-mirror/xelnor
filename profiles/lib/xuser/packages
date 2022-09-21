@@ -22,4 +22,5 @@ x11-wm/fluxbox
 media-gfx/plantuml
 
 # Security
+app-admin/1password
 dev-libs/libfido2
