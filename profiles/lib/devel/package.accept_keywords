@@ -64,6 +64,9 @@ dev-nodejs/cjs-ledger ~amd64
 # Work around bug https://bugs.gentoo.org/671284
 ~dev-java/sbt-0.13.18 ~amd64
 
+# Version control
+# ===============
+~dev-vcs/git-crypt-0.6.0 ~amd64
 
 # Deps/conflicts
 # ==============
