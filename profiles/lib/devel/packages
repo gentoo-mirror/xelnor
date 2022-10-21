@@ -21,6 +21,9 @@ virtual/jdk
 # HTTP and friends
 app-misc/jq
 
+# Version control
+dev-vcs/git-crypt
+
 # Editors
 dev-util/ctags
 
