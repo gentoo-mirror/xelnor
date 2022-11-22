@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=dev-libs/glib:2 dev-libs/json-glib dev-libs/protobuf-c:= net-im/pidgin sys-libs/zlib
+DESCRIPTION=Hangouts Plugin for libpurple
+EAPI=7
+HOMEPAGE=https://github.com/EionRobb/purple-googlechat
+INHERIT=toolchain-funcs git-r3
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+PROPERTIES=live
+RDEPEND=dev-libs/glib:2 dev-libs/json-glib dev-libs/protobuf-c:= net-im/pidgin sys-libs/zlib
+SLOT=0
+_eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_md5_=3877969129ebbb6610a82205a76d0070

@@ -45,4 +45,5 @@ virtual/linux-kbuild 0: Prepared kernel sources, suitable for out-of-tree module
 www-apps/crossix 2020.1.1 2021.0.0 2021.0.0-r1: Django-based registration for crosstriangulaire.com.
 www-apps/xelpaste 3.2.1 3.2.1-r1: Django-based pastebin with image support.
 x11-misc/xsession-launcher 0.2.1 0.2.1-r1: Helpers for simple X11 session launchers.
+x11-plugins/purple-googlechat 9999: Hangouts Plugin for libpurple
 x11-plugins/purple-hangouts 9999: Hangouts Plugin for libpurple
