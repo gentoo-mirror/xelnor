@@ -6,9 +6,9 @@ EAPI=7
 inherit toolchain-funcs git-r3
 
 DESCRIPTION="Hangouts Plugin for libpurple"
-HOMEPAGE="https://github.com/EionRobb/purple-hangouts"
+HOMEPAGE="https://github.com/EionRobb/purple-googlechat"
 
-EGIT_REPO_URI="https://github.com/EionRobb/purple-hangouts"
+EGIT_REPO_URI="https://github.com/EionRobb/${PN}"
 
 #COMMIT_ID="efa7a53e2db4087a1590850423aa16b380bfbbd5"
 #SRC_URI="https://github.com/EionRobb/purple-hangouts/archive/${COMMIT_ID}.tar.gz -> ${P}.tar.gz"
