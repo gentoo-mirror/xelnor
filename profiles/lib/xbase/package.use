@@ -1,6 +1,3 @@
-# Add GUIs
-media-sound/pulseaudio qt5
-
 # Add on-screen-display
 media-video/vlc libnotify
 
@@ -29,7 +26,7 @@ media-video/vlc cddb vlm
 
 # Enable dbus for select packages
 lxde-base/lxappearance dbus
-media-sound/pulseaudio dbus
+media-sound/pulseaudio-daemon dbus
 www-client/firefox dbus
 
 # Faster compilation for chromium
