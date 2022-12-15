@@ -46,8 +46,9 @@ net-misc/rabbitmq-server
 sys-auth/nss-mdns
 
 # Overlay management
-app-portage/repoman
 app-portage/overlint
+app-portage/pkgcheck
+app-portage/pkgdev
 app-doc/eclass-manpages
 
 # RFID/NFC
