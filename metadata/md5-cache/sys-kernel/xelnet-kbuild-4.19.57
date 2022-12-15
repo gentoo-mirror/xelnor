@@ -8,5 +8,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-2
 RESTRICT=binchecks strip
 SLOT=0/4.19.57
-_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491
+_eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157
 _md5_=a8b60669af85dbbaf3cf28e095edf8d6
