@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile install unpack
 DEPEND=sys-kernel/xelnet-kbuild:0/4.19.82 =sys-kernel/gentoo-sources-4.19.82 sys-apps/debianutils
 DESCRIPTION=Compiled linux kernel
-EAPI=6
+EAPI=8
 HOMEPAGE=https://git.xelnor.net/
 INHERIT=toolchain-funcs
 KEYWORDS=~amd64
 LICENSE=GPL-2
 SLOT=0/4.19.82
-_eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157
-_md5_=3e5530a57dac50525059892f4fa26dec
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491
+_md5_=b59c4565d45a1f2909bf11b3b02f20c4

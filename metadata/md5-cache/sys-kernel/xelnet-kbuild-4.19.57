@@ -1,11 +1,12 @@
+BDEPEND=sys-kernel/xelnet-config:= sys-kernel/gentoo-sources:4.19.57[symlink] app-arch/cpio
 DEFINED_PHASES=compile configure install postinst unpack
 DESCRIPTION=Compiled kernel object tree
-EAPI=6
+EAPI=8
 HOMEPAGE=https://git.xelnor.net/
 INHERIT=toolchain-funcs
 KEYWORDS=~amd64
 LICENSE=GPL-2
 RESTRICT=binchecks strip
 SLOT=0/4.19.57
-_eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157
-_md5_=8a4eddef5c541bc3e8f40dfe07ed6e0e
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491
+_md5_=a8b60669af85dbbaf3cf28e095edf8d6
