@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install prepare unpack
 DEPEND=dev-libs/glib:2 dev-libs/json-glib dev-libs/protobuf-c:= net-im/pidgin sys-libs/zlib
 DESCRIPTION=Hangouts Plugin for libpurple
 EAPI=7
-HOMEPAGE=https://github.com/EionRobb/purple-hangouts
+HOMEPAGE=https://github.com/EionRobb/purple-googlechat
 INHERIT=toolchain-funcs git-r3
 KEYWORDS=~amd64
 LICENSE=GPL-3+
@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=dev-libs/glib:2 dev-libs/json-glib dev-libs/protobuf-c:= net-im/pidgin sys-libs/zlib
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491
-_md5_=de3437837f2b936d88c07ba4cc2973b7
+_md5_=3877969129ebbb6610a82205a76d0070
