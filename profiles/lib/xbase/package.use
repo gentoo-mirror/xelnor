@@ -27,6 +27,7 @@ media-video/vlc cddb vlm
 # Enable dbus for select packages
 lxde-base/lxappearance dbus
 media-sound/pulseaudio-daemon dbus
+media-libs/libpulse dbus
 www-client/firefox dbus
 
 # Faster compilation for chromium

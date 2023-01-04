@@ -9,7 +9,6 @@ dev-lang/ocaml
 dev-lang/scala
 dev-libs/check
 dev-python/psycopg
-dev-python/pypy3
 dev-util/debootstrap
 dev-util/valgrind
 media-gfx/zbar
@@ -28,6 +27,9 @@ dev-vcs/git-crypt
 dev-util/ctags
 
 # Python
+dev-lang/python:2.7
+dev-python/pypy3
+
 dev-python/coverage
 dev-python/mypy
 dev-python/pew
@@ -47,8 +49,8 @@ sys-auth/nss-mdns
 
 # Overlay management
 app-portage/overlint
-app-portage/pkgcheck
-app-portage/pkgdev
+dev-util/pkgcheck
+dev-util/pkgdev
 app-doc/eclass-manpages
 
 # RFID/NFC

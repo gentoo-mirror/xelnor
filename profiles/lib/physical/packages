@@ -37,7 +37,6 @@ sys-apps/ifplugd
 # Boot
 sys-boot/grub:2
 sys-boot/os-prober
-sys-firmware/seabios
 
 # Console
 sys-libs/gpm
