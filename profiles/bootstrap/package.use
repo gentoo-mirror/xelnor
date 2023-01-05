@@ -1,0 +1,2 @@
+# Install LVM admin tools (pvcreate & co)
+sys-fs/lvm2 lvm

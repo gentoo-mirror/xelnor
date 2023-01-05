@@ -26,6 +26,9 @@ sys-apps/util-linux tty-helpers
 # Add support for utmp (and w / wall / ...)
 app-misc/tmux utempter
 
+# Install LVM admin tools (pvcreate & co)
+sys-fs/lvm2 lvm
+
 # Deps
 # ====
 
