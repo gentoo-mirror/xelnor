@@ -10,7 +10,7 @@ acct-group/xelnet 0: System group: xelnet
 acct-user/acme 0: User account for the ACME protocol (certificate renewal)
 acct-user/binpkg 0: Binary Package system account
 acct-user/xelnor 0: Xelnor user account
-app-admin/1password 8.9.6_beta11: 1Password - Password Manager and Secure Wallet
+app-admin/1password 8.9.6_beta11 8.9.10: 1Password - Password Manager and Secure Wallet
 app-crypt/acme-tiny-automation 0.2.3 0.3.2 0.3.2-r1: A set of tools to automate acme-tiny, in a simple, low-config way.
 app-crypt/luxtrust-middleware 1.2.1: LuxTrust middleware
 app-crypt/mit-krb5-repl 0.1: Replication tools for mit-krb5
