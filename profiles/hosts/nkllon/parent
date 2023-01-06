@@ -1,3 +1,3 @@
-../../amd64/dcserver
+../../amd64/dcserver/hetzner
 ../../roles/dns
 ../../roles/binpkg
