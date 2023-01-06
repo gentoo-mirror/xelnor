@@ -1,1 +1,3 @@
 sys-boot/grub:2
+sys-boot/efibootmgr
+sys-kernel/dracut
