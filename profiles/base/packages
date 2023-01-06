@@ -71,6 +71,9 @@ net-misc/whois
 www-client/links
 www-client/lynx
 
+# Documentation
+sys-apps/man-pages-posix
+
 # Packaging
 app-portage/eix
 app-portage/euses
