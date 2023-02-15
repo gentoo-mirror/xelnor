@@ -37,7 +37,8 @@ src_unpack() {
 }
 
 python_prepare_all() {
-	enpm install --omit=dev --omit=optional
+	enpm install --omit=dev --omit=optional --no-save bootstrap jquery
+	touch package-lock.json
 	distutils-r1_python_prepare_all
 }
 

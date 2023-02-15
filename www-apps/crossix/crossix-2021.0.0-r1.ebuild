@@ -33,7 +33,8 @@ src_unpack() {
 }
 
 python_prepare_all() {
-	enpm install --only=production --no-optional
+	enpm install --omit=dev --omit=optional --no-save jquery
+	touch package-lock.json
 	distutils-r1_python_prepare_all
 }
 
