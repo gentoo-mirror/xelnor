@@ -1,5 +1,7 @@
 app-crypt/acme-tiny-automation nginx
 
+app-misc/mime-types nginx
+
 # required by net-analyzer/smokeping-2.6.9-r1::gentoo
 net-analyzer/fping suid
 net-analyzer/rrdtool graph perl
