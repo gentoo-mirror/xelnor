@@ -30,11 +30,12 @@ DEPEND="${RDEPEND}
 src_unpack() {
 	unpack ${P}.tar.gz
 	xel-nodejs_src_unpack
+	cat "${S}/package.json" | python -c 'import json, sys; data=json.load(sys.stdin); data["devDependencies"]={}; json.dump(data, sys.stdout)' > "${S}/package-nodev.json"
+	mv "${S}/package-nodev.json" "${S}/package.json"
 }
 
 python_prepare_all() {
-	enpm install --omit=dev --omit=optional --no-save jquery
-	touch package-lock.json
+	enpm install --omit=dev
 	distutils-r1_python_prepare_all
 }
 

@@ -39,7 +39,12 @@ src_unpack() {
 }
 
 python_prepare_all() {
-	enpm install --omit=dev
+	mkdir node_modules;
+	for pkg in bootstrap jquery; do
+		(cd node_modules; tar --transform="s,^package/,${pkg}/," -xzf ../registry/${pkg}*)
+	done
+
+	touch package-lock.json
 	distutils-r1_python_prepare_all
 }
 
