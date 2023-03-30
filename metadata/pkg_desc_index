@@ -13,7 +13,6 @@ acct-user/xelnor 0: Xelnor user account
 app-admin/1password 8.9.6_beta11 8.9.10: 1Password - Password Manager and Secure Wallet
 app-crypt/acme-tiny-automation 0.2.3 0.3.2 0.3.2-r1: A set of tools to automate acme-tiny, in a simple, low-config way.
 app-crypt/luxtrust-middleware 1.2.1: LuxTrust middleware
-app-crypt/mit-krb5-repl 0.1: Replication tools for mit-krb5
 app-crypt/naropki 0.2.0 0.2.0-r1: Manage a PKI restricted to a few top-level domain names (e.g. *.example.org)
 app-misc/inputexec 0.2.5: Simple Python program to execute commands on keypress on headless systems
 app-misc/mpdlcd 0.5.2-r1 0.5.2-r2: Display MPD status on a lcdproc server
@@ -35,7 +34,6 @@ mail-client/trojita 9999: A Qt IMAP e-mail client
 media-fonts/notera-font 20211130: Notera Font -- Handwritten
 media-gfx/yEd 3.20.1 3.22: Ed Graph Editor - High-quality diagrams made easy
 net-analyzer/nagios-xelnet-plugins 20181126-r1: Xelnet collection of Nagios plugins
-net-dns/dns2tcp 0.5.2: A tool to tunnel tcp data over DNS queries
 sys-fs/android-simg2img 1.1.4: Tool to convert Android sparse images to raw images.
 sys-kernel/xelnet-image 4.19.57 4.19.82: Compiled linux kernel
 sys-kernel/xelnet-kbuild 4.19.57 4.19.82: Compiled kernel object tree
