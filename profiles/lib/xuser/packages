@@ -1,9 +1,7 @@
 app-admin/conky
 app-office/libreoffice
 dev-util/android-tools
-mail-client/claws-mail
-mail-client/clawsker
-mail-client/trojita
+mail-client/thunderbird
 media-sound/cantata
 net-analyzer/wireshark
 net-irc/hexchat
@@ -15,7 +13,6 @@ www-client/chromium
 x11-misc/dunst
 x11-misc/fbpager
 x11-misc/gmrun
-x11-themes/claws-mail-themes
 x11-themes/fluxbox-styles-fluxmod
 x11-wm/fluxbox
 
