@@ -1,25 +1,4 @@
 # Security
 app-admin/1password ~amd64
 
-# Use modern adb
-<dev-util/android-tools-6 ~amd64
-
-# Use most recent plantuml
-~media-gfx/plantuml-1.2021.5 ~amd64
-
-# Get a cantata with tray icons
-~media-sound/cantata-2.3.2 ~amd64
-
-# Use latest claws-mail
-~mail-client/claws-mail-3.17.3 ~amd64
-
-# Use latest trojita
-=mail-client/trojita-9999 **
-
-# Required by mail-client/trojita-20160723
-=dev-libs/mimetic-0.9.8 ~amd64
-
-# Use non-crashing gmrun
-=x11-misc/gmrun-0.9.2-r2 ~amd64
-
 # vim:set ft=gentoo-package-keywords:
