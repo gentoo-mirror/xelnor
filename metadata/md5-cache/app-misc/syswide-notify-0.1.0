@@ -1,4 +1,4 @@
-BDEPEND=|| ( >=dev-lang/python-3.11.1-r1:3.11 >=dev-lang/python-3.10.9-r1:3.10 >=dev-lang/python-3.9.16-r1:3.9 )
+BDEPEND=|| ( >=dev-lang/python-3.11.1-r1:3.11 >=dev-lang/python-3.10.9-r1:3.10 )
 DEFINED_PHASES=setup
 DESCRIPTION=Send messages to all users on a system, both graphical and tty-based.
 EAPI=7
@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=x11-libs/libnotify
 SLOT=0
 SRC_URI=https://dist.xelnor.net/syswide-notify-0.1.0.tar.gz
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multilib	5ca4e49abed8e3a2f7b56920eadee157	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-any-r1	d2955aaac8daaaa69fcc6dc93ed19f29	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b
+_eclasses_=eapi8-dosym	741bfa77afb2a9321261501aca58c208	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	python-utils-r1	4544ab96b58e177dc52d75e42f5ee307	python-any-r1	d2955aaac8daaaa69fcc6dc93ed19f29
 _md5_=dc799ff8fb2bccbbb9620e3ab9f38490
