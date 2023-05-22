@@ -1,5 +1,12 @@
 # Infra
 app-admin/terraform
+net-misc/rclone
+
+# Dev tools
+dev-db/redis
+
+# Communication
+net-im/signal-desktop-bin
 
 # Docs
 virtual/pandoc

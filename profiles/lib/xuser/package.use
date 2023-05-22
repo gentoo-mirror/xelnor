@@ -1,6 +1,3 @@
-# Additional use flags for claws-mail
-mail-client/claws-mail smime webkit xface dillo
-
 # Add GUI to common packages
 sci-visualization/gnuplot qt5
 
@@ -17,11 +14,11 @@ net-news/quiterss qt5
 dev-qt/qtsingleapplication qt5
 dev-qt/qtlockedfile qt5
 
-# Required by mail-client/trojita-9999[password]
-dev-libs/qtkeychain qt5
+# Configure quassel
+net-irc/quassel gui -server
 
-# required by mail-client/trojita-9999::gentoo[crypt]
-app-crypt/gpgme qt5
+# Avoid conflicts
+net-irc/quassel -crypt -ldap -syslog
 
 # Enable dbus for select packages
 net-print/cups dbus

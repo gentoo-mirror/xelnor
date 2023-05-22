@@ -5,6 +5,7 @@ mail-mta/postfix
 net-misc/chrony
 net-misc/ntp
 net-misc/oidentd
+net-misc/openssh
 sys-apps/mlocate
 sys-process/at
 sys-process/cronie

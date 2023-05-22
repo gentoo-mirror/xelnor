@@ -9,6 +9,6 @@ net-wireless/wireless-tools
 net-wireless/wpa_supplicant
 
 # VPNs and network
-net-dns/openresolv
 net-dns/unbound
 net-vpn/strongswan
+virtual/resolvconf

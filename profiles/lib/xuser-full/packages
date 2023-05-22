@@ -6,7 +6,6 @@ app-text/texlive
 dev-tex/latex-beamer
 
 # Source code
-dev-util/gource
 dev-vcs/qgit
 
 # File storage

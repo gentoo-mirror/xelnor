@@ -1,12 +1,11 @@
 app-admin/conky
 app-office/libreoffice
 dev-util/android-tools
-mail-client/claws-mail
-mail-client/clawsker
-mail-client/trojita
+mail-client/thunderbird
 media-sound/cantata
 net-analyzer/wireshark
 net-irc/hexchat
+net-irc/quassel
 net-misc/rdesktop
 net-news/liferea
 net-print/cups
@@ -15,7 +14,6 @@ www-client/chromium
 x11-misc/dunst
 x11-misc/fbpager
 x11-misc/gmrun
-x11-themes/claws-mail-themes
 x11-themes/fluxbox-styles-fluxmod
 x11-wm/fluxbox
 
@@ -23,4 +21,5 @@ media-gfx/plantuml
 
 # Security
 app-admin/1password
+app-admin/keepassxc
 dev-libs/libfido2

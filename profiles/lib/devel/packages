@@ -1,6 +1,7 @@
 # Misc
 app-containers/docker
 app-containers/docker-compose
+app-containers/podman
 app-emulation/qemu
 app-text/sloccount
 dev-lang/erlang
@@ -40,12 +41,6 @@ app-admin/awscli
 
 # DB Clients
 dev-db/mysql
-
-# Polydev
-net-misc/rabbitmq-server
-
-# Needed for polydev integration box
-sys-auth/nss-mdns
 
 # Overlay management
 app-portage/overlint
