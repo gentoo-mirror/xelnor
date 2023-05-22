@@ -11,6 +11,7 @@ sys-power/powerscripts
 # Hardware detection
 sys-apps/usbutils
 sys-apps/lshw
+sys-kernel/linux-firmware
 
 # Removage storage
 sys-fs/dosfstools
