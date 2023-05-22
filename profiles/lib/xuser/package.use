@@ -14,7 +14,11 @@ net-news/quiterss qt5
 dev-qt/qtsingleapplication qt5
 dev-qt/qtlockedfile qt5
 
+# Configure quassel
+net-irc/quassel gui -server
 
+# Avoid conflicts
+net-irc/quassel -crypt -ldap -syslog
 
 # Enable dbus for select packages
 net-print/cups dbus

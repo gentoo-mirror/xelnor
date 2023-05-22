@@ -76,6 +76,7 @@ xfce-base/exo
 
 # i18n, emoji
 app-i18n/ibus
+app-i18n/ibus-anthy
 app-i18n/ibus-table-others
 app-i18n/ibus-typing-booster
 

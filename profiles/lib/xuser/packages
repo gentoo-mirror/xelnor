@@ -5,6 +5,7 @@ mail-client/thunderbird
 media-sound/cantata
 net-analyzer/wireshark
 net-irc/hexchat
+net-irc/quassel
 net-misc/rdesktop
 net-news/liferea
 net-print/cups
@@ -20,4 +21,5 @@ media-gfx/plantuml
 
 # Security
 app-admin/1password
+app-admin/keepassxc
 dev-libs/libfido2

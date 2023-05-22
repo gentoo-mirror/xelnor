@@ -1,6 +1,7 @@
 # Misc
 app-containers/docker
 app-containers/docker-compose
+app-containers/podman
 app-emulation/qemu
 app-text/sloccount
 dev-lang/erlang
