@@ -2,6 +2,9 @@
 app-admin/terraform
 net-misc/rclone
 
+# Dev environement
+dev-lang/python:3.9
+
 # Dev tools
 dev-db/redis
 
