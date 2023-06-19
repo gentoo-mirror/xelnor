@@ -45,13 +45,6 @@ dev-nodejs/webpack ~amd64
 dev-nodejs/cjs-ledger ~amd64
 
 
-# Haskell
-# =======
-<dev-lang/ghc-9 ~amd64
-# required by dev-lang/ghc::gentoo
-<app-admin/haskell-updater-1.4 ~amd64
-
-
 # Java development (from local overlay)
 # =====================================
 <dev-java/gradle-bin-3.0 ~amd64

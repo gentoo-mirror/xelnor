@@ -30,6 +30,7 @@ VIDEO_CARDS="-*"
 # Portage
 PORTAGE_ELOG_CLASSES="warn error log"
 PORTAGE_ELOG_SYSTEM="save echo"
+PORTAGE_LOGDIR="/var/log/portage/ebuild"
 
 # Licences
 ACCEPT_LICENSE="@FREE CC-BY-NC-SA-3.0 CC-BY-ND-3.0 freedist"
