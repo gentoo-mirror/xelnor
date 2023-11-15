@@ -59,7 +59,7 @@ sys-apps/pv
 # Shell - scripting
 dev-python/pytz
 # Used by vim-packmgr
-dev-python/toml
+dev-python/tomli
 
 # Shell - network
 net-ftp/lftp
