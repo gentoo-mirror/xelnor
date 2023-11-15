@@ -25,8 +25,8 @@ app-misc/tmux
 sys-apps/busybox
 
 # Portage
+app-eselect/eselect-repository
 app-portage/eix
-app-portage/layman
 dev-vcs/git
 
 # Diagnostic - system
