@@ -76,11 +76,11 @@ www-client/lynx
 sys-apps/man-pages-posix
 
 # Packaging
+app-eselect/eselect-repository
 app-portage/eix
 app-portage/euses
 app-portage/genlop
 app-portage/gentoolkit
-app-portage/layman
 app-portage/portage-utils
 dev-util/ccache
 sys-devel/distcc
