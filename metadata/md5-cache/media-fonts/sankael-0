@@ -1,0 +1,11 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup unpack
+DESCRIPTION=Selection of Fankael fonts
+EAPI=8
+INHERIT=font
+IUSE=X
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=https://dl.dafont.com/dl/?f=bigtime -> sankael-0_bigtime.zip https://dl.dafont.com/dl/?f=coraline_s_cat -> sankael-0_coraline_s_cat.zip https://dl.dafont.com/dl/?f=demonstration -> sankael-0_demonstration.zip https://dl.dafont.com/dl/?f=harry_p -> sankael-0_harry_p.zip https://dl.dafont.com/dl/?f=heart_4 -> sankael-0_heart_4.zip https://dl.dafont.com/dl/?f=little_lord_fontleroy -> sankael-0_little_lord_fontleroy.zip https://dl.dafont.com/dl/?f=magic_sparkle -> sankael-0_magic_sparkle.zip https://dl.dafont.com/dl/?f=magical -> sankael-0_magical.zip https://dl.dafont.com/dl/?f=memory_4 -> sankael-0_memory_4.zip https://dl.dafont.com/dl/?f=real_magic -> sankael-0_real_magic.zip https://dl.dafont.com/dl/?f=ringbearer -> sankael-0_ringbearer.zip https://dl.dafont.com/dl/?f=seriously_2 -> sankael-0_seriously_2.zip https://dl.dafont.com/dl/?f=timeless -> sankael-0_timeless.zip https://dl.dafont.com/dl/?f=young_frankenstein -> sankael-0_young_frankenstein.zip
+_eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
+_md5_=7b39aa580ffdbdfe19aa68d30003ebe6

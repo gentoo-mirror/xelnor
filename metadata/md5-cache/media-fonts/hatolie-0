@@ -1,0 +1,13 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup unpack
+DESCRIPTION=Hatolie Font
+EAPI=7
+HOMEPAGE=https://www.dafont.com/hatolie.font
+INHERIT=font
+IUSE=X
+KEYWORDS=~amd64 ~x86
+LICENSE=GilarEver-PUA
+SLOT=0
+SRC_URI=https://dl.dafont.com/dl/?f=hatolie -> hatolie-0.zip
+_eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
+_md5_=add6e3ac7e837e80ff72b26288a97b1f
