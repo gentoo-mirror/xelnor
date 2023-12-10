@@ -58,7 +58,7 @@ media-libs/mesa gles2
 sys-libs/libseccomp static-libs
 
 # Required by dev-lang/pypy3
-dev-libs/openssl -bindist
+#dev-libs/openssl -bindist
 
 # Required by dev-libs/openssl[-bindist] because uses [bindist=]
 net-misc/openssh -bindist
@@ -71,5 +71,8 @@ dev-libs/glib static-libs
 dev-libs/libpcre2 static-libs
 sys-apps/attr static-libs
 sys-libs/zlib static-libs
+
+# required by app-containers/podman
+net-firewall/iptables nftables
 
 # vim:set ft=gentoo-package-use:

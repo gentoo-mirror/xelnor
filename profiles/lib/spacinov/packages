@@ -12,5 +12,8 @@ dev-db/postgresql:14
 # Communication
 net-im/signal-desktop-bin
 
+# For asterisk
+dev-libs/jansson
+
 # Docs
 virtual/pandoc

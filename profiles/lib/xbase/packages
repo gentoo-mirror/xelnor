@@ -21,7 +21,7 @@ media-fonts/ipamonafont
 media-fonts/ja-ipafonts
 media-fonts/noto-emoji
 media-fonts/roboto
-media-fonts/source-pro
+media-fonts/source-code-pro
 media-fonts/takao-fonts
 media-fonts/tengwar-fonts
 media-fonts/terminus-font
@@ -53,7 +53,6 @@ x11-apps/xmodmap
 x11-apps/xrandr
 x11-apps/xset
 x11-base/xorg-server
-x11-base/xorg-x11
 x11-misc/slim
 x11-misc/x2x
 x11-misc/xautolock
