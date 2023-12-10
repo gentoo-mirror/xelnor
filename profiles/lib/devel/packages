@@ -29,7 +29,7 @@ dev-util/ctags
 
 # Python
 dev-lang/python:2.7
-dev-python/pypy3
+app-doc/python-docs
 
 dev-python/coverage
 dev-python/mypy
