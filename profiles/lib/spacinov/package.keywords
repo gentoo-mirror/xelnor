@@ -1,0 +1,2 @@
+# Keyword too recent nodejs versions
+>=net-libs/nodejs-20 -amd64 ~amd64

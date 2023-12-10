@@ -1,6 +1,9 @@
 # Display wifi status in conky, if installed
 app-admin/conky wifi
 
+# Configure extended behaviour for strongswan
+net-vpn/strongswan curl eap
+
 # Add wpa_gui
 net-wireless/wpa_supplicant qt5
 
