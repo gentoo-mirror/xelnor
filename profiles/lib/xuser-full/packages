@@ -22,4 +22,6 @@ media-sound/normalize
 media-sound/vorbis-tools
 
 # Fonts
+media-fonts/hatolie
 media-fonts/notera-font
+media-fonts/tagettes

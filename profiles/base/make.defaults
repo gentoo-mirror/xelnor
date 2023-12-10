@@ -32,7 +32,7 @@ ACCEPT_LICENSE="@FREE CC-BY-NC-SA-3.0 CC-BY-ND-3.0 freedist"
 # Corporate
 ACCEPT_LICENSE="${ACCEPT_LICENSE} unRAR NVIDIA-r2 linux-firmware MPEG-4 dlj-1.1 PUEL Google-TOS Oracle-BCLA-JavaSE"
 # Fonts
-ACCEPT_LICENSE="${ACCEPT_LICENSE} BitstreamCyberbit MSttfEULA grass-ipafonts bh-luxi"
+ACCEPT_LICENSE="${ACCEPT_LICENSE} BitstreamCyberbit MSttfEULA grass-ipafonts bh-luxi GilarEver-PUA"
 # Misc - media-fonts/tengwar-fonts::gentoo
 ACCEPT_LICENSE="${ACCEPT_LICENSE} free-noncomm"
 # Misc - app-admin/1password
