@@ -23,6 +23,9 @@ net-irc/quassel -crypt -ldap -syslog
 # Enable dbus for select packages
 net-print/cups dbus
 
+# Android
+dev-utils/android-tools udev
+
 # required by x11-libs/gtk+-3.22.16::gentoo[cups]
 # required by net-print/cups-2.1.4::gentoo[X]
 app-text/xmlto text

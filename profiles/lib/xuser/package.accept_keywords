@@ -1,4 +1,7 @@
 # Security
 app-admin/1password ~amd64
 
+# Android
+~dev-util/android-tools-34.0.4 ~amd64
+
 # vim:set ft=gentoo-package-keywords:
