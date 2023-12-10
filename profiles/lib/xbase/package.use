@@ -64,8 +64,8 @@ media-video/vlc dbus
 dev-qt/qtcore:5 icu
 
 # Required by dev-qt/qtcore
-dev-libs/libpcre pcre16
-dev-libs/libpcre2 pcre16
+dev-libs/libpcre pcre16 pcre32
+dev-libs/libpcre2 pcre16 pcre32
 
 # Required by qtgui:5
 x11-libs/libxcb xkb
