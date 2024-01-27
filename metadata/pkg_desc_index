@@ -19,6 +19,7 @@ app-misc/mpdlcd 0.5.2-r1 0.5.2-r2: Display MPD status on a lcdproc server
 app-misc/nss-systemcerts 0.1.0 0.1.1 1.0.0: Synchronise /etc/ssl/certs and a system-wide NSS certificate db
 app-misc/syswide-notify 0.1.0 0.1.0-r1: Send messages to all users on a system, both graphical and tty-based.
 app-misc/uconf 0.4.1 0.4.1-r1 0.4.1-r2: An efficient configuration file manager
+app-office/beancount 2.3.6: A double-entry accounting system that uses text files as input
 dev-nodejs/cjs-ledger 0.3.0 0.3.0-r1 0.3.0-r2: Minimal, offline, CommonJS-compliant registry
 dev-nodejs/webpack 4.43.0: A bundler for javascript and friends
 dev-python/confutils 0.3.7-r2 0.3.7-r3: Advanced config file utilities
