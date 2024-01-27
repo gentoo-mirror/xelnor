@@ -25,3 +25,6 @@ media-sound/vorbis-tools
 media-fonts/hatolie
 media-fonts/notera-font
 media-fonts/tagettes
+
+# Accounting
+app-office/beancount
