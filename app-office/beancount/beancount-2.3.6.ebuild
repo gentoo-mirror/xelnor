@@ -4,6 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..11} )
+DISTUTILS_EXT=1
 DISTUTILS_USE_PEP517=setuptools
 DISTUTILS_SINGLE_IMPL=1
 
@@ -35,7 +36,6 @@ BDEPEND="
 	sys-devel/flex
 "
 
-DISTUTILS_EXT=1
 EPYTEST_DESELECT=( scripts/setup_test.py )
 
 distutils_enable_tests pytest
