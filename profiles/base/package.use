@@ -1,9 +1,6 @@
 # Some python bindings
 app-editors/vim python
 
-# Enable libmagic for python
-sys-apps/file python
-
 # Build python' lxml
 dev-libs/libxml2 python
 
