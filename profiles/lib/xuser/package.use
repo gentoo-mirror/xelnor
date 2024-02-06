@@ -34,4 +34,7 @@ app-text/xmlto text
 # required by "dev-util/librnp-0.17.0::gentoo"
 dev-libs/sexp static-libs
 
+# required by www-client/chromium-121.0.6167.139::gentoo[system-toolchain]
+dev-lang/rust profiler
+
 # vim:set ft=gentoo-package-use:
