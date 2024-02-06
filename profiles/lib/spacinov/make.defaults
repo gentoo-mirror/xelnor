@@ -1,0 +1,2 @@
+# For app-admin/terraform
+ACCEPT_LICENSE="${ACCEPT_LICENSE} BUSL-1.1"
