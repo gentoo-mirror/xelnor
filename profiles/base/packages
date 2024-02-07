@@ -86,7 +86,7 @@ dev-util/ccache
 sys-devel/distcc
 
 # Diagnostic - system
-dev-util/strace
+dev-debug/strace
 sys-apps/gradm
 sys-apps/pciutils
 sys-apps/smartmontools

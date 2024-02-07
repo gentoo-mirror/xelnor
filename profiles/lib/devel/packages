@@ -4,6 +4,8 @@ app-containers/docker-compose
 app-containers/podman
 app-emulation/qemu
 app-text/sloccount
+dev-debug/gdb
+dev-debug/valgrind
 dev-lang/erlang
 dev-lang/ghc
 dev-lang/ocaml
@@ -11,11 +13,9 @@ dev-lang/scala
 dev-libs/check
 dev-python/psycopg
 dev-util/debootstrap
-dev-util/valgrind
 media-gfx/zbar
 net-libs/nodejs
 sci-visualization/gnuplot
-sys-devel/gdb
 virtual/jdk
 
 # HTTP and friends
