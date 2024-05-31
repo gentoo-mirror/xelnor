@@ -3,6 +3,4 @@
 
 INPUT_DEVICES="evdev synaptics"
 
-SANE_BACKENDS="-*"
-
 #ACCEPT_LICENSE="${ACCEPT_LICENSE} luxtrust"

@@ -2,3 +2,5 @@
 #USE="${USE} kerberos ldap"
 
 ACCEPT_LICENSE="${ACCEPT_LICENSE} yEd MansGreback-PUA PiaFrauss-PUA"
+
+SANE_BACKENDS="-* genesys"
