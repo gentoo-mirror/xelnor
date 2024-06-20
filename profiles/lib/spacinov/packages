@@ -6,8 +6,10 @@ net-misc/rclone
 dev-lang/python:3.9
 
 # Dev tools
+app-misc/elasticsearch
 dev-db/redis
 dev-db/postgresql:14
+www-servers/nginx
 
 # Communication
 net-im/signal-desktop-bin
