@@ -12,5 +12,5 @@ x11-misc/xsession-launcher ~amd64
 
 # Use a recent firefox
 www-client/firefox:rapid ~amd64
-# required by "www-client/firefox-122.0::gentoo"
-~dev-libs/nss-3.97 ~amd64
+# required by "www-client/firefox-126.0::gentoo"
+~dev-libs/nss-3.99 ~amd64
