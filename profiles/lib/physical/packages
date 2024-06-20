@@ -15,7 +15,6 @@ sys-kernel/linux-firmware
 
 # Removage storage
 sys-fs/dosfstools
-sys-fs/mtpfs
 sys-fs/ntfs3g
 sys-fs/exfat-utils
 sys-fs/fuse-exfat
