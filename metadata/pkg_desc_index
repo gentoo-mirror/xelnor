@@ -23,8 +23,7 @@ app-office/beancount 2.3.6: A double-entry accounting system that uses text file
 dev-nodejs/cjs-ledger 0.3.0 0.3.0-r1 0.3.0-r2: Minimal, offline, CommonJS-compliant registry
 dev-nodejs/webpack 4.43.0: A bundler for javascript and friends
 dev-python/confutils 0.3.7-r2 0.3.7-r3: Advanced config file utilities
-dev-python/django-appconf 1.0.4 1.0.4-r1: A helper class for handling configuration defaults of packaged apps gracefully.
-dev-python/django-sendfile2 0.6.0 0.6.0-r1 0.7.0: Abstraction to offload file uploads to web-server once Django has checked perms
+dev-python/django-sendfile2 0.7.0: Abstraction to offload file uploads to web-server once Django has checked perms
 dev-python/fslib 0.3.4 0.3.4-r1: Python wrapper around low-level FS-related calls
 dev-python/getconf 1.9.0 1.9.0-r1 1.11.1: A versatile configuration lib for Python projects
 dev-python/pew 1.2.0 1.2.0-r1 1.2.0-r2: tool to manage multiple virtualenvs written in pure python
