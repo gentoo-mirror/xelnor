@@ -4,15 +4,14 @@
 EAPI=8
 
 DISTUTILS_USE_SETUPTOOLS=rdepend
-PYTHON_COMPAT=( python3_{8..11} )
+PYTHON_COMPAT=( python3_{8..12} )
 
-inherit distutils-r1
+inherit distutils-r1 pypi
 
 DESCRIPTION="tool to manage multiple virtualenvs written in pure python"
 HOMEPAGE="
 	https://github.com/berdario/pew
 	https://pypi.org/project/pew/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
