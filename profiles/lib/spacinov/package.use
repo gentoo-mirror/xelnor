@@ -1,0 +1,4 @@
+www-servers/nginx nginx_modules_http_auth_request
+
+# Required for nginx
+app-misc/mime-types nginx

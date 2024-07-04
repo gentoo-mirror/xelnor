@@ -4,14 +4,14 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{8..11} )
+DISTUTILS_USE_PEP517="setuptools"
+PYTHON_COMPAT=( python3_{8..12} )
 
-inherit distutils-r1
+inherit distutils-r1 pypi
 
 DESCRIPTION="Advanced config file utilities"
 HOMEPAGE="http://github.com/rbarrois/confutils
 http://pypi.python.org/pypi/confutils"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"

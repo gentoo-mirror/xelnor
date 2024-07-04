@@ -1,2 +1,5 @@
 # For app-admin/terraform
 ACCEPT_LICENSE="${ACCEPT_LICENSE} BUSL-1.1"
+
+# For app-misc/elasticsearch
+ACCEPT_LICENSE="${ACCEPT_LICENSE} Elastic-2.0"

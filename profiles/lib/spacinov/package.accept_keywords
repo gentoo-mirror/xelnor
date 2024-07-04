@@ -1,6 +1,8 @@
 # Infra
 app-admin/terraform
 
+app-misc/elasticsearch:0/7 ~amd64
+
 # Docs
 ~virtual/pandoc-0
 <app-text/pandoc-bin-3

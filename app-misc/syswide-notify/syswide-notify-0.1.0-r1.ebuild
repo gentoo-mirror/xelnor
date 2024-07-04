@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{8..11} )
+PYTHON_COMPAT=( python3_{8..12} )
 inherit python-any-r1
 
 DESCRIPTION="Send messages to all users on a system, both graphical and tty-based."

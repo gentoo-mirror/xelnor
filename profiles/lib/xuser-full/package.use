@@ -4,6 +4,10 @@ media-gfx/graphviz qt5
 # Use SASL with LDAP
 net-nds/openldap sasl
 
+# Support for USB scanners
+# Don't install zeroconf for sane-backends (scanning)
+media-gfx/sane-backends -zeroconf
+
 # Enable extra features in texlive
 app-text/texlive extra graphics luatex pstricks publishers science
 

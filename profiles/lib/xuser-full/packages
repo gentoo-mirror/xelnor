@@ -17,6 +17,9 @@ media-gfx/graphviz
 media-gfx/inkscape
 media-gfx/yEd
 
+# Scanning
+media-gfx/xsane
+
 # Sound management
 media-sound/normalize
 media-sound/vorbis-tools
