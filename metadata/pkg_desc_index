@@ -10,7 +10,7 @@ acct-group/xelnet 0: System group: xelnet
 acct-user/acme 0: User account for the ACME protocol (certificate renewal)
 acct-user/binpkg 0: Binary Package system account
 acct-user/xelnor 0: Xelnor user account
-app-admin/1password 8.9.6_beta11 8.9.10 8.10.6: 1Password - Password Manager and Secure Wallet
+app-admin/1password 8.9.6_beta11 8.9.10 8.10.6 8.10.48-r1 8.10.75: Password Manager
 app-crypt/acme-tiny-automation 0.2.3 0.3.2 0.3.2-r1: A set of tools to automate acme-tiny, in a simple, low-config way.
 app-crypt/luxtrust-middleware 1.2.1: LuxTrust middleware
 app-crypt/naropki 0.2.0 0.2.0-r1: Manage a PKI restricted to a few top-level domain names (e.g. *.example.org)
@@ -27,7 +27,7 @@ dev-python/django-sendfile2 0.7.0: Abstraction to offload file uploads to web-se
 dev-python/fslib 0.3.4 0.3.4-r1: Python wrapper around low-level FS-related calls
 dev-python/getconf 1.9.0 1.9.0-r1 1.11.1: A versatile configuration lib for Python projects
 dev-python/pew 1.2.0 1.2.0-r1 1.2.0-r2: tool to manage multiple virtualenvs written in pure python
-dev-python/tdparser 1.1.6-r2 1.1.6-r3: A top-down parser for Python
+dev-python/tdparser 1.1.6-r2 1.1.6-r3 1.1.6-r4: A top-down parser for Python
 dev-qt/qtwebkit 5.212.0_pre20200309-r1: WebKit rendering library for the Qt5 framework (deprecated)
 dev-util/android-tools 34.0.4: Android platform tools (adb, fastboot, and mkbootimg)
 dev-util/kconfgen 1.2.2 1.2.2-r1: Manage Kconfig-based configuration files
@@ -36,6 +36,7 @@ media-fonts/hatolie 0: Hatolie Font
 media-fonts/notera-font 20211130: Notera Font -- Handwritten
 media-fonts/sankael 0: Selection of Fankael fonts
 media-fonts/tagettes 2010: Tagettes Font
+media-gfx/yEd 3.20.1 3.22 3.24: Ed Graph Editor - High-quality diagrams made easy
 net-analyzer/nagios-xelnet-plugins 20181126-r1: Xelnet collection of Nagios plugins
 sys-fs/android-simg2img 1.1.4: Tool to convert Android sparse images to raw images.
 sys-kernel/xelnet-image 4.19.57 4.19.82: Compiled linux kernel

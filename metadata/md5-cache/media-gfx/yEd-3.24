@@ -1,0 +1,14 @@
+DEFINED_PHASES=install nofetch preinst prepare setup unpack
+DEPEND=>=dev-java/java-config-2.2.0-r3
+DESCRIPTION=Ed Graph Editor - High-quality diagrams made easy
+EAPI=8
+HOMEPAGE=http://www.yworks.com/products/yed
+INHERIT=java-pkg-2 desktop
+KEYWORDS=~amd64 ~x86
+LICENSE=yEd
+RDEPEND=>=virtual/jre-1.8 >=dev-java/java-config-2.2.0-r3
+RESTRICT=fetch
+SLOT=0
+SRC_URI=https://www.yworks.com/resources/yed/demo/yEd-3.24.zip
+_eclasses_=java-utils-2	c610b1541a10e37cb26ab5b707a744f1	java-pkg-2	38fd81c7880666a00a638ca8deb64d72	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed
+_md5_=46274e8b89cca9b0b2dd63420298c5e4
